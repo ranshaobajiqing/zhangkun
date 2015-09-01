@@ -1,0 +1,1323 @@
+2015-08-05 11:42:53,729 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-05 11:42:53,745 [8] INFO  - 步骤“开始”已成功结束
+2015-08-05 11:42:53,747 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-05 11:42:53,799 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-05 11:42:53,800 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-05 11:42:53,805 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-05 11:42:53,811 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-05 11:42:53,812 [8] INFO  - 步骤“获取到tb_sendMessage_verification表有效行数”: 步骤“获取到tb_sendMessage_verification表有效行数”已启动
+2015-08-05 11:42:53,829 [8] ERROR - Checkpoint 2: "23" = "37" 失败
+2015-08-05 11:42:53,833 [8] INFO  - 步骤“获取到tb_sendMessage_verification表有效行数”已成功结束
+2015-08-05 11:42:53,834 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-08-05 11:42:53,836 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-08-05 11:42:53,838 [8] INFO  - 步骤“对/xmp/getOrgMember.php接口token实行加密”: 步骤“对/xmp/getOrgMember.php接口token实行加密”已启动
+2015-08-05 11:42:53,961 [8] INFO  - 步骤“对/xmp/getOrgMember.php接口token实行加密”已成功结束
+2015-08-05 11:42:53,964 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-05 11:43:17,701 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-05 11:43:17,704 [8] INFO  - 步骤“对/xmp/getOrgMember.php接口token实行加密”: 步骤“对/xmp/getOrgMember.php接口token实行加密”已启动
+2015-08-05 11:43:17,707 [8] INFO  - 步骤“对/xmp/getOrgMember.php接口token实行加密”已成功结束
+2015-08-05 11:43:17,708 [8] INFO  - 步骤“循环执行tb_getorgmember_verification中的测试用例”: 步骤“循环执行tb_getorgmember_verification中的测试用例”已启动
+2015-08-05 11:43:17,711 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-05 11:43:17,712 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:17,715 [8] ERROR - Checkpoint 5: "35b51fb010ff24c44ee80a4254ee19bd24cd584d" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:17,723 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:17,725 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:17,732 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-05 11:43:17,734 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:17,735 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:17,737 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-05 11:43:17,738 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“”
+2015-08-05 11:43:17,740 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:17,741 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:17,743 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“35b51fb010ff24c44ee80a4254ee19bd24cd584d”
+2015-08-05 11:43:17,745 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:17,746 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:17,747 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“35b51fb010ff24c44ee80a4254ee19bd24cd584d”
+2015-08-05 11:43:17,748 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:17,750 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:17,767 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:17,941 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:17,942 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:17,943 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 83
+Expect: 100-continue
+Connection: Keep-Alive
+xsid=&token=35b51fb010ff24c44ee80a4254ee19bd24cd584d&orgID=&Jid=77401169@365ime.com
+
+2015-08-05 11:43:17,944 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:17,945 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:46 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","errorCode":"2"}
+
+2015-08-05 11:43:17,951 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:17,952 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:17,960 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:17,961 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:18,115 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:18,117 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:18,289 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:18,291 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:18,298 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:18,301 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:18,307 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:18,310 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:18,316 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:18,318 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:18,321 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:18,502 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:18,506 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:18,510 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:18,514 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-05 11:43:18,521 [8] INFO  - 步骤“迭代 2”: 步骤“迭代 2”已启动
+2015-08-05 11:43:18,524 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:18,530 [8] ERROR - Checkpoint 5: "7c43449ddb71e951411e3cc19682abbf2d086741" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:18,535 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:18,537 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:18,539 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“123”
+2015-08-05 11:43:18,540 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:18,542 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:18,543 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“123”
+2015-08-05 11:43:18,545 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:18,546 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:18,548 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“7c43449ddb71e951411e3cc19682abbf2d086741”
+2015-08-05 11:43:18,549 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:18,550 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:18,551 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“7c43449ddb71e951411e3cc19682abbf2d086741”
+2015-08-05 11:43:18,553 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:18,554 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:18,556 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:18,665 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:18,667 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:18,669 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 86
+Expect: 100-continue
+xsid=123&token=7c43449ddb71e951411e3cc19682abbf2d086741&orgID=&Jid=77401169@365ime.com
+
+2015-08-05 11:43:18,671 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:18,673 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:46 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid!","errorCode":"1"}
+
+2015-08-05 11:43:18,676 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:18,678 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:18,681 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:18,683 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:18,801 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:18,802 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:18,842 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:18,843 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:18,845 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:18,847 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:18,849 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:18,850 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:18,851 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:18,852 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:18,854 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:18,890 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:18,891 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:18,893 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:18,895 [8] INFO  - 步骤“迭代 2”已成功结束
+2015-08-05 11:43:18,898 [8] INFO  - 步骤“迭代 3”: 步骤“迭代 3”已启动
+2015-08-05 11:43:18,899 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:18,903 [8] ERROR - Checkpoint 5: "435e0cd458fdabc166d545282e10cf01220c59a4" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:18,905 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:18,907 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:18,909 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“abc”
+2015-08-05 11:43:18,910 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:18,911 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:18,912 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“abc”
+2015-08-05 11:43:18,914 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:18,915 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:18,917 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“435e0cd458fdabc166d545282e10cf01220c59a4”
+2015-08-05 11:43:18,917 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:18,918 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:18,927 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“435e0cd458fdabc166d545282e10cf01220c59a4”
+2015-08-05 11:43:18,929 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:18,930 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:18,931 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:19,042 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:19,044 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:19,045 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 92
+Expect: 100-continue
+xsid=abc&token=435e0cd458fdabc166d545282e10cf01220c59a4&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:19,046 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:19,047 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:47 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid!","errorCode":"1"}
+
+2015-08-05 11:43:19,051 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:19,052 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:19,053 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:19,054 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:19,152 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:19,155 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:19,255 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:19,257 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:19,264 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:19,267 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:19,273 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:19,276 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:19,280 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:19,283 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:19,286 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:19,333 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:19,335 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:19,337 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:19,340 [8] INFO  - 步骤“迭代 3”已成功结束
+2015-08-05 11:43:19,343 [8] INFO  - 步骤“迭代 4”: 步骤“迭代 4”已启动
+2015-08-05 11:43:19,346 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:19,350 [8] ERROR - Checkpoint 5: "b79d9ba243702fa0e1ddebdf3567ad728ca8d014" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:19,354 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:19,355 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:19,357 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“!@#$%^&”
+2015-08-05 11:43:19,357 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:19,358 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:19,359 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“!@#$%^&”
+2015-08-05 11:43:19,360 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:19,361 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:19,367 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“b79d9ba243702fa0e1ddebdf3567ad728ca8d014”
+2015-08-05 11:43:19,369 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:19,371 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:19,372 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“b79d9ba243702fa0e1ddebdf3567ad728ca8d014”
+2015-08-05 11:43:19,374 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:19,375 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:19,377 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:19,448 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:19,451 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:19,452 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 96
+Expect: 100-continue
+xsid=!@#$%^&&token=b79d9ba243702fa0e1ddebdf3567ad728ca8d014&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:19,454 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:19,456 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:47 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","errorCode":"2"}
+
+2015-08-05 11:43:19,460 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:19,462 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:19,471 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:19,472 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:19,521 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:19,522 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:19,561 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:19,564 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:19,566 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:19,568 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:19,570 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:19,571 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:19,572 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:19,573 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:19,576 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:19,622 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:19,624 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:19,625 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:19,627 [8] INFO  - 步骤“迭代 4”已成功结束
+2015-08-05 11:43:19,630 [8] INFO  - 步骤“迭代 5”: 步骤“迭代 5”已启动
+2015-08-05 11:43:19,631 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:19,634 [8] ERROR - Checkpoint 5: "5505f6a194d9bdc1b6432c8d9474eeb6715370d4" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:19,637 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:19,638 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:19,641 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“123.abc”
+2015-08-05 11:43:19,642 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:19,644 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:19,645 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“123.abc”
+2015-08-05 11:43:19,647 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:19,648 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:19,650 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“5505f6a194d9bdc1b6432c8d9474eeb6715370d4”
+2015-08-05 11:43:19,651 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:19,652 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:19,654 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“5505f6a194d9bdc1b6432c8d9474eeb6715370d4”
+2015-08-05 11:43:19,655 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:19,657 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:19,660 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:19,772 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:19,773 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:19,774 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 96
+Expect: 100-continue
+xsid=123.abc&token=5505f6a194d9bdc1b6432c8d9474eeb6715370d4&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:19,775 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:19,775 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:47 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid!","errorCode":"1"}
+
+2015-08-05 11:43:19,777 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:19,778 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:19,781 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:19,782 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:19,921 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:19,923 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:19,987 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:19,989 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:20,005 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:20,007 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:20,011 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:20,012 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:20,014 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:20,015 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:20,017 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:20,060 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:20,062 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:20,064 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:20,065 [8] INFO  - 步骤“迭代 5”已成功结束
+2015-08-05 11:43:20,067 [8] INFO  - 步骤“迭代 6”: 步骤“迭代 6”已启动
+2015-08-05 11:43:20,068 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:20,070 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:20,072 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:20,073 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:20,075 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:20,076 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:20,076 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:20,077 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:20,078 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:20,079 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:20,081 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:20,082 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:20,083 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:20,084 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:20,086 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:20,087 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:20,090 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:20,185 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:20,187 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:20,189 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 147
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=&Jid=77401169@365ime.com
+
+2015-08-05 11:43:20,191 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:20,193 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:48 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"orgName":"刘丽","type":"org","orgID":622195}]}
+
+2015-08-05 11:43:20,199 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:20,202 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:20,209 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:20,211 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:20,263 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:20,265 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:20,315 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:20,317 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:20,322 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:20,324 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:20,328 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:20,330 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:20,333 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:20,335 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:20,338 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:20,386 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:20,389 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:20,391 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:20,394 [8] INFO  - 步骤“迭代 6”已成功结束
+2015-08-05 11:43:20,399 [8] INFO  - 步骤“迭代 7”: 步骤“迭代 7”已启动
+2015-08-05 11:43:20,402 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:20,406 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:20,410 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:20,412 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:20,416 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:20,418 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:20,420 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:20,422 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:20,425 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:20,427 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:20,429 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:20,430 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:20,432 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:20,433 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:20,439 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:20,440 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:20,446 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:20,542 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:20,546 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:20,548 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 148
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID= &Jid=77401169@365ime.com
+
+2015-08-05 11:43:20,550 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:20,552 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:48 GMT
+Server: Apache-Coyote/1.1
+{"message":"Permission  error!","errorCode":"1","data":"[]"}
+
+2015-08-05 11:43:20,560 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:20,562 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:20,567 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:20,570 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:20,629 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:20,630 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:20,680 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:20,681 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:20,685 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:20,686 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:20,689 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:20,689 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:20,691 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:20,692 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:20,693 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:20,727 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:20,730 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:20,731 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:20,733 [8] INFO  - 步骤“迭代 7”已成功结束
+2015-08-05 11:43:20,734 [8] INFO  - 步骤“迭代 8”: 步骤“迭代 8”已启动
+2015-08-05 11:43:20,736 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:20,739 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:20,742 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:20,743 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:20,745 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:20,746 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:20,747 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:20,748 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:20,750 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:20,751 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:20,753 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:20,754 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:20,755 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:20,757 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:20,758 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:20,759 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:20,762 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:20,854 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:20,857 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:20,859 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 150
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=123&Jid=77401169@365ime.com
+
+2015-08-05 11:43:20,861 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:20,864 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:48 GMT
+Server: Apache-Coyote/1.1
+{"message":"Permission  error!","errorCode":"1","data":"[]"}
+
+2015-08-05 11:43:20,875 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:20,877 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:20,880 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:20,882 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:20,952 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:20,954 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:21,003 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:21,005 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:21,013 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:21,015 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:21,022 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:21,025 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:21,029 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:21,031 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:21,033 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:21,082 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:21,084 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:21,086 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:21,088 [8] INFO  - 步骤“迭代 8”已成功结束
+2015-08-05 11:43:21,091 [8] INFO  - 步骤“迭代 9”: 步骤“迭代 9”已启动
+2015-08-05 11:43:21,093 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:21,096 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:21,099 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:21,101 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:21,103 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:21,105 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:21,106 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:21,108 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:21,110 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:21,112 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:21,116 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:21,118 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:21,119 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:21,120 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:21,122 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:21,123 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:21,127 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:21,220 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:21,223 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:21,225 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 150
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=abc&Jid=77401169@365ime.com
+
+2015-08-05 11:43:21,227 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:21,231 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:49 GMT
+Server: Apache-Coyote/1.1
+{"message":"Permission  error!","errorCode":"1","data":"[]"}
+
+2015-08-05 11:43:21,254 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:21,256 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:21,264 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:21,267 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:21,426 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:21,428 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:21,493 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:21,496 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:21,505 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:21,507 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:21,511 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:21,513 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:21,515 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:21,516 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:21,517 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:21,554 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:21,555 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:21,557 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:21,560 [8] INFO  - 步骤“迭代 9”已成功结束
+2015-08-05 11:43:21,562 [8] INFO  - 步骤“迭代 10”: 步骤“迭代 10”已启动
+2015-08-05 11:43:21,564 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:21,567 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:21,570 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:21,572 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:21,576 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:21,577 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:21,577 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:21,578 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:21,579 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:21,580 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:21,583 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:21,584 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:21,584 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:21,585 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:21,586 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:21,587 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:21,589 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:21,693 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:21,695 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:21,697 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 153
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=测试&Jid=77401169@365ime.com
+
+2015-08-05 11:43:21,699 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:21,701 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:49 GMT
+Server: Apache-Coyote/1.1
+{"message":"Permission  error!","errorCode":"1","data":"[]"}
+
+2015-08-05 11:43:21,707 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:21,709 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:21,713 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:21,715 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:21,913 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:21,914 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:21,978 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:21,979 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:21,983 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:21,984 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:21,988 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:21,989 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:21,990 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:21,992 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:21,994 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:22,030 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:22,032 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:22,034 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:22,035 [8] INFO  - 步骤“迭代 10”已成功结束
+2015-08-05 11:43:22,037 [8] INFO  - 步骤“迭代 11”: 步骤“迭代 11”已启动
+2015-08-05 11:43:22,038 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:22,041 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:22,044 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:22,045 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:22,047 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:22,048 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:22,049 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:22,050 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:22,052 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:22,053 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:22,055 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:22,056 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:22,060 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:22,061 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:22,063 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:22,064 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:22,066 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:22,158 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:22,161 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:22,165 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 154
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=!@#$%^&&Jid=77401169@365ime.com
+
+2015-08-05 11:43:22,167 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:22,169 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:49 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"orgName":"刘丽","type":"org","orgID":622195}]}
+
+2015-08-05 11:43:22,172 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:22,174 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:22,180 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:22,182 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:22,234 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:22,236 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:22,285 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:22,287 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:22,294 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:22,297 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:22,303 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:22,306 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:22,311 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:22,323 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:22,325 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:22,377 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:22,379 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:22,382 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:22,385 [8] INFO  - 步骤“迭代 11”已成功结束
+2015-08-05 11:43:22,388 [8] INFO  - 步骤“迭代 12”: 步骤“迭代 12”已启动
+2015-08-05 11:43:22,389 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:22,391 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:22,394 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:22,395 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:22,398 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:22,399 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:22,399 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:22,400 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:22,402 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:22,403 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:22,405 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:22,406 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:22,407 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:22,408 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:22,410 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:22,411 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:22,414 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:22,510 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:22,512 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:22,514 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 160
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=123.abc测试&Jid=77401169@365ime.com
+
+2015-08-05 11:43:22,517 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:22,519 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:50 GMT
+Server: Apache-Coyote/1.1
+{"message":"Permission  error!","errorCode":"1","data":"[]"}
+
+2015-08-05 11:43:22,527 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:22,529 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:22,535 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:22,538 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:22,588 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:22,591 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:22,651 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:22,654 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:22,661 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:22,664 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:22,671 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:22,673 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:22,678 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:22,679 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:22,682 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:22,720 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:22,722 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:22,725 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:22,727 [8] INFO  - 步骤“迭代 12”已成功结束
+2015-08-05 11:43:22,730 [8] INFO  - 步骤“迭代 13”: 步骤“迭代 13”已启动
+2015-08-05 11:43:22,732 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:22,736 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:22,739 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:22,742 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:22,744 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:22,746 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:22,747 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:22,749 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:22,752 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:22,753 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:22,757 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:22,759 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:22,760 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:22,762 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:22,764 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:22,765 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:22,768 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:22,875 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:22,877 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:22,878 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 153
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=77401170@365ime.com
+
+2015-08-05 11:43:22,880 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:22,882 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:50 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:22,887 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:22,889 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:22,894 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:22,896 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:22,938 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:22,940 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:22,987 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:22,989 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:22,993 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:22,995 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:23,000 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:23,002 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:23,004 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:23,007 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:23,009 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:23,049 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:23,054 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:23,058 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:23,064 [8] INFO  - 步骤“迭代 13”已成功结束
+2015-08-05 11:43:23,069 [8] INFO  - 步骤“迭代 14”: 步骤“迭代 14”已启动
+2015-08-05 11:43:23,073 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:23,078 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:23,081 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:23,082 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:23,084 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:23,086 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:23,087 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:23,088 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:23,090 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:23,091 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:23,093 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:23,094 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:23,095 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:23,096 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:23,098 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:23,099 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:23,101 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:23,205 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:23,208 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:23,210 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 142
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=77401169
+
+2015-08-05 11:43:23,212 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:23,214 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:50 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:23,221 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:23,224 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:23,245 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:23,248 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:23,306 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:23,307 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:23,347 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:23,349 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:23,356 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:23,358 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:23,361 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:23,362 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:23,364 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:23,365 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:23,366 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:23,407 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:23,411 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:23,415 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:23,419 [8] INFO  - 步骤“迭代 14”已成功结束
+2015-08-05 11:43:23,424 [8] INFO  - 步骤“迭代 15”: 步骤“迭代 15”已启动
+2015-08-05 11:43:23,427 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:23,433 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:23,438 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:23,445 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:23,450 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:23,452 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:23,455 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:23,457 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:23,460 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:23,462 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:23,465 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:23,466 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:23,468 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:23,470 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:23,472 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:23,474 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:23,478 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:23,591 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:23,593 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:23,595 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 145
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=@365ime.com
+
+2015-08-05 11:43:23,598 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:23,600 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:51 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:23,607 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:23,610 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:23,618 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:23,621 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:23,686 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:23,687 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:23,917 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:23,919 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:23,925 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:23,928 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:23,934 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:23,937 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:23,939 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:23,941 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:23,943 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:23,992 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:23,995 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:23,997 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:24,000 [8] INFO  - 步骤“迭代 15”已成功结束
+2015-08-05 11:43:24,003 [8] INFO  - 步骤“迭代 16”: 步骤“迭代 16”已启动
+2015-08-05 11:43:24,005 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:24,007 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:24,010 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:24,012 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:24,014 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:24,015 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:24,015 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:24,016 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:24,017 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:24,021 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:24,027 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:24,028 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:24,029 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:24,030 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:24,031 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:24,032 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:24,034 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:24,139 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:24,141 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:24,142 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 141
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=!@#$%^&
+
+2015-08-05 11:43:24,144 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:24,145 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:51 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:24,148 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:24,149 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:24,153 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:24,154 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:24,192 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:24,193 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:24,234 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:24,236 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:24,252 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:24,254 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:24,261 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:24,264 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:24,268 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:24,269 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:24,271 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:24,303 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:24,305 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:24,309 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:24,311 [8] INFO  - 步骤“迭代 16”已成功结束
+2015-08-05 11:43:24,315 [8] INFO  - 步骤“迭代 17”: 步骤“迭代 17”已启动
+2015-08-05 11:43:24,316 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:24,319 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:24,323 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:24,325 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:24,328 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:24,329 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:24,330 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:24,331 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:24,333 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:24,334 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:24,336 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:24,337 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:24,338 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:24,339 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:24,341 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:24,342 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:24,344 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:24,449 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:24,452 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:24,454 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 134
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=
+
+2015-08-05 11:43:24,456 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:24,459 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:51 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:24,466 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:24,468 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:24,478 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:24,479 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:24,532 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:24,535 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:24,569 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:24,571 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:24,578 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:24,580 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:24,587 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:24,590 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:24,593 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:24,596 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:24,599 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:24,643 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:24,645 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:24,646 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:24,649 [8] INFO  - 步骤“迭代 17”已成功结束
+2015-08-05 11:43:24,655 [8] INFO  - 步骤“迭代 18”: 步骤“迭代 18”已启动
+2015-08-05 11:43:24,657 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:24,659 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:24,661 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:24,662 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:24,665 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:24,666 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:24,667 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:24,668 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:24,669 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:24,670 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:24,672 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:24,672 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:24,673 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:24,674 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:24,676 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:24,676 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:24,679 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:24,793 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:24,795 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:24,796 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 173
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=77401169@365ime.com,77401170@365ime.com
+
+2015-08-05 11:43:24,797 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:24,798 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:53 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:24,801 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:24,802 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:24,806 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:24,807 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:24,856 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:24,857 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:24,897 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:24,899 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:24,903 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:24,905 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:24,908 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:24,910 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:24,912 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:24,919 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:24,921 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:24,968 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:24,970 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:24,972 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:24,974 [8] INFO  - 步骤“迭代 18”已成功结束
+2015-08-05 11:43:24,976 [8] INFO  - 步骤“迭代 19”: 步骤“迭代 19”已启动
+2015-08-05 11:43:24,978 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:24,982 [8] ERROR - Checkpoint 5: "Arguments[1]/ResultTable[1]/Row[1]/token[1]" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:24,988 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:24,991 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:24,993 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:24,994 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:24,995 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:24,996 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:24,998 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:24,999 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:25,001 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-05 11:43:25,002 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:25,003 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:25,004 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-05 11:43:25,006 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“”
+2015-08-05 11:43:25,007 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:25,008 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:25,011 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:25,078 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:25,081 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:25,083 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 113
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:25,085 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:25,087 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:53 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","errorCode":"2"}
+
+2015-08-05 11:43:25,093 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:25,096 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:25,102 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:25,105 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:25,156 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:25,158 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:25,209 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:25,212 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:25,221 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:25,225 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:25,231 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:25,232 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:25,233 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:25,234 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:25,236 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:25,265 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:25,268 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:25,270 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:25,272 [8] INFO  - 步骤“迭代 19”已成功结束
+2015-08-05 11:43:25,275 [8] INFO  - 步骤“迭代 20”: 步骤“迭代 20”已启动
+2015-08-05 11:43:25,277 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:25,280 [8] ERROR - Checkpoint 5: "a58c5399ac2620151780d4a61eaf691f" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:25,282 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:25,283 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:25,286 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:25,287 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:25,288 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:25,289 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:25,290 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:25,291 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:25,293 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a58c5399ac2620151780d4a61eaf691f”
+2015-08-05 11:43:25,294 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:25,295 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:25,296 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“a58c5399ac2620151780d4a61eaf691f”
+2015-08-05 11:43:25,297 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:25,297 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:25,301 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:25,388 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:25,391 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:25,393 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 145
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=a58c5399ac2620151780d4a61eaf691f&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:25,396 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:25,398 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:53 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token!","errorCode":"1"}
+
+2015-08-05 11:43:25,404 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:25,407 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:25,411 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:25,413 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:25,463 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:25,465 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:25,498 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:25,501 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:25,506 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:25,507 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:25,513 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:25,515 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:25,520 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:25,522 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:25,524 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:25,573 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:25,574 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:25,582 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:25,584 [8] INFO  - 步骤“迭代 20”已成功结束
+2015-08-05 11:43:25,587 [8] INFO  - 步骤“迭代 21”: 步骤“迭代 21”已启动
+2015-08-05 11:43:25,588 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:25,591 [8] ERROR - Checkpoint 5: "x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00DcVvwMFWs5" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:25,593 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:25,594 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:25,596 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:25,597 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:25,599 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:25,600 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:25,603 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:25,604 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:25,605 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00DcVvwMFWs5”
+2015-08-05 11:43:25,606 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:25,607 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:25,608 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00DcVvwMFWs5”
+2015-08-05 11:43:25,609 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:25,610 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:25,613 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:25,707 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:25,710 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:25,712 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 187
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00DcVvwMFWs5&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:25,714 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:25,717 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:53 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token!","errorCode":"1"}
+
+2015-08-05 11:43:25,725 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:25,727 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:25,734 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:25,737 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:25,974 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:25,975 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:26,074 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:26,083 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:26,090 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:26,092 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:26,096 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:26,098 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:26,101 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:26,102 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:26,105 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:26,142 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:26,147 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:26,152 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:26,158 [8] INFO  - 步骤“迭代 21”已成功结束
+2015-08-05 11:43:26,163 [8] INFO  - 步骤“迭代 22”: 步骤“迭代 22”已启动
+2015-08-05 11:43:26,164 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:26,167 [8] ERROR - Checkpoint 5: "test" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:26,171 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:26,172 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:26,176 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:26,177 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:26,178 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:26,183 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:26,185 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:26,186 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:26,189 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“test”
+2015-08-05 11:43:26,190 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:26,194 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:26,195 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“test”
+2015-08-05 11:43:26,196 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:26,197 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:26,198 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:26,284 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:26,285 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:26,286 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 117
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=test&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:26,287 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:26,288 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:54 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token!","errorCode":"1"}
+
+2015-08-05 11:43:26,291 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:26,291 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:26,295 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:26,296 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:26,336 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:26,338 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:26,386 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:26,388 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:26,396 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:26,398 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:26,404 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:26,407 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:26,413 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:26,416 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:26,419 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:26,470 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:26,473 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:26,476 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:26,480 [8] INFO  - 步骤“迭代 22”已成功结束
+2015-08-05 11:43:26,487 [8] INFO  - 步骤“迭代 23”: 步骤“迭代 23”已启动
+2015-08-05 11:43:26,489 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”: 步骤“查询tb_getorgmember_verification表中字段信息”已启动
+2015-08-05 11:43:26,492 [8] ERROR - Checkpoint 5: "a5ca1fe10dc99569be635b6a51463b98034a925e" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-05 11:43:26,496 [8] INFO  - 步骤“查询tb_getorgmember_verification表中字段信息”已成功结束
+2015-08-05 11:43:26,499 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-05 11:43:26,502 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-05 11:43:26,503 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-05 11:43:26,504 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0'”
+2015-08-05 11:43:26,506 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0”
+2015-08-05 11:43:26,510 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-05 11:43:26,511 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-05 11:43:26,512 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“a5ca1fe10dc99569be635b6a51463b98034a925e”
+2015-08-05 11:43:26,513 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'a5ca1fe10dc99569be635b6a51463b98034a925e'”
+2015-08-05 11:43:26,514 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0660150371bd7f73ecf6f819cdcfcdf90af8a7d5'”
+2015-08-05 11:43:26,515 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0660150371bd7f73ecf6f819cdcfcdf90af8a7d5”
+2015-08-05 11:43:26,516 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-05 11:43:26,517 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 步骤“调用/xmp/getOrgMember.php”已启动
+2015-08-05 11:43:26,522 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:26,700 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:26,702 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始请求:
+2015-08-05 11:43:26,704 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 153
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=622195&Jid=77401169@365ime.com
+
+2015-08-05 11:43:26,705 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP 原始响应:
+2015-08-05 11:43:26,707 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:40:54 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"username":"277班班主任","jid":"77400277@365ime.com","type":"user"},{"username":"学籍管理员","jid":"77000037@365ime.com","type":"user"},{"username":"的","jid":"77401094@365ime.com","type":"user"},{"username":"但是","jid":"77000100@365ime.com","type":"user"},{"username":"核桃仁","jid":"77401113@365ime.com","type":"user"},{"username":"vdfvb","jid":"77401213@365ime.com","type":"user"},{"username":"皇太极","jid":"77401107@365ime.com","type":"user"},{"username":"刁明昌2","jid":"77400280@365ime.com","type":"user"},{"username":"1212121","jid":"77401191@365ime.com","type":"user"},{"username":"212211","jid":"77401193@365ime.com","type":"user"},{"username":"12121","jid":"77401194@365ime.com","type":"user"},{"username":"","jid":"77401195@365ime.com","type":"user"},{"username":"dmc ","jid":"77401196@365ime.com","type":"user"},{"username":"","jid":"77401197@365ime.com","type":"user"},{"username":"111","jid":"77401198@365ime.com","type":"user"},{"username":"张坤老师","jid":"77401169@365ime.com","type":"user"},{"username":"张坤老师2","jid":"77401170@365ime.com","type":"user"},{"username":"小学2009级2班家长群","jid":"q372327-4@muc.365ime.com","type":"user"},{"username":"呼呼","jid":"77401206@365ime.com","type":"user"},{"username":"提示热","jid":"77401208@365ime.com","type":"user"},{"username":"","jid":"77401199@365ime.com","type":"user"},{"username":"服务号凤凰","jid":"77401210@365ime.com","type":"user"},{"username":"888","jid":"77401212@365ime.com","type":"user"},{"username":"去潍坊歌人生割发代首奉公如法发反反复复对对对","jid":"77401203@365ime.com","type":"user"},{"username":"","jid":"77401190@365ime.com","type":"user"},{"username":"张坤老师3","jid":"77401171@365ime.com","type":"user"},{"orgName":"","type":"org","orgID":669642}]}
+
+2015-08-05 11:43:26,711 [8] INFO  - 步骤“调用/xmp/getOrgMember.php”已成功结束
+2015-08-05 11:43:26,713 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-05 11:43:26,725 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-05 11:43:26,727 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-05 11:43:26,850 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-05 11:43:26,852 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-05 11:43:26,913 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-05 11:43:26,916 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-05 11:43:26,922 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-05 11:43:26,925 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-05 11:43:26,931 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-05 11:43:26,933 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-05 11:43:26,937 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-05 11:43:26,939 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-05 11:43:26,941 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-05 11:43:26,981 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-05 11:43:26,984 [8] INFO  - 步骤“否”已成功结束
+2015-08-05 11:43:26,986 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-05 11:43:26,988 [8] INFO  - 步骤“迭代 23”已成功结束
+2015-08-05 11:43:26,990 [8] INFO  - 步骤“循环执行tb_getorgmember_verification中的测试用例”已成功结束
+2015-08-05 11:43:26,991 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-08-05 11:43:26,995 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-08-05 11:43:26,996 [8] INFO  - 步骤“对/xmp/getOrgMember.php接口token实行加密”: 步骤“对/xmp/getOrgMember.php接口token实行加密”已启动
+2015-08-05 11:43:27,045 [8] INFO  - 步骤“对/xmp/getOrgMember.php接口token实行加密”已成功结束
+2015-08-05 11:43:27,046 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-05 11:43:38,122 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-05 11:43:38,126 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-05 11:43:38,131 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-05 11:43:38,132 [8] INFO  - 步骤“调用/xmp/createGroup.php”: 步骤“调用/xmp/createGroup.php”已启动
+2015-08-05 11:43:38,133 [8] INFO  - 步骤“调用/xmp/createGroup.php”: 提取 HTTP URL: 'http://139.129.16.254:8082/xmp/getOrgMember.php'
+2015-08-05 11:43:38,245 [8] INFO  - 步骤“调用/xmp/createGroup.php”: 服务器返回了状态代码: 200
+2015-08-05 11:43:38,248 [8] INFO  - 步骤“调用/xmp/createGroup.php”: HTTP 原始请求:
+2015-08-05 11:43:38,250 [8] INFO  - 步骤“调用/xmp/createGroup.php”: POST http://139.129.16.254:8082/xmp/getOrgMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: 139.129.16.254:8082
+Content-Length: 147
+Expect: 100-continue
+xsid=x_141a93u9he27qb18a2icuf07010969u8t9ja8ecf11hf6541tb3di0b555n6d0&token=0660150371bd7f73ecf6f819cdcfcdf90af8a7d5&orgID=&Jid=77401169@365ime.com
+
+2015-08-05 11:43:38,252 [8] INFO  - 步骤“调用/xmp/createGroup.php”: HTTP 原始响应:
+2015-08-05 11:43:38,254 [8] INFO  - 步骤“调用/xmp/createGroup.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 05 Aug 2015 03:41:06 GMT
+Server: Apache-Coyote/1.1
+{"message":"","errorCode":"0","data":[{"orgName":"刘丽","type":"org","orgID":622195}]}
+
+2015-08-05 11:43:38,262 [8] INFO  - 步骤“调用/xmp/createGroup.php”已成功结束
+2015-08-05 11:43:38,264 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-05 11:43:38,574 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-05 11:43:38,581 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-05 11:43:38,585 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-05 11:43:38,757 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-05 11:43:38,762 [8] INFO  - 步骤“结束”已成功结束

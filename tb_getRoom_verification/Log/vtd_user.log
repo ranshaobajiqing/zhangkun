@@ -1,0 +1,12 @@
+2015-09-01 10:38:53,724 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-09-01 10:38:53,737 [8] INFO  - 步骤“开始”已成功结束
+2015-09-01 10:38:53,739 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-09-01 10:38:55,871 [8] ERROR - ERROR [HY000] [MySQL][ODBC 5.3(w) Driver]Can't connect to MySQL server on 'localhost' (10061)
+ERROR [HY000] [MySQL][ODBC 5.3(w) Driver]Can't connect to MySQL server on 'localhost' (10061)
+2015-09-01 10:38:55,880 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-09-01 10:38:55,890 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-09-01 10:38:55,903 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-09-01 10:38:57,916 [8] ERROR - 步骤“连接到mysql数据库”: 
+2015-09-01 10:38:57,922 [8] ERROR - 步骤“连接到mysql数据库”未成功结束
+2015-09-01 10:38:57,928 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-09-01 10:38:57,944 [8] INFO  - 步骤“测试流”已成功结束

@@ -1,0 +1,110 @@
+2015-08-12 15:35:16,610 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-12 15:35:16,625 [8] INFO  - 步骤“开始”已成功结束
+2015-08-12 15:35:16,626 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-12 15:35:16,673 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-12 15:35:16,675 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-12 15:35:16,679 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-12 15:35:16,693 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-12 15:35:16,694 [8] INFO  - 步骤“获取tb_getURoomMember_verification表有效行数”: 步骤“获取tb_getURoomMember_verification表有效行数”已启动
+2015-08-12 15:35:16,711 [8] ERROR - Checkpoint 2: "21" = "37" 失败
+2015-08-12 15:35:16,715 [8] INFO  - 步骤“获取tb_getURoomMember_verification表有效行数”已成功结束
+2015-08-12 15:35:16,716 [8] INFO  - 步骤“获取全局表中groupJid”: 步骤“获取全局表中groupJid”已启动
+2015-08-12 15:35:16,719 [8] INFO  - 步骤“获取全局表中groupJid”已成功结束
+2015-08-12 15:35:16,720 [8] INFO  - 步骤“查询全局表中xsid”: 步骤“查询全局表中xsid”已启动
+2015-08-12 15:35:16,722 [8] INFO  - 步骤“查询全局表中xsid”已成功结束
+2015-08-12 15:35:16,723 [8] INFO  - 步骤“循环执行tb_getURoomMember_verification中的测试用例”: 步骤“循环执行tb_getURoomMember_verification中的测试用例”已启动
+2015-08-12 15:35:16,726 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-12 15:35:16,727 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-12 15:35:16,785 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-12 15:35:16,791 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-12 15:35:16,794 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-12 15:35:16,804 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“”
+2015-08-12 15:35:16,808 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-12 15:35:16,810 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_131a0092ad6fner793a2ifub0b000d65uetfj18ec01dh16044t837idb55n6d'”
+2015-08-12 15:35:16,812 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“区分大小写”，值:“True”
+2015-08-12 15:35:16,815 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“”
+2015-08-12 15:35:16,819 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-12 15:35:16,821 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-12 15:35:16,868 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-12 15:35:16,870 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-12 15:35:26,135 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-12 15:35:26,136 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-12 15:35:26,139 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-12 15:35:26,140 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-12 15:35:26,142 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-12 15:35:26,144 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-12 15:35:26,144 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'c8699133024ca119648cbc86d08ec67dd78167a3'”
+2015-08-12 15:35:26,145 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“c8699133024ca119648cbc86d08ec67dd78167a3”
+2015-08-12 15:35:26,150 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-12 15:35:26,151 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: 步骤“调用/iq/getURoomMember.php”已启动
+2015-08-12 15:35:26,168 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoomMember.php'
+2015-08-12 15:35:26,360 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: 服务器返回了状态代码: 200
+2015-08-12 15:35:26,361 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: HTTP 原始请求:
+2015-08-12 15:35:26,375 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getURoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 134
+Proxy-Connection: Keep-Alive
+xsid=&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=c8699133024ca119648cbc86d08ec67dd78167a3
+
+2015-08-12 15:35:26,376 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: HTTP 原始响应:
+2015-08-12 15:35:26,378 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 12 Aug 2015 07:32:29 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-05/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"},{"nick_name":"","username":"张坤老师2","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","userRole":"s2","jid":"77401170@365ime.com"}]},"errorCode":0}
+
+2015-08-12 15:35:26,383 [8] INFO  - 步骤“调用/iq/getURoomMember.php”已成功结束
+2015-08-12 15:35:26,384 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-12 15:35:26,394 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-12 15:35:26,395 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-12 15:35:26,575 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-12 15:35:26,577 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-12 15:35:26,610 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-12 15:35:26,612 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-12 15:35:26,616 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-12 15:35:26,617 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-12 15:35:26,621 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-12 15:35:26,623 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-12 15:35:26,626 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-12 15:35:26,628 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-12 15:35:26,631 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-12 15:35:26,675 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-12 15:35:26,680 [8] INFO  - 步骤“否”已成功结束
+2015-08-12 15:35:26,684 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-12 15:35:26,688 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-12 15:35:26,692 [8] INFO  - 步骤“循环执行tb_getURoomMember_verification中的测试用例”已成功结束
+2015-08-12 15:35:26,695 [8] INFO  - 步骤“对/iq/getRoomMember.php接口token实行加密”: 步骤“对/iq/getRoomMember.php接口token实行加密”已启动
+2015-08-12 15:35:26,754 [8] INFO  - 步骤“对/iq/getRoomMember.php接口token实行加密”已成功结束
+2015-08-12 15:35:26,756 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-12 15:35:35,501 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-12 15:35:35,522 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-12 15:35:35,529 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-12 15:35:35,530 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: 步骤“调用/iq/getURoomMember.php”已启动
+2015-08-12 15:35:35,532 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoomMember.php'
+2015-08-12 15:35:35,574 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: 服务器返回了状态代码: 200
+2015-08-12 15:35:35,575 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: HTTP 原始请求:
+2015-08-12 15:35:35,576 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getURoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 198
+xsid=x_131a0092ad6fner793a2ifub0b000d65uetfj18ec01dh16044t837idb55n6d&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=c8699133024ca119648cbc86d08ec67dd78167a3
+
+2015-08-12 15:35:35,577 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: HTTP 原始响应:
+2015-08-12 15:35:35,578 [8] INFO  - 步骤“调用/iq/getURoomMember.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 12 Aug 2015 07:32:38 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-05/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"},{"nick_name":"","username":"张坤老师2","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","userRole":"s2","jid":"77401170@365ime.com"}]},"errorCode":0}
+
+2015-08-12 15:35:35,583 [8] INFO  - 步骤“调用/iq/getURoomMember.php”已成功结束
+2015-08-12 15:35:35,586 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-12 15:35:35,789 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-12 15:35:35,793 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-12 15:35:35,798 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-12 15:35:36,001 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-12 15:35:36,007 [8] INFO  - 步骤“结束”已成功结束

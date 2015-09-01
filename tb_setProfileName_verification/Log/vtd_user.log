@@ -1,0 +1,110 @@
+2015-08-21 16:27:35,486 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-21 16:27:35,498 [8] INFO  - 步骤“开始”已成功结束
+2015-08-21 16:27:35,500 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-21 16:27:35,538 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-21 16:27:35,539 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-21 16:27:35,541 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-21 16:27:35,555 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-21 16:27:35,556 [8] INFO  - 步骤“获取到tb_modifyroomname_verification表有效行数”: 步骤“获取到tb_modifyroomname_verification表有效行数”已启动
+2015-08-21 16:27:35,655 [8] ERROR - Checkpoint 2: "27" = "37" 失败
+2015-08-21 16:27:35,664 [8] INFO  - 步骤“获取到tb_modifyroomname_verification表有效行数”已成功结束
+2015-08-21 16:27:35,667 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-08-21 16:27:35,673 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-08-21 16:27:35,675 [8] INFO  - 步骤“循环执tb_modifyroomname_verification中的测试用例”: 步骤“循环执tb_modifyroomname_verification中的测试用例”已启动
+2015-08-21 16:27:35,680 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-21 16:27:35,684 [8] INFO  - 步骤“查询tb_setProfileName_verification表中字段信息”: 步骤“查询tb_setProfileName_verification表中字段信息”已启动
+2015-08-21 16:27:35,690 [8] ERROR - Checkpoint 5: "b7bf9dd48970c484fbf991dad673a4efec488698" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-21 16:27:35,694 [8] INFO  - 步骤“查询tb_setProfileName_verification表中字段信息”已成功结束
+2015-08-21 16:27:35,696 [8] INFO  - 步骤“对/xmp/modifyRoomName.php接口token实行加密”: 步骤“对/xmp/modifyRoomName.php接口token实行加密”已启动
+2015-08-21 16:27:35,773 [8] INFO  - 步骤“对/xmp/modifyRoomName.php接口token实行加密”已成功结束
+2015-08-21 16:27:35,842 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-21 16:28:00,587 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-21 16:28:00,589 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-21 16:28:00,593 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-21 16:28:00,594 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-21 16:28:00,610 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“b7bf9dd48970c484fbf991dad673a4efec488698”
+2015-08-21 16:28:00,615 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'b7bf9dd48970c484fbf991dad673a4efec488698'”
+2015-08-21 16:28:00,615 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'3e2dcd476206b8a3af9d7569e83096aca1fd40a1'”
+2015-08-21 16:28:00,616 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“3e2dcd476206b8a3af9d7569e83096aca1fd40a1”
+2015-08-21 16:28:00,620 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-21 16:28:00,620 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-21 16:28:00,622 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-21 16:28:00,622 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-21 16:28:00,623 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_091a4bt43ei6b9565fn46edb0d97hfufddsfr8adieu70b030061u0t8j8c1h6'”
+2015-08-21 16:28:00,624 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-21 16:28:00,624 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“”
+2015-08-21 16:28:00,625 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-21 16:28:00,625 [8] INFO  - 步骤“调用/xmp/name.php”: 步骤“调用/xmp/name.php”已启动
+2015-08-21 16:28:00,635 [8] INFO  - 步骤“调用/xmp/name.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/xmp/name.php'
+2015-08-21 16:28:01,313 [8] INFO  - 步骤“调用/xmp/name.php”: 服务器返回了状态代码: 200
+2015-08-21 16:28:01,316 [8] INFO  - 步骤“调用/xmp/name.php”: HTTP 原始请求:
+2015-08-21 16:28:01,319 [8] INFO  - 步骤“调用/xmp/name.php”: POST http://test-iq.365ime.com:8082/xmp/name.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 129
+Expect: 100-continue
+Connection: Keep-Alive
+xsid=&myJid=77401169@365ime.com&jid=77401170@365ime.com&token=3e2dcd476206b8a3af9d7569e83096aca1fd40a1&name=测试修改其昵称
+
+2015-08-21 16:28:01,321 [8] INFO  - 步骤“调用/xmp/name.php”: HTTP 原始响应:
+2015-08-21 16:28:01,323 [8] INFO  - 步骤“调用/xmp/name.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 21 Aug 2015 08:27:44 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","errorCode":"1"}
+
+2015-08-21 16:28:01,339 [8] INFO  - 步骤“调用/xmp/name.php”已成功结束
+2015-08-21 16:28:01,342 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-21 16:28:01,353 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-21 16:28:01,355 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-21 16:28:01,388 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-21 16:28:01,390 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-21 16:28:01,413 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-21 16:28:01,414 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-21 16:28:01,418 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-21 16:28:01,420 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-21 16:28:01,424 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-21 16:28:01,426 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-21 16:28:01,430 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-21 16:28:01,431 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-21 16:28:01,433 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-21 16:28:01,480 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-21 16:28:01,482 [8] INFO  - 步骤“否”已成功结束
+2015-08-21 16:28:01,485 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-21 16:28:01,488 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-21 16:28:01,490 [8] INFO  - 步骤“循环执tb_modifyroomname_verification中的测试用例”已成功结束
+2015-08-21 16:28:01,491 [8] INFO  - 步骤“对/xmp/createGroup.php接口token实行加密”: 步骤“对/xmp/createGroup.php接口token实行加密”已启动
+2015-08-21 16:28:01,521 [8] INFO  - 步骤“对/xmp/createGroup.php接口token实行加密”已成功结束
+2015-08-21 16:28:01,523 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-21 16:28:55,483 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-21 16:28:55,485 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-21 16:28:55,488 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-21 16:28:55,490 [8] INFO  - 步骤“调用/xmp/name.php”: 步骤“调用/xmp/name.php”已启动
+2015-08-21 16:28:55,510 [8] INFO  - 步骤“调用/xmp/name.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/xmp/name.php'
+2015-08-21 16:28:55,601 [8] INFO  - 步骤“调用/xmp/name.php”: 服务器返回了状态代码: 200
+2015-08-21 16:28:55,604 [8] INFO  - 步骤“调用/xmp/name.php”: HTTP 原始请求:
+2015-08-21 16:28:55,606 [8] INFO  - 步骤“调用/xmp/name.php”: POST http://test-iq.365ime.com:8082/xmp/name.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 193
+Expect: 100-continue
+xsid=x_091a4bt43ei6b9565fn46edb0d97hfufddsfr8adieu70b030061u0t8j8c1h6&myJid=77401169@365ime.com&jid=77401170@365ime.com&token=3e2dcd476206b8a3af9d7569e83096aca1fd40a1&name=测试修改其昵称
+
+2015-08-21 16:28:55,609 [8] INFO  - 步骤“调用/xmp/name.php”: HTTP 原始响应:
+2015-08-21 16:28:55,611 [8] INFO  - 步骤“调用/xmp/name.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 21 Aug 2015 08:28:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"success","errorCode":"0"}
+
+2015-08-21 16:28:55,616 [8] INFO  - 步骤“调用/xmp/name.php”已成功结束
+2015-08-21 16:28:55,618 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-21 16:28:55,684 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-21 16:28:55,689 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-21 16:28:55,694 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-21 16:28:55,862 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-21 16:28:55,869 [8] INFO  - 步骤“结束”已成功结束

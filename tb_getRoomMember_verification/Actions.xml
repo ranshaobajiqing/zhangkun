@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions>
+  <Action internalName="MainAction" userDefinedName="获取群组人员信息tb_getRoomMember_verification" description="" />
+</Actions>

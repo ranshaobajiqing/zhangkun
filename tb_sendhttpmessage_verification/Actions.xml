@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions>
+  <Action internalName="MainAction" userDefinedName="http发消息接口tb_sendhttpmessage_verification" description="" />
+</Actions>

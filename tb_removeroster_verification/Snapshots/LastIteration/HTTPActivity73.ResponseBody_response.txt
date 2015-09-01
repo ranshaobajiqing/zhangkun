@@ -1,0 +1,1 @@
+{"message":"removeRoster is failed!","errorCode":"1"}

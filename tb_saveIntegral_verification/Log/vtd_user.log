@@ -1,0 +1,98 @@
+2015-08-18 02:25:33,401 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-18 02:25:33,412 [8] INFO  - 步骤“开始”已成功结束
+2015-08-18 02:25:33,414 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-18 02:25:33,470 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-18 02:25:33,471 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-18 02:25:33,474 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-18 02:25:33,487 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-18 02:25:33,488 [8] INFO  - 步骤“获取到tb_saveIntegral_verification表有效行数”: 步骤“获取到tb_saveIntegral_verification表有效行数”已启动
+2015-08-18 02:25:33,556 [8] INFO  - 步骤“获取到tb_saveIntegral_verification表有效行数”已成功结束
+2015-08-18 02:25:33,559 [8] INFO  - 步骤“循环执行tb_saveIntegral_verification中的测试用例”: 步骤“循环执行tb_saveIntegral_verification中的测试用例”已启动
+2015-08-18 02:25:33,565 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-18 02:25:33,569 [8] INFO  - 步骤“查询tb_saveIntegral_verification表中数据”: 步骤“查询tb_saveIntegral_verification表中数据”已启动
+2015-08-18 02:25:33,582 [8] INFO  - 步骤“查询tb_saveIntegral_verification表中数据”已成功结束
+2015-08-18 02:25:33,584 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-08-18 02:25:33,592 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-08-18 02:25:33,594 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-18 02:25:33,606 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-18 02:25:33,610 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-18 02:25:33,612 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_0b1a35i3be5359na6ed60c88n19a6bs59ca6icu80f030660u6tcjc86c1h64t'”
+2015-08-18 02:25:33,614 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-18 02:25:33,616 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“”
+2015-08-18 02:25:33,621 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-18 02:25:33,623 [8] INFO  - 步骤“调用/jxt/save.php”: 步骤“调用/jxt/save.php”已启动
+2015-08-18 02:25:33,642 [8] INFO  - 步骤“调用/jxt/save.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/jxt/save.php'
+2015-08-18 02:25:33,793 [8] INFO  - 步骤“调用/jxt/save.php”: 服务器返回了状态代码: 200
+2015-08-18 02:25:33,796 [8] INFO  - 步骤“调用/jxt/save.php”: HTTP 原始请求:
+2015-08-18 02:25:33,798 [8] INFO  - 步骤“调用/jxt/save.php”: POST http://test-iq.365ime.com:8082/jxt/save.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 94
+Expect: 100-continue
+Connection: Keep-Alive
+xsid=&myJid=77401169@365ime.com&token=c8255e8536d1e44751f74febe483384537fc6206&type=1&value=20
+
+2015-08-18 02:25:33,801 [8] INFO  - 步骤“调用/jxt/save.php”: HTTP 原始响应:
+2015-08-18 02:25:33,803 [8] INFO  - 步骤“调用/jxt/save.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Mon, 17 Aug 2015 18:25:31 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","errorCode":"1"}
+
+2015-08-18 02:25:33,819 [8] INFO  - 步骤“调用/jxt/save.php”已成功结束
+2015-08-18 02:25:33,821 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-18 02:25:33,833 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-18 02:25:33,836 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-08-18 02:25:33,915 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-08-18 02:25:33,919 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-18 02:25:33,956 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-18 02:25:33,959 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-18 02:25:33,966 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-18 02:25:33,969 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-18 02:25:33,976 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-18 02:25:33,979 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-18 02:25:33,986 [8] INFO  - 步骤“IfElse129”: 计算方式: 使用条件
+2015-08-18 02:25:33,988 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-08-18 02:25:33,992 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-08-18 02:25:34,032 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-08-18 02:25:34,036 [8] INFO  - 步骤“是”已成功结束
+2015-08-18 02:25:34,041 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-18 02:25:34,045 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-18 02:25:34,049 [8] INFO  - 步骤“循环执行tb_saveIntegral_verification中的测试用例”已成功结束
+2015-08-18 02:25:34,052 [8] INFO  - 步骤“对/jxt/save.php接口token实行加密”: 步骤“对/jxt/save.php接口token实行加密”已启动
+2015-08-18 02:25:34,080 [8] INFO  - 步骤“对/jxt/save.php接口token实行加密”已成功结束
+2015-08-18 02:25:34,082 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-18 02:25:38,188 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-18 02:25:38,189 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-18 02:25:38,198 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-18 02:25:38,199 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-08-18 02:25:38,203 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-08-18 02:25:38,204 [8] INFO  - 步骤“调用/jxt/save.php”: 步骤“调用/jxt/save.php”已启动
+2015-08-18 02:25:38,205 [8] INFO  - 步骤“调用/jxt/save.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/jxt/save.php'
+2015-08-18 02:25:38,254 [8] INFO  - 步骤“调用/jxt/save.php”: 服务器返回了状态代码: 200
+2015-08-18 02:25:38,255 [8] INFO  - 步骤“调用/jxt/save.php”: HTTP 原始请求:
+2015-08-18 02:25:38,256 [8] INFO  - 步骤“调用/jxt/save.php”: POST http://test-iq.365ime.com:8082/jxt/save.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 156
+Expect: 100-continue
+xsid=x_0b1a35i3be5359na6ed60c88n19a6bs59ca6icu80f030660u6tcjc86c1h64t&myJid=77401169@365ime.com&token=a906449d5769fa7361d7ecc6aa3f6d28&type=1&value=20150810
+
+2015-08-18 02:25:38,259 [8] INFO  - 步骤“调用/jxt/save.php”: HTTP 原始响应:
+2015-08-18 02:25:38,260 [8] INFO  - 步骤“调用/jxt/save.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Mon, 17 Aug 2015 18:25:35 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid token !","errorCode":"1"}
+
+2015-08-18 02:25:38,263 [8] INFO  - 步骤“调用/jxt/save.php”已成功结束
+2015-08-18 02:25:38,263 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-18 02:25:38,339 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-18 02:25:38,340 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-18 02:25:38,341 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-18 02:25:38,609 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-18 02:25:38,613 [8] INFO  - 步骤“结束”已成功结束

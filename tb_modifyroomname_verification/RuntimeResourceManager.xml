@@ -1,0 +1,4 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest75.ScriptPath}</Key><Path>E:\TTIMEInterface\Encryption</Path><Value>..\Encryption</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest252.ScriptPath}</Key><Path>E:\TTIMEInterface\TTIME\Encryption</Path><Value>..\Encryption</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>

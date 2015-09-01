@@ -1,0 +1,1270 @@
+2015-08-07 17:13:57,712 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-07 17:13:57,729 [8] INFO  - 步骤“开始”已成功结束
+2015-08-07 17:13:57,731 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-07 17:13:57,782 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-07 17:13:57,784 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-07 17:13:57,789 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-07 17:13:57,795 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-07 17:13:57,796 [8] INFO  - 步骤“获取tb_getRoomMember_verification表有效行数”: 步骤“获取tb_getRoomMember_verification表有效行数”已启动
+2015-08-07 17:13:57,813 [8] ERROR - Checkpoint 2: "21" = "37" 失败
+2015-08-07 17:13:57,818 [8] INFO  - 步骤“获取tb_getRoomMember_verification表有效行数”已成功结束
+2015-08-07 17:13:57,819 [8] INFO  - 步骤“获取全局表中groupJid”: 步骤“获取全局表中groupJid”已启动
+2015-08-07 17:13:57,822 [8] INFO  - 步骤“获取全局表中groupJid”已成功结束
+2015-08-07 17:13:57,823 [8] INFO  - 步骤“查询全局表中xsid”: 步骤“查询全局表中xsid”已启动
+2015-08-07 17:13:57,826 [8] INFO  - 步骤“查询全局表中xsid”已成功结束
+2015-08-07 17:13:57,827 [8] INFO  - 步骤“循环执行tb_getCard_verification中的测试用例”: 步骤“循环执行tb_getCard_verification中的测试用例”已启动
+2015-08-07 17:13:57,831 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-07 17:13:57,833 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:13:57,837 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:13:57,839 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:13:57,840 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:13:57,844 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“”
+2015-08-07 17:13:57,847 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:13:57,848 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:13:57,850 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“区分大小写”，值:“True”
+2015-08-07 17:13:57,851 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“”
+2015-08-07 17:13:57,854 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:13:57,855 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:13:57,905 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:13:57,906 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:14:34,170 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:14:34,171 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:14:34,177 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:14:34,178 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:14:34,180 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:14:34,182 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:14:34,183 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:14:34,184 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf”
+2015-08-07 17:14:34,185 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:14:34,185 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:14:34,200 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:14:34,423 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:14:34,424 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:14:34,425 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 134
+Expect: 100-continue
+Connection: Keep-Alive
+xsid=&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:14:34,426 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:14:34,427 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:11:54 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"Version":null,"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-05/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"},{"nick_name":"","username":"张坤老师2","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","userRole":"s2","jid":"77401170@365ime.com"}]},"errorCode":0}
+2015-08-07 17:14:34,432 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:14:34,436 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:14:34,455 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:14:34,456 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:14:34,507 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:14:34,508 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:14:34,546 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:14:34,547 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:14:34,549 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:14:34,550 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:14:34,552 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:14:34,553 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:14:34,555 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:14:34,556 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:14:34,557 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:14:34,595 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:14:34,597 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:14:34,598 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:14:34,600 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-07 17:14:34,603 [8] INFO  - 步骤“迭代 2”: 步骤“迭代 2”已启动
+2015-08-07 17:14:34,604 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:14:34,606 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:14:34,608 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:14:34,609 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:14:34,611 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“123”
+2015-08-07 17:14:34,612 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:14:34,612 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:14:34,613 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“123”
+2015-08-07 17:14:34,615 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:14:34,615 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:14:34,685 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:14:34,686 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:15:36,843 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:15:36,844 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:15:36,847 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:15:36,848 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:15:36,850 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:15:36,851 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:15:36,852 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:15:36,852 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf”
+2015-08-07 17:15:36,853 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:15:36,861 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:15:36,863 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:15:39,460 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:15:39,462 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:15:39,464 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 137
+Expect: 100-continue
+xsid=123&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:15:39,467 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:15:39,469 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:12:59 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:15:39,476 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:15:39,479 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:15:39,486 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:15:39,490 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:15:39,566 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:15:39,569 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:15:39,627 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:15:39,629 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:15:39,636 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:15:39,638 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:15:39,645 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:15:39,647 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:15:39,650 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:15:39,652 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:15:39,654 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:15:39,698 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:15:39,701 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:15:39,705 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:15:39,707 [8] INFO  - 步骤“迭代 2”已成功结束
+2015-08-07 17:15:39,710 [8] INFO  - 步骤“迭代 3”: 步骤“迭代 3”已启动
+2015-08-07 17:15:39,713 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:15:39,717 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:15:39,724 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:15:39,726 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:15:39,728 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“abc”
+2015-08-07 17:15:39,730 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:15:39,731 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:15:39,733 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“abc”
+2015-08-07 17:15:39,736 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:15:39,738 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:15:39,801 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:15:39,802 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:17:31,261 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:17:31,263 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:17:31,267 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:17:31,270 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:17:31,274 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:17:31,275 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:17:31,276 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:17:31,277 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf”
+2015-08-07 17:17:31,279 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:17:31,280 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:17:31,284 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:17:33,906 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:17:33,908 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:17:33,911 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 137
+Connection: Keep-Alive
+xsid=abc&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:17:33,913 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:17:33,915 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:14:54 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:17:33,922 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:17:33,924 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:17:33,932 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:17:33,934 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:17:34,010 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:17:34,013 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:17:34,057 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:17:34,059 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:17:34,064 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:17:34,067 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:17:34,073 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:17:34,076 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:17:34,079 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:17:34,081 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:17:34,085 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:17:34,128 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:17:34,133 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:17:34,136 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:17:34,140 [8] INFO  - 步骤“迭代 3”已成功结束
+2015-08-07 17:17:34,145 [8] INFO  - 步骤“迭代 4”: 步骤“迭代 4”已启动
+2015-08-07 17:17:34,148 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:17:34,154 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:17:34,158 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:17:34,160 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:17:34,162 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“!@#$%^&”
+2015-08-07 17:17:34,163 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:17:34,164 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:17:34,166 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“!@#$%^&”
+2015-08-07 17:17:34,168 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:17:34,169 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:17:34,211 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:17:34,212 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:18:44,618 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:18:44,622 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:18:44,625 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:18:44,627 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:18:44,629 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:18:44,629 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:18:44,630 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:18:44,631 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf”
+2015-08-07 17:18:44,632 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:18:44,633 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:18:44,635 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:18:44,728 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:18:44,731 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:18:44,734 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 141
+xsid=!@#$%^&&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:18:44,737 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:18:44,740 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:16:05 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"Version":null,"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-05/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"},{"nick_name":"","username":"张坤老师2","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","userRole":"s2","jid":"77401170@365ime.com"}]},"errorCode":0}
+2015-08-07 17:18:44,747 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:18:44,749 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:18:44,754 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:18:44,756 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:18:44,915 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:18:44,917 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:18:45,026 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:18:45,028 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:18:45,036 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:18:45,038 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:18:45,045 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:18:45,049 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:18:45,052 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:18:45,054 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:18:45,057 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:18:45,102 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:18:45,105 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:18:45,108 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:18:45,110 [8] INFO  - 步骤“迭代 4”已成功结束
+2015-08-07 17:18:45,113 [8] INFO  - 步骤“迭代 5”: 步骤“迭代 5”已启动
+2015-08-07 17:18:45,116 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:18:45,120 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:18:45,125 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:18:45,127 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:18:45,130 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“123.abc”
+2015-08-07 17:18:45,132 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:18:45,133 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:18:45,135 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“123.abc”
+2015-08-07 17:18:45,137 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:18:45,138 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:18:45,174 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:18:45,176 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:19:06,014 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:19:06,015 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:19:06,019 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:19:06,021 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:19:06,024 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:19:06,026 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:19:06,027 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:19:06,027 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf”
+2015-08-07 17:19:06,029 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:19:06,031 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:19:06,036 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:19:08,678 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:19:08,681 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:19:08,683 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 141
+xsid=123.abc&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:19:08,686 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:19:08,688 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:16:29 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:19:08,695 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:19:08,697 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:19:08,702 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:19:08,705 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:19:08,931 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:19:08,933 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:19:08,991 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:19:08,994 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:19:09,001 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:19:09,003 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:19:09,009 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:19:09,013 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:19:09,016 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:19:09,018 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:19:09,021 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:19:09,063 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:19:09,067 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:19:09,071 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:19:09,074 [8] INFO  - 步骤“迭代 5”已成功结束
+2015-08-07 17:19:09,081 [8] INFO  - 步骤“迭代 6”: 步骤“迭代 6”已启动
+2015-08-07 17:19:09,084 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:19:09,093 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:19:09,098 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:19:09,100 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:19:09,105 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:19:09,107 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:19:09,108 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:19:09,110 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:19:09,112 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:19:09,113 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:19:09,181 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:19:09,184 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:19:30,537 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:19:30,538 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:19:30,541 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:19:30,543 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:19:30,545 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:19:30,546 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:19:30,547 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'300af013bdd05a9852f656797f7dd762f4814b15'”
+2015-08-07 17:19:30,548 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“300af013bdd05a9852f656797f7dd762f4814b15”
+2015-08-07 17:19:30,549 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:19:30,550 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:19:30,553 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:19:30,649 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:19:30,651 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:19:30,652 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 198
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401170@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=300af013bdd05a9852f656797f7dd762f4814b15
+
+2015-08-07 17:19:30,653 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:19:30,653 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:16:51 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:19:30,656 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:19:30,657 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:19:30,663 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:19:30,664 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:19:30,803 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:19:30,804 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:19:30,954 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:19:30,955 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:19:30,959 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:19:30,960 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:19:30,963 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:19:30,964 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:19:30,965 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:19:30,966 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:19:30,967 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:19:31,130 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:19:31,132 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:19:31,134 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:19:31,135 [8] INFO  - 步骤“迭代 6”已成功结束
+2015-08-07 17:19:31,137 [8] INFO  - 步骤“迭代 7”: 步骤“迭代 7”已启动
+2015-08-07 17:19:31,138 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:19:31,141 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:19:31,143 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:19:31,143 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:19:31,146 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:19:31,147 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:19:31,147 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:19:31,148 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:19:31,149 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:19:31,150 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:19:31,290 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:19:31,291 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:20:43,255 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:20:43,256 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:20:43,260 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:20:43,260 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:20:43,262 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:20:43,264 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:20:43,264 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'bf9aadb8966f47a4ed59c5809ebd6638b2d662de'”
+2015-08-07 17:20:43,265 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“bf9aadb8966f47a4ed59c5809ebd6638b2d662de”
+2015-08-07 17:20:43,266 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:20:43,267 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:20:43,269 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:20:43,365 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:20:43,365 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:20:43,366 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 187
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=bf9aadb8966f47a4ed59c5809ebd6638b2d662de
+
+2015-08-07 17:20:43,367 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:20:43,368 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:18:03 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:20:43,370 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:20:43,370 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:20:43,377 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:20:43,377 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:20:43,482 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:20:43,483 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:20:43,605 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:20:43,606 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:20:43,608 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:20:43,609 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:20:43,612 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:20:43,613 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:20:43,614 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:20:43,615 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:20:43,616 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:20:43,715 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:20:43,717 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:20:43,720 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:20:43,722 [8] INFO  - 步骤“迭代 7”已成功结束
+2015-08-07 17:20:43,724 [8] INFO  - 步骤“迭代 8”: 步骤“迭代 8”已启动
+2015-08-07 17:20:43,725 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:20:43,728 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:20:43,730 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:20:43,731 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:20:43,733 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:20:43,734 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:20:43,735 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:20:43,736 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:20:43,738 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:20:43,739 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:20:43,892 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:20:43,893 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:20:52,160 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:20:52,163 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:20:52,165 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:20:52,167 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:20:52,169 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:20:52,171 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:20:52,173 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'d2cd8d7a9fa8c275132dbbc042eaadebec103421'”
+2015-08-07 17:20:52,174 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“d2cd8d7a9fa8c275132dbbc042eaadebec103421”
+2015-08-07 17:20:52,175 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:20:52,176 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:20:52,179 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:20:52,290 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:20:52,291 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:20:52,291 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 190
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=d2cd8d7a9fa8c275132dbbc042eaadebec103421
+
+2015-08-07 17:20:52,292 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:20:52,293 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:18:12 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:20:52,297 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:20:52,298 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:20:52,301 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:20:52,302 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:20:52,389 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:20:52,390 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:20:52,489 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:20:52,490 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:20:52,494 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:20:52,495 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:20:52,497 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:20:52,498 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:20:52,499 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:20:52,500 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:20:52,501 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:20:52,599 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:20:52,601 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:20:52,603 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:20:52,604 [8] INFO  - 步骤“迭代 8”已成功结束
+2015-08-07 17:20:52,606 [8] INFO  - 步骤“迭代 9”: 步骤“迭代 9”已启动
+2015-08-07 17:20:52,607 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:20:52,610 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:20:52,611 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:20:52,612 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:20:52,614 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:20:52,615 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:20:52,615 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:20:52,616 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:20:52,617 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:20:52,618 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:20:52,738 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:20:52,738 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:21:02,832 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:21:02,834 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:21:02,837 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:21:02,838 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:21:02,839 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:21:02,840 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:21:02,841 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'cd5d93587535f826758a071b9886fdac6e3005f7'”
+2015-08-07 17:21:02,842 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“cd5d93587535f826758a071b9886fdac6e3005f7”
+2015-08-07 17:21:02,843 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:21:02,844 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:21:02,846 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:21:02,952 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:21:02,953 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:21:02,955 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 186
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=!@#$%^&&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=cd5d93587535f826758a071b9886fdac6e3005f7
+
+2015-08-07 17:21:02,956 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:21:02,957 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:18:23 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+2015-08-07 17:21:02,960 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:21:02,961 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:21:02,964 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:21:02,965 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:21:03,166 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:21:03,167 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:21:03,310 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:21:03,310 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:21:03,314 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:21:03,315 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:21:03,317 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:21:03,318 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:21:03,319 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:21:03,320 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:21:03,321 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:21:03,577 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:21:03,579 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:21:03,580 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:21:03,581 [8] INFO  - 步骤“迭代 9”已成功结束
+2015-08-07 17:21:03,583 [8] INFO  - 步骤“迭代 10”: 步骤“迭代 10”已启动
+2015-08-07 17:21:03,584 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:21:03,586 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:21:03,588 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:21:03,589 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:21:03,590 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:21:03,591 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:21:03,591 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:21:03,592 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:21:03,594 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:21:03,597 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:21:03,686 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:21:03,687 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:22:15,146 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:22:15,147 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:22:15,172 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:22:15,174 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:22:15,177 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:22:15,178 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:22:15,179 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'10136c56ae6c1c92aa1fd254c4bc3da638ee62f0'”
+2015-08-07 17:22:15,180 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“10136c56ae6c1c92aa1fd254c4bc3da638ee62f0”
+2015-08-07 17:22:15,183 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:22:15,184 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:22:15,186 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:22:15,283 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:22:15,284 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:22:15,285 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 179
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=10136c56ae6c1c92aa1fd254c4bc3da638ee62f0
+
+2015-08-07 17:22:15,286 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:22:15,286 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:19:35 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+2015-08-07 17:22:15,288 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:22:15,288 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:22:15,295 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:22:15,296 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:22:15,380 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:22:15,381 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:22:15,507 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:22:15,508 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:22:15,511 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:22:15,511 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:22:15,515 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:22:15,515 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:22:15,517 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:22:15,517 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:22:15,518 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:22:15,684 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:22:15,686 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:22:15,687 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:22:15,688 [8] INFO  - 步骤“迭代 10”已成功结束
+2015-08-07 17:22:15,690 [8] INFO  - 步骤“迭代 11”: 步骤“迭代 11”已启动
+2015-08-07 17:22:15,691 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:22:15,693 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:22:15,696 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:22:15,696 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:22:15,698 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:22:15,699 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:22:15,702 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:22:15,703 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:22:15,704 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:22:15,705 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:22:15,784 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:22:15,785 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:22:24,903 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:22:24,909 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:22:24,915 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:22:24,924 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:22:24,929 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:22:24,930 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:22:24,934 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'d51d7e396e1ff5ba553f8a423c9e8c80482638f4'”
+2015-08-07 17:22:24,936 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“d51d7e396e1ff5ba553f8a423c9e8c80482638f4”
+2015-08-07 17:22:24,940 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:22:24,941 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:22:24,944 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:22:25,074 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:22:25,078 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:22:25,081 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 218
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com,77401170@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=d51d7e396e1ff5ba553f8a423c9e8c80482638f4
+
+2015-08-07 17:22:25,082 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:22:25,083 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:19:45 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid  xsid !","data":{},"errorCode":"1"}
+2015-08-07 17:22:25,087 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:22:25,088 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:22:25,092 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:22:25,093 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:22:25,182 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:22:25,183 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:22:25,337 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:22:25,339 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:22:25,342 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:22:25,343 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:22:25,346 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:22:25,347 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:22:25,350 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:22:25,352 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:22:25,353 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:22:25,539 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:22:25,541 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:22:25,542 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:22:25,544 [8] INFO  - 步骤“迭代 11”已成功结束
+2015-08-07 17:22:25,546 [8] INFO  - 步骤“迭代 12”: 步骤“迭代 12”已启动
+2015-08-07 17:22:25,547 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:22:25,549 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:22:25,552 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:22:25,553 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:22:25,554 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:22:25,555 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:22:25,556 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:22:25,557 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:22:25,559 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:22:25,560 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:22:25,672 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:22:25,672 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:23:05,413 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:23:05,414 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:23:05,417 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:23:05,418 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:23:05,419 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:23:05,420 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:23:05,421 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'57b2059b57c7c28429b93fbc87cfe8bdc82c80a0'”
+2015-08-07 17:23:05,422 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“57b2059b57c7c28429b93fbc87cfe8bdc82c80a0”
+2015-08-07 17:23:05,423 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:23:05,424 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:23:05,428 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:23:05,543 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:23:05,545 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:23:05,547 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 183
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=b84ff35507754b1db1631c26abdc61f0&token=57b2059b57c7c28429b93fbc87cfe8bdc82c80a0
+
+2015-08-07 17:23:05,550 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:23:05,552 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:20:25 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid roomJid !","data":{},"errorCode":"1"}
+2015-08-07 17:23:05,559 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:23:05,561 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:23:05,568 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:23:05,570 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:23:05,621 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:23:05,623 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:23:05,660 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:23:05,663 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:23:05,670 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:23:05,672 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:23:05,679 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:23:05,681 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:23:05,686 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:23:05,688 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:23:05,689 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:23:05,754 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:23:05,759 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:23:05,762 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:23:05,766 [8] INFO  - 步骤“迭代 12”已成功结束
+2015-08-07 17:23:05,770 [8] INFO  - 步骤“迭代 13”: 步骤“迭代 13”已启动
+2015-08-07 17:23:05,774 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:23:05,779 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:23:05,782 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:23:05,783 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:23:05,785 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:23:05,787 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:23:05,788 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:23:05,789 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:23:05,792 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:23:05,793 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:23:05,846 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:23:05,849 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:23:27,821 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:23:27,824 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:23:27,828 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:23:27,830 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:23:27,836 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:23:27,838 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:23:27,842 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'56ee4d74996c31ed6bc0663f8db2dbde4b9d243f'”
+2015-08-07 17:23:27,843 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“56ee4d74996c31ed6bc0663f8db2dbde4b9d243f”
+2015-08-07 17:23:27,847 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:23:27,849 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:23:27,853 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:23:28,022 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:23:28,023 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:23:28,024 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 166
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=@muc.365ime.com&token=56ee4d74996c31ed6bc0663f8db2dbde4b9d243f
+
+2015-08-07 17:23:28,025 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:23:28,027 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:20:48 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid roomJid !","data":{},"errorCode":"1"}
+2015-08-07 17:23:28,030 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:23:28,031 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:23:28,036 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:23:28,037 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:23:28,108 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:23:28,109 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:23:28,225 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:23:28,226 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:23:28,229 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:23:28,230 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:23:28,233 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:23:28,234 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:23:28,237 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:23:28,238 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:23:28,239 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:23:28,413 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:23:28,415 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:23:28,416 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:23:28,418 [8] INFO  - 步骤“迭代 13”已成功结束
+2015-08-07 17:23:28,419 [8] INFO  - 步骤“迭代 14”: 步骤“迭代 14”已启动
+2015-08-07 17:23:28,421 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:23:28,423 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:23:28,425 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:23:28,426 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:23:28,428 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:23:28,429 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:23:28,430 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:23:28,431 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:23:28,432 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:23:28,433 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:23:28,490 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:23:28,491 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:24:42,924 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:24:42,927 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:24:42,932 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:24:42,948 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:24:42,950 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:24:42,951 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:24:42,952 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'69ae4c2af35a0f49e24c48947f709f23b9cfa7fe'”
+2015-08-07 17:24:42,953 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“69ae4c2af35a0f49e24c48947f709f23b9cfa7fe”
+2015-08-07 17:24:42,955 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:24:42,955 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:24:42,961 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:24:43,060 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:24:43,061 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:24:43,061 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 167
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=！@#￥%……&&token=69ae4c2af35a0f49e24c48947f709f23b9cfa7fe
+
+2015-08-07 17:24:43,062 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:24:43,063 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:22:03 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+2015-08-07 17:24:43,067 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:24:43,068 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:24:43,072 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:24:43,073 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:24:43,172 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:24:43,173 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:24:43,310 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:24:43,311 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:24:43,313 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:24:43,314 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:24:43,317 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:24:43,317 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:24:43,319 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:24:43,320 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:24:43,321 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:24:43,412 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:24:43,413 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:24:43,415 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:24:43,416 [8] INFO  - 步骤“迭代 14”已成功结束
+2015-08-07 17:24:43,418 [8] INFO  - 步骤“迭代 15”: 步骤“迭代 15”已启动
+2015-08-07 17:24:43,419 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:24:43,421 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:24:43,423 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:24:43,423 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:24:43,426 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:24:43,426 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:24:43,428 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:24:43,428 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:24:43,430 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:24:43,430 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:24:43,599 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:24:43,600 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:25:57,941 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:25:57,942 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:25:57,948 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:25:57,949 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:25:57,951 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:25:57,952 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:25:57,952 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 17:25:57,953 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 17:25:57,954 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:25:57,955 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:25:57,957 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:25:58,051 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:25:58,052 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:25:58,053 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 151
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=&token=305bbc2b43542b3d0203daffe9073c3cba5b47d9
+
+2015-08-07 17:25:58,054 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:25:58,054 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:23:18 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+2015-08-07 17:25:58,058 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:25:58,059 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:25:58,062 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:25:58,063 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:25:58,160 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:25:58,161 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:25:58,260 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:25:58,262 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:25:58,264 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:25:58,265 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:25:58,268 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:25:58,269 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:25:58,271 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:25:58,272 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:25:58,273 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:25:58,390 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:25:58,391 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:25:58,393 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:25:58,394 [8] INFO  - 步骤“迭代 15”已成功结束
+2015-08-07 17:25:58,397 [8] INFO  - 步骤“迭代 16”: 步骤“迭代 16”已启动
+2015-08-07 17:25:58,399 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:25:58,401 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:25:58,404 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:25:58,405 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:25:58,407 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:25:58,408 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:25:58,409 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:25:58,409 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:25:58,411 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:25:58,411 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:25:58,525 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:25:58,526 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:26:21,307 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:26:21,309 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:26:21,312 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:26:21,314 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:26:21,316 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:26:21,317 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:26:21,318 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'a59c720bfaceca5bc9712b957aa06a609bbd3662'”
+2015-08-07 17:26:21,319 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“a59c720bfaceca5bc9712b957aa06a609bbd3662”
+2015-08-07 17:26:21,321 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:26:21,321 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:26:21,324 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:26:21,416 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:26:21,417 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:26:21,418 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 246
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=b84ff35507754b1db1631c26abdc61f1@muc.365ime.com,082b4bfff539485092bf158f62ad7502@muc.365ime.com&token=a59c720bfaceca5bc9712b957aa06a609bbd3662
+
+2015-08-07 17:26:21,419 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:26:21,420 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:23:41 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid roomJid !","data":{},"errorCode":"1"}
+2015-08-07 17:26:21,424 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:26:21,425 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:26:21,429 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:26:21,430 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:26:21,601 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:26:21,602 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:26:21,723 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:26:21,724 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:26:21,726 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:26:21,727 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:26:21,730 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:26:21,731 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:26:21,733 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:26:21,734 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:26:21,736 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:26:21,806 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:26:21,809 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:26:21,811 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:26:21,813 [8] INFO  - 步骤“迭代 16”已成功结束
+2015-08-07 17:26:21,815 [8] INFO  - 步骤“迭代 17”: 步骤“迭代 17”已启动
+2015-08-07 17:26:21,817 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:26:21,820 [8] ERROR - Checkpoint 5: "Arguments[1]/ResultTable[1]/Row[1]/token[1]" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:26:21,824 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:26:21,825 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:26:21,846 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:26:21,847 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:26:21,847 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:26:21,848 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:26:21,850 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:26:21,851 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:26:21,975 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:26:21,976 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:27:29,357 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:27:29,358 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:27:29,360 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:27:29,361 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:27:29,363 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-07 17:27:29,364 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:27:29,366 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:27:29,367 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-07 17:27:29,368 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“”
+2015-08-07 17:27:29,369 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:27:29,370 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:27:29,372 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:27:29,456 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:27:29,458 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:27:29,461 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 158
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=
+
+2015-08-07 17:27:29,465 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:27:29,467 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:24:49 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+2015-08-07 17:27:29,476 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:27:29,479 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:27:29,483 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:27:29,484 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:27:29,521 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:27:29,523 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:27:29,559 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:27:29,561 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:27:29,566 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:27:29,567 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:27:29,577 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:27:29,578 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:27:29,581 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:27:29,582 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:27:29,584 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:27:29,620 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:27:29,622 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:27:29,625 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:27:29,626 [8] INFO  - 步骤“迭代 17”已成功结束
+2015-08-07 17:27:29,628 [8] INFO  - 步骤“迭代 18”: 步骤“迭代 18”已启动
+2015-08-07 17:27:29,629 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:27:29,633 [8] ERROR - Checkpoint 5: "61d60740b2521fe848f3263071757305" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:27:29,635 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:27:29,636 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:27:29,638 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:27:29,639 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:27:29,640 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:27:29,641 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:27:29,643 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:27:29,644 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:27:29,681 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:27:29,682 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:28:02,896 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:28:02,897 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:28:02,900 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:28:02,901 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:28:02,903 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“61d60740b2521fe848f3263071757305”
+2015-08-07 17:28:02,904 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:28:02,905 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:28:02,906 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“61d60740b2521fe848f3263071757305”
+2015-08-07 17:28:02,907 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:28:02,908 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:28:02,910 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:28:03,027 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:28:03,029 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:28:03,031 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 190
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=61d60740b2521fe848f3263071757305
+
+2015-08-07 17:28:03,032 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:28:03,033 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:25:23 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token!","data":{},"errorCode":"1"}
+2015-08-07 17:28:03,037 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:28:03,038 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:28:03,042 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:28:03,043 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:28:03,220 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:28:03,221 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:28:03,333 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:28:03,334 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:28:03,337 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:28:03,339 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:28:03,341 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:28:03,342 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:28:03,344 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:28:03,345 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:28:03,346 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:28:03,444 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:28:03,446 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:28:03,447 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:28:03,449 [8] INFO  - 步骤“迭代 18”已成功结束
+2015-08-07 17:28:03,451 [8] INFO  - 步骤“迭代 19”: 步骤“迭代 19”已启动
+2015-08-07 17:28:03,453 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:28:03,455 [8] ERROR - Checkpoint 5: "77401169@365ime.com756e4917843c450e8eeda63754feefce@muc.365ime.com" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:28:03,457 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:28:03,459 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:28:03,461 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:28:03,462 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:28:03,463 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:28:03,464 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:28:03,465 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:28:03,466 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:28:03,594 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:28:03,610 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:28:13,855 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:28:13,856 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:28:13,859 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:28:13,860 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:28:13,862 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“77401169@365ime.com756e4917843c450e8eeda63754feefce@muc.365ime.com”
+2015-08-07 17:28:13,863 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:28:13,863 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:28:13,864 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“77401169@365ime.com756e4917843c450e8eeda63754feefce@muc.365ime.com”
+2015-08-07 17:28:13,866 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:28:13,867 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:28:13,869 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:28:13,985 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:28:13,987 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:28:13,988 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 224
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=77401169@365ime.com756e4917843c450e8eeda63754feefce@muc.365ime.com
+
+2015-08-07 17:28:13,989 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:28:13,989 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:25:34 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token!","data":{},"errorCode":"1"}
+2015-08-07 17:28:13,992 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:28:13,992 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:28:13,994 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:28:13,995 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:28:14,148 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:28:14,149 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:28:14,220 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:28:14,221 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:28:14,224 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:28:14,225 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:28:14,230 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:28:14,231 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:28:14,235 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:28:14,236 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:28:14,237 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:28:14,343 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:28:14,347 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:28:14,349 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:28:14,350 [8] INFO  - 步骤“迭代 19”已成功结束
+2015-08-07 17:28:14,352 [8] INFO  - 步骤“迭代 20”: 步骤“迭代 20”已启动
+2015-08-07 17:28:14,354 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:28:14,356 [8] ERROR - Checkpoint 5: "tester" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:28:14,359 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:28:14,360 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:28:14,362 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:28:14,363 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:28:14,364 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:28:14,365 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:28:14,366 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:28:14,367 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:28:14,447 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:28:14,448 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:28:37,158 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:28:37,159 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:28:37,162 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:28:37,164 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:28:37,167 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“tester”
+2015-08-07 17:28:37,179 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:28:37,181 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:28:37,183 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“tester”
+2015-08-07 17:28:37,185 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:28:37,186 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:28:37,191 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:28:37,301 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:28:37,302 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:28:37,304 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 164
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=tester
+
+2015-08-07 17:28:37,306 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:28:37,307 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:25:57 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token!","data":{},"errorCode":"1"}
+2015-08-07 17:28:37,311 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:28:37,312 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:28:37,316 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:28:37,319 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:28:37,396 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:28:37,397 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:28:37,463 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:28:37,464 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:28:37,467 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:28:37,468 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:28:37,471 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:28:37,472 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:28:37,474 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:28:37,477 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:28:37,479 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:28:37,568 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:28:37,570 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:28:37,573 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:28:37,575 [8] INFO  - 步骤“迭代 20”已成功结束
+2015-08-07 17:28:37,577 [8] INFO  - 步骤“迭代 21”: 步骤“迭代 21”已启动
+2015-08-07 17:28:37,578 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”: 步骤“查询tb_getRoomMember_verification表中字段信息”已启动
+2015-08-07 17:28:37,581 [8] ERROR - Checkpoint 5: "72738f03c2eb66d693992576857807ee7718b2fc" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 17:28:37,583 [8] INFO  - 步骤“查询tb_getRoomMember_verification表中字段信息”已成功结束
+2015-08-07 17:28:37,584 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 17:28:37,588 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 17:28:37,590 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 17:28:37,591 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 17:28:37,593 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 17:28:37,594 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 17:28:37,595 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 17:28:37,700 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 17:28:37,701 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:29:42,305 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:29:42,306 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 17:29:42,309 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 17:29:42,310 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 17:29:42,312 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-07 17:29:42,314 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-07 17:29:42,316 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf'”
+2015-08-07 17:29:42,317 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf”
+2015-08-07 17:29:42,318 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 17:29:42,319 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:29:42,321 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:29:42,426 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:29:42,427 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:29:42,429 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 198
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:29:42,430 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:29:42,431 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:27:02 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"Version":null,"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-05/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"},{"nick_name":"","username":"张坤老师2","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","userRole":"s2","jid":"77401170@365ime.com"}]},"errorCode":0}
+2015-08-07 17:29:42,435 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:29:42,436 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 17:29:42,438 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 17:29:42,439 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 17:29:42,492 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 17:29:42,493 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 17:29:42,530 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 17:29:42,531 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 17:29:42,535 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 17:29:42,536 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 17:29:42,539 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 17:29:42,540 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 17:29:42,542 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 17:29:42,559 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 17:29:42,562 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 17:29:42,602 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 17:29:42,604 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 17:29:42,606 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 17:29:42,608 [8] INFO  - 步骤“迭代 21”已成功结束
+2015-08-07 17:29:42,609 [8] INFO  - 步骤“循环执行tb_getCard_verification中的测试用例”已成功结束
+2015-08-07 17:29:42,610 [8] INFO  - 步骤“对/iq/getRoomMember.php接口token实行加密”: 步骤“对/iq/getRoomMember.php接口token实行加密”已启动
+2015-08-07 17:29:42,653 [8] INFO  - 步骤“对/iq/getRoomMember.php接口token实行加密”已成功结束
+2015-08-07 17:29:42,655 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 17:30:07,397 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 17:30:07,401 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-07 17:30:07,404 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-07 17:30:07,409 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 步骤“调用/iq/getRoomMember.php”已启动
+2015-08-07 17:30:07,413 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getRoomMember.php'
+2015-08-07 17:30:07,526 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: 服务器返回了状态代码: 200
+2015-08-07 17:30:07,527 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始请求:
+2015-08-07 17:30:07,528 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: POST http://test-iq.365ime.com:8082/iq/getRoomMember.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 198
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&roomJid=756e4917843c450e8eeda63754feefce@muc.365ime.com&token=21aad0a570ffd5b0dbcba2a8ef5efac36b98d2bf
+
+2015-08-07 17:30:07,528 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP 原始响应:
+2015-08-07 17:30:07,529 [8] INFO  - 步骤“调用/iq/getRoomMember.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 07 Aug 2015 09:27:27 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"Version":null,"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-05/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"},{"nick_name":"","username":"张坤老师2","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","userRole":"s2","jid":"77401170@365ime.com"}]},"errorCode":0}
+2015-08-07 17:30:07,532 [8] INFO  - 步骤“调用/iq/getRoomMember.php”已成功结束
+2015-08-07 17:30:07,534 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-07 17:30:07,720 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-07 17:30:07,722 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-07 17:30:07,724 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-07 17:30:07,981 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-07 17:30:07,987 [8] INFO  - 步骤“结束”已成功结束

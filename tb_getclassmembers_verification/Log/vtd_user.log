@@ -1,0 +1,1102 @@
+2015-09-01 10:35:11,785 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-09-01 10:35:11,801 [8] INFO  - 步骤“开始”已成功结束
+2015-09-01 10:35:11,803 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-09-01 10:35:11,872 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-09-01 10:35:11,874 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-09-01 10:35:11,882 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=192.168.50.11;Uid=ime;Pwd=www.365ime.com!;
+2015-09-01 10:35:11,890 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-09-01 10:35:11,892 [8] INFO  - 步骤“获取到tb_getclassmembers_verification表有效行数”: 步骤“获取到tb_getclassmembers_verification表有效行数”已启动
+2015-09-01 10:35:11,902 [8] INFO  - 步骤“获取到tb_getclassmembers_verification表有效行数”已成功结束
+2015-09-01 10:35:11,903 [8] INFO  - 步骤“循环执行tb_getclassmembers_verification中的测试用例”: 步骤“循环执行tb_getclassmembers_verification中的测试用例”已启动
+2015-09-01 10:35:11,908 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-09-01 10:35:11,910 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:11,913 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:11,916 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:11,920 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:11,921 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:11,926 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-09-01 10:35:11,928 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:11,929 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:11,931 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-09-01 10:35:11,932 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“”
+2015-09-01 10:35:11,934 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:11,935 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:11,944 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:12,069 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:12,071 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:12,072 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 113
+Expect: 100-continue
+Connection: Keep-Alive
+myJid=77401169@365ime.com&xsid=&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:12,073 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:12,075 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:30 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:12,080 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:12,081 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:12,087 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:12,088 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:12,093 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:12,095 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:12,106 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:12,107 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:12,111 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:12,112 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:12,116 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:12,117 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:12,120 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:12,121 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:12,122 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:12,126 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:12,128 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:12,130 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:12,132 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-09-01 10:35:12,135 [8] INFO  - 步骤“迭代 2”: 步骤“迭代 2”已启动
+2015-09-01 10:35:12,137 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:12,141 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:12,142 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:12,145 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:12,147 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:12,149 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“123”
+2015-09-01 10:35:12,151 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:12,152 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:12,153 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“123”
+2015-09-01 10:35:12,155 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:12,156 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:12,159 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:14,707 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:14,712 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:14,718 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 116
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=123&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:14,723 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:14,727 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:32 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid  xsid ! Timeout waiting for value: waited 2,500 ms. Node status: Connection Status { 0378927382e911e4.m.cnqdalicm9pub001.ocs.aliyuncs.com/10.157.212.8:11211 active: false, authed: false, last read: 56,348,183 ms ago }","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:14,736 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:14,741 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:14,749 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:14,759 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:14,767 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:14,769 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:14,775 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:14,778 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:14,783 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:14,785 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:14,789 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:14,790 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:14,793 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:14,794 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:14,795 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:14,799 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:14,802 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:14,803 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:14,805 [8] INFO  - 步骤“迭代 2”已成功结束
+2015-09-01 10:35:14,808 [8] INFO  - 步骤“迭代 3”: 步骤“迭代 3”已启动
+2015-09-01 10:35:14,809 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:14,812 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:14,813 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:14,817 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:14,818 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:14,820 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“abc”
+2015-09-01 10:35:14,821 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:14,822 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:14,823 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“abc”
+2015-09-01 10:35:14,825 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:14,826 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:14,828 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:17,377 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:17,382 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:17,387 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 116
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=abc&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:17,392 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:17,397 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:35 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid  xsid ! Timeout waiting for value: waited 2,500 ms. Node status: Connection Status { 0378927382e911e4.m.cnqdalicm9pub001.ocs.aliyuncs.com/10.157.212.8:11211 active: false, authed: false, last read: 56,350,852 ms ago }","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:17,423 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:17,426 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:17,431 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:17,434 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:17,441 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:17,444 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:17,450 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:17,453 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:17,458 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:17,460 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:17,465 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:17,467 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:17,470 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:17,473 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:17,476 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:17,486 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:17,489 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:17,492 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:17,495 [8] INFO  - 步骤“迭代 3”已成功结束
+2015-09-01 10:35:17,499 [8] INFO  - 步骤“迭代 4”: 步骤“迭代 4”已启动
+2015-09-01 10:35:17,502 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:17,507 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:17,509 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:17,514 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:17,517 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:17,520 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“!@#$%^&”
+2015-09-01 10:35:17,522 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:17,525 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:17,527 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“!@#$%^&”
+2015-09-01 10:35:17,530 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:17,531 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:17,535 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:17,581 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:17,597 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:17,602 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 120
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=!@#$%^&&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:17,606 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:17,609 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:35 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:17,615 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:17,619 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:17,624 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:17,628 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:17,636 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:17,639 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:17,646 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:17,648 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:17,655 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:17,658 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:17,663 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:17,665 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:17,668 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:17,669 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:17,671 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:17,674 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:17,676 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:17,678 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:17,679 [8] INFO  - 步骤“迭代 4”已成功结束
+2015-09-01 10:35:17,681 [8] INFO  - 步骤“迭代 5”: 步骤“迭代 5”已启动
+2015-09-01 10:35:17,683 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:17,686 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:17,687 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:17,690 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:17,691 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:17,693 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“123.abc”
+2015-09-01 10:35:17,694 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:17,695 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:17,696 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“123.abc”
+2015-09-01 10:35:17,698 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:17,699 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:17,701 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:20,246 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:20,251 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:20,256 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 120
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=123.abc&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:20,261 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:20,265 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:38 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid  xsid ! Timeout waiting for value: waited 2,500 ms. Node status: Connection Status { 0378927382e911e4.m.cnqdalicm9pub001.ocs.aliyuncs.com/10.157.212.8:11211 active: false, authed: false, last read: 56,353,724 ms ago }","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:20,273 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:20,278 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:20,287 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:20,292 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:20,303 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:20,306 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:20,312 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:20,315 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:20,321 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:20,324 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:20,329 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:20,332 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:20,335 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:20,338 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:20,341 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:20,346 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:20,350 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:20,353 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:20,356 [8] INFO  - 步骤“迭代 5”已成功结束
+2015-09-01 10:35:20,359 [8] INFO  - 步骤“迭代 6”: 步骤“迭代 6”已启动
+2015-09-01 10:35:20,363 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:20,367 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:20,369 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:20,375 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:20,377 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:20,380 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:20,383 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:20,385 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:20,386 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:20,388 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:20,390 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:20,394 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:20,444 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:20,449 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:20,454 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 178
+Expect: 100-continue
+myJid=887021520@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=df193b5a5745acba02aa8e17046072bdbf89aab1&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:20,459 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:20,464 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:38 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid  xsid !","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:20,474 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:20,479 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:20,485 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:20,488 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:20,494 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:20,497 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:20,502 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:20,505 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:20,510 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:20,513 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:20,518 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:20,520 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:20,523 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:20,526 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:20,528 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:20,534 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:20,536 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:20,539 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:20,541 [8] INFO  - 步骤“迭代 6”已成功结束
+2015-09-01 10:35:20,544 [8] INFO  - 步骤“迭代 7”: 步骤“迭代 7”已启动
+2015-09-01 10:35:20,545 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:20,548 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:20,549 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:20,552 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:20,554 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:20,555 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:20,557 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:20,558 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:20,559 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:20,560 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:20,561 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:20,563 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:20,606 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:20,612 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:20,617 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 158
+Expect: 100-continue
+myJid=&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=0ab1485451b7e741e9ca8460d6edbc93712a60af&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:20,622 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:20,626 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:38 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:20,634 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:20,638 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:20,655 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:20,660 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:20,667 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:20,671 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:20,677 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:20,680 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:20,684 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:20,687 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:20,692 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:20,694 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:20,697 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:20,699 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:20,701 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:20,705 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:20,708 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:20,710 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:20,713 [8] INFO  - 步骤“迭代 7”已成功结束
+2015-09-01 10:35:20,716 [8] INFO  - 步骤“迭代 8”: 步骤“迭代 8”已启动
+2015-09-01 10:35:20,718 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:20,722 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:20,723 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:20,727 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:20,729 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:20,731 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:20,733 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:20,735 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:20,736 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:20,738 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:20,740 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:20,742 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:20,789 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:20,794 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:20,799 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 166
+Expect: 100-continue
+myJid=77401169&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=60d790f05c0b3abaebd21a31b1103b8f6e235545&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:20,804 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:20,809 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:38 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid  xsid !","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:20,818 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:20,822 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:20,833 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:20,838 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:20,845 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:20,848 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:20,854 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:20,857 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:20,862 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:20,865 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:20,870 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:20,873 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:20,876 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:20,878 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:20,881 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:20,886 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:20,890 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:20,894 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:20,897 [8] INFO  - 步骤“迭代 8”已成功结束
+2015-09-01 10:35:20,901 [8] INFO  - 步骤“迭代 9”: 步骤“迭代 9”已启动
+2015-09-01 10:35:20,904 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:20,909 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:20,912 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:20,917 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:20,920 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:20,923 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:20,926 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:20,928 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:20,931 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:20,934 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:20,936 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:20,940 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:20,986 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:20,990 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:20,993 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 197
+Expect: 100-continue
+myJid=77401169@365ime.com,77401170@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=554a4092858248b6040071c655a96281221d0280&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:20,997 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,002 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:38 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid  xsid !","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:21,016 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,021 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,027 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,031 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,040 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,044 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:21,053 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:21,055 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:21,060 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:21,062 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:21,067 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:21,069 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:21,072 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:21,074 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:21,077 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:21,081 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:21,083 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:21,086 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:21,088 [8] INFO  - 步骤“迭代 9”已成功结束
+2015-09-01 10:35:21,091 [8] INFO  - 步骤“迭代 10”: 步骤“迭代 10”已启动
+2015-09-01 10:35:21,093 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:21,096 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:21,098 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:21,102 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:21,104 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:21,106 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:21,108 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:21,109 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:21,112 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:21,113 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:21,114 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:21,117 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:21,164 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:21,166 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:21,168 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 165
+Expect: 100-continue
+myJid=!@#$%^&&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=322752122ac3f25a48a4bb9884b55097d6ad45f7&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:21,169 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,170 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:38 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:21,172 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,173 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,175 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,176 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,180 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,181 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:21,184 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:21,186 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:21,189 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:21,190 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:21,193 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:21,194 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:21,196 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:21,197 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:21,198 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:21,201 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:21,202 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:21,204 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:21,205 [8] INFO  - 步骤“迭代 10”已成功结束
+2015-09-01 10:35:21,207 [8] INFO  - 步骤“迭代 11”: 步骤“迭代 11”已启动
+2015-09-01 10:35:21,208 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:21,211 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:21,212 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:21,215 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:21,216 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:21,218 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:21,219 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:21,220 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:21,221 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:21,222 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:21,223 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:21,225 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:21,287 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:21,292 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:21,295 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 177
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=84cac0ca7862e9c12292c1bbf0d0032096a3e695&classJid=q622195-12@muc.365ime.com
+
+2015-09-01 10:35:21,298 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,301 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"no data","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:21,305 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,308 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,315 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,319 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,325 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,327 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:21,332 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:21,334 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:21,339 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:21,341 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:21,344 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:21,346 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:21,348 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:21,349 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:21,350 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:21,353 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:21,355 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:21,357 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:21,360 [8] INFO  - 步骤“迭代 11”已成功结束
+2015-09-01 10:35:21,362 [8] INFO  - 步骤“迭代 12”: 步骤“迭代 12”已启动
+2015-09-01 10:35:21,363 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:21,366 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:21,367 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:21,371 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:21,372 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:21,374 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:21,375 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:21,376 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:21,377 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:21,379 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:21,380 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:21,382 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:21,424 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:21,427 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:21,430 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 152
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=c8255e8536d1e44751f74febe483384537fc6206&classJid=
+
+2015-09-01 10:35:21,432 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,438 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:21,443 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,446 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,449 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,452 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,459 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,462 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:21,468 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:21,470 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:21,475 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:21,477 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:21,481 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:21,483 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:21,485 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:21,486 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:21,487 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:21,491 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:21,492 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:21,494 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:21,496 [8] INFO  - 步骤“迭代 12”已成功结束
+2015-09-01 10:35:21,498 [8] INFO  - 步骤“迭代 13”: 步骤“迭代 13”已启动
+2015-09-01 10:35:21,499 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:21,502 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:21,503 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:21,508 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:21,509 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:21,513 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:21,515 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:21,517 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:21,518 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:21,520 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:21,521 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:21,525 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:21,576 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:21,582 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:21,587 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 162
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=b6764104cf02a3147d2345a580a49f7ab82300c4&classJid=q622195-13
+
+2015-09-01 10:35:21,592 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,595 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"no data","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:21,602 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,605 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,611 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,615 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,622 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,625 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:21,630 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:21,633 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:21,638 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:21,640 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:21,644 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:21,647 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:21,650 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:21,652 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:21,654 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:21,659 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:21,661 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:21,663 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:21,666 [8] INFO  - 步骤“迭代 13”已成功结束
+2015-09-01 10:35:21,669 [8] INFO  - 步骤“迭代 14”: 步骤“迭代 14”已启动
+2015-09-01 10:35:21,672 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:21,677 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:21,679 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:21,684 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:21,686 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:21,689 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:21,691 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:21,693 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:21,696 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:21,698 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:21,700 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:21,705 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:21,762 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:21,767 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:21,772 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 203
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=8eef746436849d88739e13670af12def4e78d2dd&classJid=q622195-13@muc.365ime.com,q622195-12@muc.365ime.com
+
+2015-09-01 10:35:21,776 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,781 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"no data","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:21,797 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,802 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,806 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,813 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,820 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,824 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:21,832 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:21,834 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:21,838 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:21,840 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:21,844 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:21,846 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:21,849 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:21,850 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:21,853 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:21,857 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:21,859 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:21,861 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:21,864 [8] INFO  - 步骤“迭代 14”已成功结束
+2015-09-01 10:35:21,866 [8] INFO  - 步骤“迭代 15”: 步骤“迭代 15”已启动
+2015-09-01 10:35:21,869 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:21,872 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:21,873 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:21,876 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:21,878 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:21,879 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:21,880 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:21,881 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:21,882 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:21,884 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:21,886 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:21,888 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:21,937 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:21,942 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:21,947 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 159
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=307628aad264252b43ed80e0cde398985df2733d&classJid=!@#$%^&
+
+2015-09-01 10:35:21,952 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:21,957 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:21,966 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:21,971 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:21,979 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:21,983 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:21,990 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:21,994 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:22,001 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:22,004 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:22,010 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:22,013 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:22,018 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:22,020 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:22,022 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:22,024 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:22,026 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:22,031 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:22,034 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:22,037 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:22,039 [8] INFO  - 步骤“迭代 15”已成功结束
+2015-09-01 10:35:22,043 [8] INFO  - 步骤“迭代 16”: 步骤“迭代 16”已启动
+2015-09-01 10:35:22,044 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:22,048 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:22,049 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:22,052 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:22,053 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:22,055 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:22,056 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:22,057 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:22,058 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:22,059 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:22,060 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:22,062 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:22,114 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:22,119 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:22,124 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 177
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:22,129 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:22,134 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:39 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"no data","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:22,142 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:22,146 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:22,153 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:22,157 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:22,165 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:22,168 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:22,175 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:22,178 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:22,183 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:22,189 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:22,194 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:22,197 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:22,200 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:22,202 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:22,205 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:22,210 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:22,215 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:22,218 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:22,222 [8] INFO  - 步骤“迭代 16”已成功结束
+2015-09-01 10:35:22,226 [8] INFO  - 步骤“迭代 17”: 步骤“迭代 17”已启动
+2015-09-01 10:35:22,229 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:22,234 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:22,236 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:22,241 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:22,244 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:22,247 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:22,249 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:22,252 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:22,254 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:22,257 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:22,259 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:22,263 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:22,311 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:22,315 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:22,320 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 137
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:22,325 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:22,330 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:40 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-09-01 10:35:22,337 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:22,342 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:22,349 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:22,353 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:22,362 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:22,366 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:22,374 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:22,376 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:22,381 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:22,384 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:22,389 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:22,391 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:22,394 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:22,396 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:22,398 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:22,403 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:22,405 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:22,408 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:22,410 [8] INFO  - 步骤“迭代 17”已成功结束
+2015-09-01 10:35:22,413 [8] INFO  - 步骤“迭代 18”: 步骤“迭代 18”已启动
+2015-09-01 10:35:22,415 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:22,419 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:22,421 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:22,425 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:22,427 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:22,431 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:22,433 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:22,434 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:22,437 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:22,439 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:22,440 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:22,442 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:22,490 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:22,492 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:22,497 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 169
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=0ef7f677da887b293c7d1fdfdde78b14&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:22,501 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:22,506 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:40 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid token !","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:22,518 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:22,523 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:22,531 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:22,536 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:22,548 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:22,552 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:22,560 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:22,564 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:22,571 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:22,574 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:22,582 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:22,585 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:22,590 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:22,593 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:22,597 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:22,604 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:22,608 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:22,613 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:22,617 [8] INFO  - 步骤“迭代 18”已成功结束
+2015-09-01 10:35:22,622 [8] INFO  - 步骤“迭代 19”: 步骤“迭代 19”已启动
+2015-09-01 10:35:22,626 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:22,632 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:22,636 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:22,642 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:22,645 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:22,648 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:22,650 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:22,653 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:22,655 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:22,658 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:22,660 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:22,665 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:22,717 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:22,722 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:22,727 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 191
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=77401169@365ime.comDeVawMFWs6q622195-13@muc.365ime.com&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:22,732 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:22,736 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:40 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid token !","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:22,744 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:22,749 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:22,758 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:22,762 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:22,769 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:22,772 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:22,778 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:22,781 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:22,786 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:22,789 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:22,794 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:22,797 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:22,800 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:22,803 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:22,806 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:22,812 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:22,816 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:22,819 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:22,822 [8] INFO  - 步骤“迭代 19”已成功结束
+2015-09-01 10:35:22,827 [8] INFO  - 步骤“迭代 20”: 步骤“迭代 20”已启动
+2015-09-01 10:35:22,830 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:22,835 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:22,838 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:22,842 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:22,845 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:22,849 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:22,851 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:22,854 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:22,856 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:22,860 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:22,862 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:22,867 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:22,911 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:22,915 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:22,921 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 141
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=test&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:22,926 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:22,930 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:40 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"invalid token !","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:22,938 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:22,942 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:22,950 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:22,953 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:22,960 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:22,964 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:22,971 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:22,973 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:22,977 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:22,979 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:22,984 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:22,986 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:22,988 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:22,990 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:22,992 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:22,995 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:22,997 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:22,999 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:23,002 [8] INFO  - 步骤“迭代 20”已成功结束
+2015-09-01 10:35:23,004 [8] INFO  - 步骤“迭代 21”: 步骤“迭代 21”已启动
+2015-09-01 10:35:23,005 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”: 步骤“查询tb_getclassmembers_verification表中数据”已启动
+2015-09-01 10:35:23,009 [8] INFO  - 步骤“查询tb_getclassmembers_verification表中数据”已成功结束
+2015-09-01 10:35:23,010 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:23,013 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:23,015 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-01 10:35:23,018 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-01 10:35:23,021 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-01 10:35:23,023 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1'”
+2015-09-01 10:35:23,024 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1”
+2015-09-01 10:35:23,026 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-01 10:35:23,027 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:23,029 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:23,083 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:23,087 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:23,091 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 177
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=153092fc89df2d9398ac7a33f46efbc7d802fd3f&classJid=q622195-13@muc.365ime.com
+
+2015-09-01 10:35:23,096 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:23,103 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:40 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"no data","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:23,111 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:23,115 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:23,122 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:23,125 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-01 10:35:23,131 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-01 10:35:23,134 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-01 10:35:23,139 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-01 10:35:23,141 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-01 10:35:23,146 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-01 10:35:23,148 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-01 10:35:23,153 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-01 10:35:23,155 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-01 10:35:23,157 [8] INFO  - 步骤“IfElse167”: 计算方式: 使用条件
+2015-09-01 10:35:23,159 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-01 10:35:23,161 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-01 10:35:23,165 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-01 10:35:23,168 [8] INFO  - 步骤“否”已成功结束
+2015-09-01 10:35:23,171 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-01 10:35:23,174 [8] INFO  - 步骤“迭代 21”已成功结束
+2015-09-01 10:35:23,177 [8] INFO  - 步骤“循环执行tb_getclassmembers_verification中的测试用例”已成功结束
+2015-09-01 10:35:23,179 [8] INFO  - 步骤“查询tb_global_table表中classJid值”: 步骤“查询tb_global_table表中classJid值”已启动
+2015-09-01 10:35:23,183 [8] INFO  - 步骤“查询tb_global_table表中classJid值”已成功结束
+2015-09-01 10:35:23,185 [8] INFO  - 步骤“对/jxt/getClassMembers.php接口token实行加密”: 步骤“对/jxt/getClassMembers.php接口token实行加密”已启动
+2015-09-01 10:35:23,189 [8] INFO  - 步骤“对/jxt/getClassMembers.php接口token实行加密”已成功结束
+2015-09-01 10:35:23,190 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-09-01 10:35:26,406 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-09-01 10:35:26,410 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-09-01 10:35:26,415 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-09-01 10:35:26,416 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-09-01 10:35:26,419 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-09-01 10:35:26,424 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 步骤“调用/jxt/getClassMembers.php”已启动
+2015-09-01 10:35:26,428 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 提取 HTTP URL: 'http://yace-iq.365ime.com/jxt/getClassMembers.php'
+2015-09-01 10:35:26,500 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: 服务器返回了状态代码: 200
+2015-09-01 10:35:26,504 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始请求:
+2015-09-01 10:35:26,509 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: POST http://yace-iq.365ime.com/jxt/getClassMembers.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-iq.365ime.com
+Content-Length: 158
+Expect: 100-continue
+myJid=77401169@365ime.com&xsid=x_071aha6b4ft633ibbc5052n169d70091e688e8ubm7a8ifud07030e6cutj8c1&token=e653f43185603e45d70b0dd5614dbd9500460ec0&classJid=101174
+
+2015-09-01 10:35:26,512 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP 原始响应:
+2015-09-01 10:35:26,515 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 01 Sep 2015 02:35:44 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"no data","data":{},"errorCode":"1"}
+
+2015-09-01 10:35:26,517 [8] INFO  - 步骤“调用/jxt/getClassMembers.php”已成功结束
+2015-09-01 10:35:26,519 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-01 10:35:26,526 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-01 10:35:26,528 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-09-01 10:35:26,534 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-09-01 10:35:26,536 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-09-01 10:35:26,539 [8] INFO  - 步骤“测试流”已成功结束
+2015-09-01 10:35:26,716 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-09-01 10:35:26,733 [8] INFO  - 步骤“结束”已成功结束

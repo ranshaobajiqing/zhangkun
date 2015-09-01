@@ -1,0 +1,1026 @@
+2015-08-07 15:13:54,565 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-07 15:13:54,581 [8] INFO  - 步骤“开始”已成功结束
+2015-08-07 15:13:54,582 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-07 15:13:54,630 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-07 15:13:54,631 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-07 15:13:54,635 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-07 15:13:54,639 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-07 15:13:54,640 [8] INFO  - 步骤“获取到tb_getUroom_verification表有效行数”: 步骤“获取到tb_getUroom_verification表有效行数”已启动
+2015-08-07 15:13:54,659 [8] ERROR - Checkpoint 2: "16" = "37" 失败
+2015-08-07 15:13:54,663 [8] INFO  - 步骤“获取到tb_getUroom_verification表有效行数”已成功结束
+2015-08-07 15:13:54,665 [8] INFO  - 步骤“查询全局表中xsid”: 步骤“查询全局表中xsid”已启动
+2015-08-07 15:13:54,667 [8] INFO  - 步骤“查询全局表中xsid”已成功结束
+2015-08-07 15:13:54,668 [8] INFO  - 步骤“循环执行tb_getUroom_verification中的测试用例”: 步骤“循环执行tb_getUroom_verification中的测试用例”已启动
+2015-08-07 15:13:54,671 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-07 15:13:54,672 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:13:54,675 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:13:54,677 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:13:54,678 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:13:54,682 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“”
+2015-08-07 15:13:54,684 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:13:54,685 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:13:54,686 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“区分大小写”，值:“True”
+2015-08-07 15:13:54,687 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“”
+2015-08-07 15:13:54,688 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:13:54,689 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:13:55,037 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:13:55,039 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:14:17,951 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:14:17,953 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:14:17,956 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:14:17,957 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:14:17,958 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:14:17,960 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:14:17,961 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:14:17,961 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51”
+2015-08-07 15:14:17,982 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:14:17,983 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:14:17,999 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:14:23,227 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:14:23,230 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:14:23,233 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 78
+Expect: 100-continue
+Connection: Keep-Alive
+xsid=&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:14:23,237 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:14:23,240 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:11:43 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"roomArray":[{"permanent":1,"name":"铁头功吧","role":"employee","jid":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com"},{"permanent":1,"name":"班主任群","role":"employee","jid":"q622195-3@muc.365ime.com"},{"permanent":1,"name":"四年级101169 班家长群","role":"employee","jid":"q622195-13@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2671c63586b54331b0fc0de02cab40ec@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0892f87f4f654aa4ba63354e4b9c1d41@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"58c863417ad241a38d090558c5c22d57@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8882e1739ec2440380205ff4b94efafb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e5ec1a9399f43308446b2bc220eb06d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2333745ebde442b393fdae32cecbb8a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3f88f8cbc2f94c6fb852d29bc0d727ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b26ab4510f9947509e4546cd83739312@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"8e7e169165324c0e8ff8d187cf0458d4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"8089a0a420cc4e1a9afa2de4c2153ccb@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"169a21d0416e4f2c972115f192cae3bb@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"ba9c3ded691242aab35d5fef671a83be@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"7b9634f135f64b83b5ae7fa3632a2ce4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"261a0afc6de8408eab983bd9f5c926ce@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"49fd81ae8c4b43239825b6be24acf22e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"93b3a44acc7e4088b8ff68b811129564@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"22524d2759774fe7b767dc0e4eb9a68a@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"64caa30bc47046c7940b6ac6db84f34a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9f023804e7846c3ac00f5476b1d2d14@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"2693f43f73d24164a04d86e3b1809ee6@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"59d00dfbf6804d529bd739a690e33b83@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"c632cbc1e83a4d569527e325208c1796@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"30d408d23bc24672a5a6ae6def93bda1@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"bf098f77c79f4794bb8b57072a43b49e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"082b4bfff539485092bf158f62ad7502@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"3330e6f2de71400d8a0015126d1f3405@muc.365ime.com"},{"permanent":0,"name":"123.abc测试","role":"moderator","jid":"445848a839b741e985f5842ca3c4b5bf@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"e4ae02842e96479c8de4927408fae1ff@muc.365ime.com"},{"permanent":0,"name":" ","role":"moderator","jid":"d44dbcbefa5f4b5fafaaa6c33390e7e2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ba60942c3b284974bde46fba7042a7a3@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"a88f9c1624f24b319ffc9c2d7debe8b9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a01b1d0681d6495eb746b82eb865cd97@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5faea77254cf42579844cb632f4a65ff@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"03d922dfa537466ea2442408fc11fb63@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f2e489ee10a454d8feabe34d126ab67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"074cae34522f409a9765e0a3657bcb46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f9015e7085cf450c9e5d3e6d98b3d65d@muc.365ime.com"},{"permanent":0,"name":"更新测试群","role":"moderator","jid":"c8e37365c32242b9a37661c0a31454bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"afa77f788dd04187a95bdc09f942d30a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6cf57837b79d404ba0282b687bd3349f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"451e63a8d09f4bf18ae73399a386ad83@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d33e34dbd0b4f88bc628b15923148a2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3c28f0e8cfab408d9a24d2368db80dda@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d98c880dfb74079b8b00373a65eb72b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"625cbdc77d924e23aefe0d511c2f7b21@muc.365ime.com"},{"permanent":0,"name":"测试","role":"moderator","jid":"cc823824d93d4ad2adbd82ff101c57c5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ce7a66c4d33644d39af37aebbd85d27a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9d65cd643ebb47aa89e813f1ee2da989@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"838c9aa3fcf846bd84fae36d00d36561@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ec346d51986b447eb2c89c87ce0de12a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78dd890848ab4e9183c8819d43aa4675@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f345249098ef4ee3bddba93360278d29@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a4e6ac9dd8fe490081eee6809e22da1b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51bec1d857544981aab823dac8c9d5e6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"882457acf954473f8ff4aba7f4f2a295@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"80c803f9363a418784ad10977e107655@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2d5d1a8ab1764ed2912d34f6f7d82a81@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ffe34111cc544938baf039723ab0c4f4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"67de0df6afe24acea85f86c9bc4f5f14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ea99de9b88442b8a88062969b21040c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8335e593bc664eb49b8b3b79f1442029@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"748678ff16154d1db080434bc87b7d0e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b371b214cb143999db7c156e9788a50@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2424547b78084f6e9e5940940e2eac67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"368ff3cc9ec04f83af2633d9f536fec9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"54604f6319b9400e86790a11d34fa081@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaffcf558ec44797ac010e5da6d7a0e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc9bb6ec066b4f568cfc7211a80be874@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"794e1e97dbdd47fc86dfa972896ebbf3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165f69aa71294309935fcec449097ca6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3f10287f8fb40abb09c4eb44b546be2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1518c822b1a74ec8abc26eabc72a84f9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4b8a0cde757747ffae026c71e23b7f90@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"62646105af2d4bf18f7be64b0a8a4976@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c44a9332b3a3442cb94497b668cb9efd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fd378e91e37b4cbfb0d9332222c2c292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2de6bf7e9db44dacb992e2113ca7ccd4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ee2f88a141864cf7bb65de0c3cb18b16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0679b20f110748b88910c1b8767c26c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccca5cedfc044c569606bcd4e3ddeadd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"219bfed3ce5a4066a0d93786cf21ebdc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"825e1df744984705a061c415753e8a18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e699f3584f8342278947e8131165839c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fc0eb9eab5a24d9386e9b18cd11a8899@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7aacd57591484ffbb86f7793c2e6d711@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3d59d5e45466453db16934b638cdb119@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"90570f3905764550bd0f5950e496838e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"83eb18b2ca37433aa17268a23a152363@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e7bc0b17ab1c47a0871343c0d6894e61@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eee6d8f2712a43019d73c04463f65847@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d6c66cc31a840c68459a7df378f51ef@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"18e022fb62d846ee9a847263dfb19851@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"74f4523b580d4aa2aceb2dc9ebbb6eb0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81a3ba3a45344708a594f8bb7f1402e1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165ffaff45db44249ef8b7260835ba54@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7ead60445d44a8e8cb95aeba687f028@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"95ffeda3e76b4b1f83613bfaa25087be@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b809149925904bff92434a365173580a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1e6742afc5b1467594b86c2bb5e7b694@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e94121762e244454a6134c17268ff3bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dd61f09f8cd14a768b05685aa00dcf5d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2f82009de3424f1e92d9a2b00bb0c4d5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"861177a2994d4f6fa3eee62e4df207fd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"103dff91c7e74b32be07a38a4b373555@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d16ccd3f1b74715b892f4d0cdd517ea@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87b624d717b4c1a82942d507284ad46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255cb0a091364533bb55d63e7e5625e4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"48c8c4ce15d34be09ac1c53d9e9010a0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"828413849e0240cb92e6a6b6df5d934a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f14324c6513447f3896a30c73bba79dd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78adac3e198c4cd0b117fd3b949739ae@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9283b2d6cb8d4f21873f80c120bf3b0c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"021c237c106f436eaf22be61e085db53@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8a5e667574dc4536bf6b7c9c79b9a5bc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaf49fb439c7449f9bdbe84509841aba@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d2a0fdfe9674445a48d44dff7ab4fa6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44974808b9a64942b48118e5a0beee4c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f24b0b1ab0944966be24a68dfb93c0e3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5da0192e92dd4943b150a0c33b8e6966@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51711d42f30e4b0faa0f008626c7a37e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"399714a126f842c7b6af536180999448@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"df55b3b9ac7f4660b35dd5e0aff3addc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6432933ee97a4625ab3098e862b6bfd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d44924ecd0e48278f60e0f7beb9015c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d005687807a74c81a8192d56081e026b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5eb52f19580438c8f7e2f0fd570300b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"06e5481e2ac243cdb34df9386ae8f685@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8fc47d0f00724224897fec27fee5586f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5f5b4fa3775a4d8aac2eb799879da86b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8bf24c59621e4e72bd36a64aaef83bf4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"23a895d3075345599e7265c801cd424c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a1af5eb8b34469ebf63e07602bee1b7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"32d469fa1f9c43acaccedbf16d267e86@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"728ef3c86d754df9b22b0b88715821ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b8b3ab5f2fc40e69c753a5589d7338c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b8bd5121fe3e4359a24c7f37e845a863@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe26d2ad2df44e7fb7c99549a79beb3e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"004e8aa43a1945a9b9bce337ba5fbb15@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"72b223d3dde9488584a92f904acadd20@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe7ebd2ea17844bf96024203180ccba5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4bfe4f489a214b37bf36578b6c7fc469@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e8c172c6a2b411d907d2daa18f09c1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9ee284a20ead4f90a8c1627d99a11ef0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ceb4fe61da694047ae46f92e34b9a877@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6fd0fba9c22744a782c902827bf4ca1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e69d412b0b144f598112812c1674502@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9638e349359b464e8ee2114c1c9ef871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44c8f92e1e92419ab749e8f232cce6a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c03adc7fb0b3416eb2af91d87f3438c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781e67dbc2bf4175ae30ae722cad4c33@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c26078781274dcba5713cfe53cdab68@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ff8ecf7242ca43bb8f1b06c560f065b3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3ddf99faecfe42ebb1db4506229d9040@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1478102048b247b6b18aad55730fb077@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4babfa7403064cd5b8d8b28bc9bac403@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5b56f072f3c4bf9b80321497917e412@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f5297c0d863b400d97713ff7e6011de4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e8832df47612420096beb471de72152b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f3085e0cf204bdb8700824ecc2957a9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9ef2620f8bb475aa899eef3241999b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781bb406de904d86a4804343550d48eb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8e5ab877179f400f9c88f0a43eaeb9ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"49a4980280cf4d759733df45993739cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d214719f6ba94f20a787c43e5cac7e3b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7f6f1c3b0ce1464e96160aa502ccb7dc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e3372b904694d438678fa5054fe2d62@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e292633fde5a47ecbdbff5c56655fc07@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e179a61f4a04fd89c4008853ba5a51d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b475b61b979344ecb19f0fba5d8c3b9d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2139d1d2ceb34a3d97b037dc1b814d9c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81d4cc44d66e465a8ebaff2e023ff16d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d341233f94e3482a9a6adc79a3ba3c38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4c19af053c1a49e9aa0522d9bcd9c421@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"02ddd107f5a24a1cae906239b5a604a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"40b9b37c67824290a9a1662056647862@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"07bd2a56f47a4508aeea7ee968579cd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccddddfee07f4945b810607453b4c55b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7e0aab66d7344069549ebd1da9abf21@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8f6317d60b6c40f1959b45ee5c5017cb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c6417e9b9c4c4ebf9aaeb9ca037067e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"16fe62074f0741e69c7df4f5fbb56333@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b9d01d8b86d84510b07a368f4053bd18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eb2cae604b0437caac63a0bb4576281@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"107d9634a89c429597bd9aa9baeb39e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa039d7bb9a941eebac1d84a28f5a835@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255108de93344dfcbd23270f92d38d3d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"92778782c3824fab8140a02b7ade289f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7c3915d84ed144a1878f12eb1dfae47c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0082a9d9d7f644ec807701b044f8e425@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"617e5f25832c4b3ab504425e0467ece0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"644eff7588654f6aa27ffa5df98e5683@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"025e186f4e8045c78d79032cf11d57e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5ac9b8be87e14371875ac543e194aabf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eba01c66e5d4600b9eafedd26a81b89@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4272a610feef466e99c3d1639e26828a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b62d0c3ea3d044f585c24fe55cf04b6a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"411b8d4abe864929951e1a47cdf5121b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4983602af24a4643b7a9346620584d94@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"035f879b7af040a59e4ba1eed6fd2e93@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3cd404e79214d77b12c7432a80cbe38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e675723fc7bf4cc3a39b4b337581435c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bee7ee82e0b04a7c955d9b80dee81902@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"de247944caa54c18b5ba832aa1c0416a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb050e975b8640bd9853926406120919@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6a1da04195774176a1457bcd0b4146ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"37eed0c714c74c1d953dc792997d43af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"782e61be5b9a49929cfc08f139c90434@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cdcaa46bd679483786ab36591f5c0cee@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8716080490624153802141bb6e3a2a3c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8d972dcef57f41148f6b4e5c25f91864@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0d4dd3af2f04610b8528ce66faa2fb7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0af881acf804cf197f209cf39d2be16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"188486b764d94fa5b95de7dc92438609@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"77d1115876834e63a34ab555409b4359@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51a2975347754241b9342e21d004a292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8873f02c9def40b99e67f1dd56efdc5b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"76c8247eabdd452fb71a9823367e6f00@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e080e72d7a142119a00551588fb6484@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dbf237112b834e3c9e1bf9c6a0d961ad@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb1cffb8913c4f72bfe66772c53ce21a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44fb50e705e544b7a9d3dbaf00b0c039@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b0da54142c704ed9baa837a3a7a09ef7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5856343e4cea41d993e27c4ba0a0402d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"46ca36e7ae3d44789b10509088f573a4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7d63bf778285421f89f6d7423885359a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d2b73d51ddb4a3795641779cc261e02@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a103e0958c8941d2bb15d70ff7638135@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0316e784dd4e414c8ae6f7bed5bc14cc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fffd27efc243432a8fca5ebf63ac76e5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a71374058b847929687f6800212e186@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"34d4c844e6624e3dac99601ba7441c14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"deb3f09582c4400aa8beeb819017a536@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0e01112167e243c6812790d4f8c4b871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87f8ee2749c4680b70e06e17ae1b5d2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ca716a2492ce4bb9926de10865ad5be5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0b7f7bc37c5d4ed2b03141e4e7ec946a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e3f21498d2747bab66b0b4e173f3f45@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bea0ad150d074ec2b54d893102b9a6e7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ec291a8acf0473f9f6d205afce1f1d9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0323331580a8447f80d05b6d12edb6b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0db1ead166984a07add5ee7faf10a68c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c583deba5624904847357fd6bd38130@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"38d5b211d30d4e889307bb060c811e27@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"565a7565fa5b4dd8a6d89ac3039d2dd9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0ae677a91b3c4456ac8403efb2763c51@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f708be6914174488abaf25307572e314@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5fb51d2ed508401e8ca39f07a589580d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"341363e66c27431cbeb6083161d9462f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa76dfedb25b4a4987e78e1ce5a9c2af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e5587cf86ce4dd8a91c2c5a2f634544@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"718ee7734a3c4e3eb120b2aa20daf339@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a153464d66bf400e8e090401f42b12a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7837ea88e823439c9342e941cd317234@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1de817957efc415088e672553c9f6117@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc5160d9168844e19db5f40ca96cada2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"93b4d5949ae24e0b8ea001ef53c35d03@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1df289e260fb47708db1f8eed138e272@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4e4a5b6e075145958c9d41b2123dedab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"96c0ca9652d747ea9431e9802c092c71@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"260ebc5c65124c39a0407c68d1d54a06@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"0ef3bc20c1a04d41afae05e2fec9d692@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"111cec0516d74b5e8d705e118466ea69@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d40e9edc021f46a3b507138d1e1b135d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9993aeec7b9c4900968de64f744c96f7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"043ef254a52040d58a5ff4da4eae8dd2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a429421b0784599be7b844ad8dec1cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"756e4917843c450e8eeda63754feefce@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e1df287ead3248deaf43e57f5e31e396@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e2035749ef344fb9fa87d1103990988@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e33f840144e2460a8296e2977399eef1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a2be42c40d884fb182e3410b15c91430@muc.365ime.com"}],"Version":"3246677"},"errorCode":"0"}
+
+2015-08-07 15:14:23,248 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:14:23,249 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:14:23,267 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:14:23,268 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:14:23,353 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:14:23,355 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:14:23,406 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:14:23,408 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:14:23,412 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:14:23,414 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:14:23,418 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:14:23,420 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:14:23,423 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:14:23,425 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:14:23,427 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:14:23,463 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:14:23,465 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:14:23,468 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:14:23,470 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-07 15:14:23,476 [8] INFO  - 步骤“迭代 2”: 步骤“迭代 2”已启动
+2015-08-07 15:14:23,478 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:14:23,482 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:14:23,486 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:14:23,487 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:14:23,490 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“123”
+2015-08-07 15:14:23,491 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:14:23,493 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:14:23,495 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“123”
+2015-08-07 15:14:23,497 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:14:23,499 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:14:23,573 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:14:23,575 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:14:48,172 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:14:48,176 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:14:48,181 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:14:48,182 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:14:48,197 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:14:48,200 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:14:48,201 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:14:48,203 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51”
+2015-08-07 15:14:48,206 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:14:48,207 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:14:48,210 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:14:55,277 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:14:55,278 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:14:55,291 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 81
+Expect: 100-continue
+xsid=123&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:14:55,293 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:14:55,294 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:12:15 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !Timeout waiting for value: waited 2,500 ms. Node status: Connection Status { 0378927382e911e4.m.cnqdalicm9pub001.ocs.aliyuncs.com/10.157.212.8:11211 active: false, authed: false, last read: 89,239,980 ms ago }","data":{},"errorCode":"1"}
+
+2015-08-07 15:14:55,298 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:14:55,299 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:14:55,304 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:14:55,309 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:14:55,376 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:14:55,377 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:14:55,410 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:14:55,412 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:14:55,415 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:14:55,416 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:14:55,420 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:14:55,421 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:14:55,423 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:14:55,424 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:14:55,425 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:14:55,464 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:14:55,466 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:14:55,468 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:14:55,470 [8] INFO  - 步骤“迭代 2”已成功结束
+2015-08-07 15:14:55,472 [8] INFO  - 步骤“迭代 3”: 步骤“迭代 3”已启动
+2015-08-07 15:14:55,474 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:14:55,479 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:14:55,482 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:14:55,484 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:14:55,486 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“abc”
+2015-08-07 15:14:55,487 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:14:55,489 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:14:55,489 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“abc”
+2015-08-07 15:14:55,491 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:14:55,492 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:14:55,538 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:14:55,540 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:15:19,755 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:15:19,756 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:15:19,759 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:15:19,760 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:15:19,762 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:15:19,763 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:15:19,764 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:15:19,765 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51”
+2015-08-07 15:15:19,767 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:15:19,768 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:15:19,770 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:15:26,875 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:15:26,877 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:15:26,878 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 81
+Expect: 100-continue
+xsid=abc&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:15:26,879 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:15:26,880 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:12:46 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !Timeout waiting for value: waited 2,500 ms. Node status: Connection Status { 0378927382e911e4.m.cnqdalicm9pub001.ocs.aliyuncs.com/10.157.212.8:11211 active: false, authed: false, last read: 89,271,577 ms ago }","data":{},"errorCode":"1"}
+
+2015-08-07 15:15:26,884 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:15:26,885 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:15:26,890 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:15:26,892 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:15:26,959 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:15:26,960 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:15:27,001 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:15:27,002 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:15:27,005 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:15:27,006 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:15:27,009 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:15:27,009 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:15:27,011 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:15:27,013 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:15:27,014 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:15:27,047 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:15:27,051 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:15:27,055 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:15:27,059 [8] INFO  - 步骤“迭代 3”已成功结束
+2015-08-07 15:15:27,065 [8] INFO  - 步骤“迭代 4”: 步骤“迭代 4”已启动
+2015-08-07 15:15:27,068 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:15:27,074 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:15:27,079 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:15:27,081 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:15:27,084 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“!@#$%^&”
+2015-08-07 15:15:27,086 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:15:27,087 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:15:27,089 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“!@#$%^&”
+2015-08-07 15:15:27,093 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:15:27,094 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:15:27,135 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:15:27,137 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:16:42,767 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:16:42,769 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:16:42,775 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:16:42,776 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:16:42,778 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:16:42,779 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:16:42,779 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:16:42,780 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51”
+2015-08-07 15:16:42,782 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:16:42,783 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:16:42,785 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:16:47,838 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:16:47,841 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:16:47,843 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 85
+Expect: 100-continue
+xsid=!@#$%^&&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:16:47,846 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:16:47,848 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:14:08 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"roomArray":[{"permanent":1,"name":"铁头功吧","role":"employee","jid":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com"},{"permanent":1,"name":"班主任群","role":"employee","jid":"q622195-3@muc.365ime.com"},{"permanent":1,"name":"四年级101169 班家长群","role":"employee","jid":"q622195-13@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2671c63586b54331b0fc0de02cab40ec@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0892f87f4f654aa4ba63354e4b9c1d41@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"58c863417ad241a38d090558c5c22d57@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8882e1739ec2440380205ff4b94efafb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e5ec1a9399f43308446b2bc220eb06d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2333745ebde442b393fdae32cecbb8a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3f88f8cbc2f94c6fb852d29bc0d727ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b26ab4510f9947509e4546cd83739312@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"8e7e169165324c0e8ff8d187cf0458d4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"8089a0a420cc4e1a9afa2de4c2153ccb@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"169a21d0416e4f2c972115f192cae3bb@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"ba9c3ded691242aab35d5fef671a83be@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"7b9634f135f64b83b5ae7fa3632a2ce4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"261a0afc6de8408eab983bd9f5c926ce@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"49fd81ae8c4b43239825b6be24acf22e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"93b3a44acc7e4088b8ff68b811129564@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"22524d2759774fe7b767dc0e4eb9a68a@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"64caa30bc47046c7940b6ac6db84f34a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9f023804e7846c3ac00f5476b1d2d14@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"2693f43f73d24164a04d86e3b1809ee6@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"59d00dfbf6804d529bd739a690e33b83@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"c632cbc1e83a4d569527e325208c1796@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"30d408d23bc24672a5a6ae6def93bda1@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"bf098f77c79f4794bb8b57072a43b49e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"082b4bfff539485092bf158f62ad7502@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"3330e6f2de71400d8a0015126d1f3405@muc.365ime.com"},{"permanent":0,"name":"123.abc测试","role":"moderator","jid":"445848a839b741e985f5842ca3c4b5bf@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"e4ae02842e96479c8de4927408fae1ff@muc.365ime.com"},{"permanent":0,"name":" ","role":"moderator","jid":"d44dbcbefa5f4b5fafaaa6c33390e7e2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ba60942c3b284974bde46fba7042a7a3@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"a88f9c1624f24b319ffc9c2d7debe8b9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a01b1d0681d6495eb746b82eb865cd97@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5faea77254cf42579844cb632f4a65ff@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"03d922dfa537466ea2442408fc11fb63@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f2e489ee10a454d8feabe34d126ab67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"074cae34522f409a9765e0a3657bcb46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f9015e7085cf450c9e5d3e6d98b3d65d@muc.365ime.com"},{"permanent":0,"name":"更新测试群","role":"moderator","jid":"c8e37365c32242b9a37661c0a31454bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"afa77f788dd04187a95bdc09f942d30a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6cf57837b79d404ba0282b687bd3349f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"451e63a8d09f4bf18ae73399a386ad83@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d33e34dbd0b4f88bc628b15923148a2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3c28f0e8cfab408d9a24d2368db80dda@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d98c880dfb74079b8b00373a65eb72b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"625cbdc77d924e23aefe0d511c2f7b21@muc.365ime.com"},{"permanent":0,"name":"测试","role":"moderator","jid":"cc823824d93d4ad2adbd82ff101c57c5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ce7a66c4d33644d39af37aebbd85d27a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9d65cd643ebb47aa89e813f1ee2da989@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"838c9aa3fcf846bd84fae36d00d36561@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ec346d51986b447eb2c89c87ce0de12a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78dd890848ab4e9183c8819d43aa4675@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f345249098ef4ee3bddba93360278d29@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a4e6ac9dd8fe490081eee6809e22da1b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51bec1d857544981aab823dac8c9d5e6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"882457acf954473f8ff4aba7f4f2a295@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"80c803f9363a418784ad10977e107655@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2d5d1a8ab1764ed2912d34f6f7d82a81@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ffe34111cc544938baf039723ab0c4f4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"67de0df6afe24acea85f86c9bc4f5f14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ea99de9b88442b8a88062969b21040c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8335e593bc664eb49b8b3b79f1442029@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"748678ff16154d1db080434bc87b7d0e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b371b214cb143999db7c156e9788a50@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2424547b78084f6e9e5940940e2eac67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"368ff3cc9ec04f83af2633d9f536fec9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"54604f6319b9400e86790a11d34fa081@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaffcf558ec44797ac010e5da6d7a0e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc9bb6ec066b4f568cfc7211a80be874@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"794e1e97dbdd47fc86dfa972896ebbf3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165f69aa71294309935fcec449097ca6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3f10287f8fb40abb09c4eb44b546be2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1518c822b1a74ec8abc26eabc72a84f9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4b8a0cde757747ffae026c71e23b7f90@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"62646105af2d4bf18f7be64b0a8a4976@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c44a9332b3a3442cb94497b668cb9efd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fd378e91e37b4cbfb0d9332222c2c292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2de6bf7e9db44dacb992e2113ca7ccd4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ee2f88a141864cf7bb65de0c3cb18b16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0679b20f110748b88910c1b8767c26c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccca5cedfc044c569606bcd4e3ddeadd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"219bfed3ce5a4066a0d93786cf21ebdc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"825e1df744984705a061c415753e8a18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e699f3584f8342278947e8131165839c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fc0eb9eab5a24d9386e9b18cd11a8899@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7aacd57591484ffbb86f7793c2e6d711@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3d59d5e45466453db16934b638cdb119@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"90570f3905764550bd0f5950e496838e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"83eb18b2ca37433aa17268a23a152363@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e7bc0b17ab1c47a0871343c0d6894e61@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eee6d8f2712a43019d73c04463f65847@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d6c66cc31a840c68459a7df378f51ef@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"18e022fb62d846ee9a847263dfb19851@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"74f4523b580d4aa2aceb2dc9ebbb6eb0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81a3ba3a45344708a594f8bb7f1402e1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165ffaff45db44249ef8b7260835ba54@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7ead60445d44a8e8cb95aeba687f028@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"95ffeda3e76b4b1f83613bfaa25087be@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b809149925904bff92434a365173580a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1e6742afc5b1467594b86c2bb5e7b694@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e94121762e244454a6134c17268ff3bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dd61f09f8cd14a768b05685aa00dcf5d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2f82009de3424f1e92d9a2b00bb0c4d5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"861177a2994d4f6fa3eee62e4df207fd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"103dff91c7e74b32be07a38a4b373555@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d16ccd3f1b74715b892f4d0cdd517ea@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87b624d717b4c1a82942d507284ad46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255cb0a091364533bb55d63e7e5625e4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"48c8c4ce15d34be09ac1c53d9e9010a0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"828413849e0240cb92e6a6b6df5d934a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f14324c6513447f3896a30c73bba79dd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78adac3e198c4cd0b117fd3b949739ae@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9283b2d6cb8d4f21873f80c120bf3b0c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"021c237c106f436eaf22be61e085db53@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8a5e667574dc4536bf6b7c9c79b9a5bc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaf49fb439c7449f9bdbe84509841aba@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d2a0fdfe9674445a48d44dff7ab4fa6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44974808b9a64942b48118e5a0beee4c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f24b0b1ab0944966be24a68dfb93c0e3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5da0192e92dd4943b150a0c33b8e6966@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51711d42f30e4b0faa0f008626c7a37e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"399714a126f842c7b6af536180999448@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"df55b3b9ac7f4660b35dd5e0aff3addc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6432933ee97a4625ab3098e862b6bfd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d44924ecd0e48278f60e0f7beb9015c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d005687807a74c81a8192d56081e026b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5eb52f19580438c8f7e2f0fd570300b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"06e5481e2ac243cdb34df9386ae8f685@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8fc47d0f00724224897fec27fee5586f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5f5b4fa3775a4d8aac2eb799879da86b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8bf24c59621e4e72bd36a64aaef83bf4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"23a895d3075345599e7265c801cd424c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a1af5eb8b34469ebf63e07602bee1b7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"32d469fa1f9c43acaccedbf16d267e86@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"728ef3c86d754df9b22b0b88715821ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b8b3ab5f2fc40e69c753a5589d7338c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b8bd5121fe3e4359a24c7f37e845a863@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe26d2ad2df44e7fb7c99549a79beb3e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"004e8aa43a1945a9b9bce337ba5fbb15@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"72b223d3dde9488584a92f904acadd20@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe7ebd2ea17844bf96024203180ccba5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4bfe4f489a214b37bf36578b6c7fc469@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e8c172c6a2b411d907d2daa18f09c1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9ee284a20ead4f90a8c1627d99a11ef0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ceb4fe61da694047ae46f92e34b9a877@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6fd0fba9c22744a782c902827bf4ca1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e69d412b0b144f598112812c1674502@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9638e349359b464e8ee2114c1c9ef871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44c8f92e1e92419ab749e8f232cce6a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c03adc7fb0b3416eb2af91d87f3438c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781e67dbc2bf4175ae30ae722cad4c33@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c26078781274dcba5713cfe53cdab68@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ff8ecf7242ca43bb8f1b06c560f065b3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3ddf99faecfe42ebb1db4506229d9040@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1478102048b247b6b18aad55730fb077@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4babfa7403064cd5b8d8b28bc9bac403@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5b56f072f3c4bf9b80321497917e412@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f5297c0d863b400d97713ff7e6011de4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e8832df47612420096beb471de72152b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f3085e0cf204bdb8700824ecc2957a9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9ef2620f8bb475aa899eef3241999b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781bb406de904d86a4804343550d48eb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8e5ab877179f400f9c88f0a43eaeb9ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"49a4980280cf4d759733df45993739cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d214719f6ba94f20a787c43e5cac7e3b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7f6f1c3b0ce1464e96160aa502ccb7dc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e3372b904694d438678fa5054fe2d62@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e292633fde5a47ecbdbff5c56655fc07@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e179a61f4a04fd89c4008853ba5a51d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b475b61b979344ecb19f0fba5d8c3b9d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2139d1d2ceb34a3d97b037dc1b814d9c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81d4cc44d66e465a8ebaff2e023ff16d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d341233f94e3482a9a6adc79a3ba3c38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4c19af053c1a49e9aa0522d9bcd9c421@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"02ddd107f5a24a1cae906239b5a604a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"40b9b37c67824290a9a1662056647862@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"07bd2a56f47a4508aeea7ee968579cd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccddddfee07f4945b810607453b4c55b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7e0aab66d7344069549ebd1da9abf21@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8f6317d60b6c40f1959b45ee5c5017cb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c6417e9b9c4c4ebf9aaeb9ca037067e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"16fe62074f0741e69c7df4f5fbb56333@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b9d01d8b86d84510b07a368f4053bd18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eb2cae604b0437caac63a0bb4576281@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"107d9634a89c429597bd9aa9baeb39e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa039d7bb9a941eebac1d84a28f5a835@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255108de93344dfcbd23270f92d38d3d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"92778782c3824fab8140a02b7ade289f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7c3915d84ed144a1878f12eb1dfae47c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0082a9d9d7f644ec807701b044f8e425@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"617e5f25832c4b3ab504425e0467ece0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"644eff7588654f6aa27ffa5df98e5683@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"025e186f4e8045c78d79032cf11d57e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5ac9b8be87e14371875ac543e194aabf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eba01c66e5d4600b9eafedd26a81b89@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4272a610feef466e99c3d1639e26828a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b62d0c3ea3d044f585c24fe55cf04b6a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"411b8d4abe864929951e1a47cdf5121b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4983602af24a4643b7a9346620584d94@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"035f879b7af040a59e4ba1eed6fd2e93@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3cd404e79214d77b12c7432a80cbe38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e675723fc7bf4cc3a39b4b337581435c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bee7ee82e0b04a7c955d9b80dee81902@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"de247944caa54c18b5ba832aa1c0416a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb050e975b8640bd9853926406120919@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6a1da04195774176a1457bcd0b4146ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"37eed0c714c74c1d953dc792997d43af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"782e61be5b9a49929cfc08f139c90434@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cdcaa46bd679483786ab36591f5c0cee@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8716080490624153802141bb6e3a2a3c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8d972dcef57f41148f6b4e5c25f91864@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0d4dd3af2f04610b8528ce66faa2fb7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0af881acf804cf197f209cf39d2be16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"188486b764d94fa5b95de7dc92438609@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"77d1115876834e63a34ab555409b4359@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51a2975347754241b9342e21d004a292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8873f02c9def40b99e67f1dd56efdc5b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"76c8247eabdd452fb71a9823367e6f00@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e080e72d7a142119a00551588fb6484@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dbf237112b834e3c9e1bf9c6a0d961ad@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb1cffb8913c4f72bfe66772c53ce21a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44fb50e705e544b7a9d3dbaf00b0c039@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b0da54142c704ed9baa837a3a7a09ef7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5856343e4cea41d993e27c4ba0a0402d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"46ca36e7ae3d44789b10509088f573a4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7d63bf778285421f89f6d7423885359a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d2b73d51ddb4a3795641779cc261e02@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a103e0958c8941d2bb15d70ff7638135@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0316e784dd4e414c8ae6f7bed5bc14cc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fffd27efc243432a8fca5ebf63ac76e5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a71374058b847929687f6800212e186@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"34d4c844e6624e3dac99601ba7441c14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"deb3f09582c4400aa8beeb819017a536@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0e01112167e243c6812790d4f8c4b871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87f8ee2749c4680b70e06e17ae1b5d2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ca716a2492ce4bb9926de10865ad5be5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0b7f7bc37c5d4ed2b03141e4e7ec946a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e3f21498d2747bab66b0b4e173f3f45@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bea0ad150d074ec2b54d893102b9a6e7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ec291a8acf0473f9f6d205afce1f1d9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0323331580a8447f80d05b6d12edb6b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0db1ead166984a07add5ee7faf10a68c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c583deba5624904847357fd6bd38130@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"38d5b211d30d4e889307bb060c811e27@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"565a7565fa5b4dd8a6d89ac3039d2dd9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0ae677a91b3c4456ac8403efb2763c51@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f708be6914174488abaf25307572e314@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5fb51d2ed508401e8ca39f07a589580d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"341363e66c27431cbeb6083161d9462f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa76dfedb25b4a4987e78e1ce5a9c2af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e5587cf86ce4dd8a91c2c5a2f634544@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"718ee7734a3c4e3eb120b2aa20daf339@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a153464d66bf400e8e090401f42b12a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7837ea88e823439c9342e941cd317234@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1de817957efc415088e672553c9f6117@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc5160d9168844e19db5f40ca96cada2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"93b4d5949ae24e0b8ea001ef53c35d03@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1df289e260fb47708db1f8eed138e272@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4e4a5b6e075145958c9d41b2123dedab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"96c0ca9652d747ea9431e9802c092c71@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"260ebc5c65124c39a0407c68d1d54a06@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"0ef3bc20c1a04d41afae05e2fec9d692@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"111cec0516d74b5e8d705e118466ea69@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d40e9edc021f46a3b507138d1e1b135d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9993aeec7b9c4900968de64f744c96f7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"043ef254a52040d58a5ff4da4eae8dd2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a429421b0784599be7b844ad8dec1cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"756e4917843c450e8eeda63754feefce@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e1df287ead3248deaf43e57f5e31e396@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e2035749ef344fb9fa87d1103990988@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e33f840144e2460a8296e2977399eef1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a2be42c40d884fb182e3410b15c91430@muc.365ime.com"}],"Version":"3246677"},"errorCode":"0"}
+
+2015-08-07 15:16:47,858 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:16:47,860 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:16:47,888 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:16:47,890 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:16:47,969 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:16:47,972 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:16:48,024 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:16:48,026 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:16:48,032 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:16:48,035 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:16:48,042 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:16:48,044 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:16:48,047 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:16:48,049 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:16:48,051 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:16:48,090 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:16:48,092 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:16:48,094 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:16:48,096 [8] INFO  - 步骤“迭代 4”已成功结束
+2015-08-07 15:16:48,099 [8] INFO  - 步骤“迭代 5”: 步骤“迭代 5”已启动
+2015-08-07 15:16:48,101 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:16:48,105 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:16:48,108 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:16:48,109 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:16:48,112 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“123.abc”
+2015-08-07 15:16:48,113 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:16:48,115 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:16:48,116 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“123.abc”
+2015-08-07 15:16:48,119 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:16:48,120 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:16:48,166 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:16:48,169 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:16:57,550 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:16:57,553 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:16:57,557 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:16:57,558 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:16:57,562 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:16:57,563 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:16:57,565 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:16:57,567 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51”
+2015-08-07 15:16:57,569 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:16:57,570 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:16:57,573 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:17:04,622 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:17:04,625 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:17:04,627 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 85
+Expect: 100-continue
+xsid=123.abc&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:17:04,630 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:17:04,632 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:14:24 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !Timeout waiting for value: waited 2,500 ms. Node status: Connection Status { 0378927382e911e4.m.cnqdalicm9pub001.ocs.aliyuncs.com/10.157.212.8:11211 active: false, authed: false, last read: 89,369,322 ms ago }","data":{},"errorCode":"1"}
+
+2015-08-07 15:17:04,639 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:17:04,642 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:17:04,662 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:17:04,665 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:17:04,839 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:17:04,842 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:17:04,928 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:17:04,930 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:17:04,939 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:17:04,942 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:17:04,948 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:17:04,951 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:17:04,957 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:17:04,959 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:17:04,962 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:17:05,005 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:17:05,009 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:17:05,014 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:17:05,018 [8] INFO  - 步骤“迭代 5”已成功结束
+2015-08-07 15:17:05,023 [8] INFO  - 步骤“迭代 6”: 步骤“迭代 6”已启动
+2015-08-07 15:17:05,026 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:17:05,031 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:17:05,034 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:17:05,036 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:17:05,038 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:17:05,039 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:17:05,041 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:17:05,042 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:17:05,045 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:17:05,047 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:17:05,105 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:17:05,109 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:17:33,172 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:17:33,174 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:17:33,180 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:17:33,181 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:17:33,185 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:17:33,186 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:17:33,187 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'dde52efe8b058dbc4e552846ed8e035344f265cb'”
+2015-08-07 15:17:33,188 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“dde52efe8b058dbc4e552846ed8e035344f265cb”
+2015-08-07 15:17:33,190 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:17:33,192 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:17:33,195 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:17:37,761 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:17:37,764 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:17:37,766 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 142
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401170@365ime.com&token=dde52efe8b058dbc4e552846ed8e035344f265cb
+
+2015-08-07 15:17:37,768 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:17:37,770 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:14:57 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !","data":{},"errorCode":"1"}
+
+2015-08-07 15:17:37,778 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:17:37,780 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:17:37,788 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:17:37,790 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:17:37,861 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:17:37,864 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:17:37,936 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:17:37,938 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:17:37,945 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:17:37,947 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:17:37,952 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:17:37,954 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:17:37,957 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:17:37,959 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:17:37,962 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:17:38,015 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:17:38,017 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:17:38,019 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:17:38,020 [8] INFO  - 步骤“迭代 6”已成功结束
+2015-08-07 15:17:38,022 [8] INFO  - 步骤“迭代 7”: 步骤“迭代 7”已启动
+2015-08-07 15:17:38,024 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:17:38,027 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:17:38,031 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:17:38,032 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:17:38,034 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:17:38,035 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:17:38,036 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:17:38,037 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:17:38,039 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:17:38,040 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:17:38,125 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:17:38,128 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:18:52,165 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:18:52,167 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:18:52,170 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:18:52,171 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:18:52,173 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:18:52,174 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:18:52,175 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'1c695c5db1005e7d783f9b63045a1a3a4b36e14c'”
+2015-08-07 15:18:52,176 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“1c695c5db1005e7d783f9b63045a1a3a4b36e14c”
+2015-08-07 15:18:52,178 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:18:52,179 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:18:52,181 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:18:56,809 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:18:56,815 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:18:56,817 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 131
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169&token=1c695c5db1005e7d783f9b63045a1a3a4b36e14c
+
+2015-08-07 15:18:56,820 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:18:56,822 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:16:16 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !","data":{},"errorCode":"1"}
+
+2015-08-07 15:18:56,829 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:18:56,831 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:18:56,838 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:18:56,839 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:18:56,922 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:18:56,924 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:18:56,976 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:18:56,978 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:18:56,983 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:18:56,985 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:18:56,990 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:18:56,991 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:18:56,994 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:18:56,995 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:18:56,998 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:18:57,041 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:18:57,044 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:18:57,046 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:18:57,048 [8] INFO  - 步骤“迭代 7”已成功结束
+2015-08-07 15:18:57,051 [8] INFO  - 步骤“迭代 8”: 步骤“迭代 8”已启动
+2015-08-07 15:18:57,053 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:18:57,057 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:18:57,061 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:18:57,062 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:18:57,065 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:18:57,067 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:18:57,068 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:18:57,070 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:18:57,073 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:18:57,074 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:18:57,109 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:18:57,128 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:20:25,718 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:20:25,719 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:20:25,724 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:20:25,724 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:20:25,726 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:20:25,727 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:20:25,729 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'19a2a7c5b75e3e72f1be4437037a1f7f0bb1096a'”
+2015-08-07 15:20:25,730 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“19a2a7c5b75e3e72f1be4437037a1f7f0bb1096a”
+2015-08-07 15:20:25,731 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:20:25,732 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:20:25,734 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:20:30,278 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:20:30,283 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:20:30,286 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 134
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=@365ime.com&token=19a2a7c5b75e3e72f1be4437037a1f7f0bb1096a
+
+2015-08-07 15:20:30,288 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:20:30,290 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:17:50 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !","data":{},"errorCode":"1"}
+
+2015-08-07 15:20:30,295 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:20:30,298 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:20:30,303 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:20:30,306 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:20:30,375 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:20:30,378 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:20:30,460 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:20:30,463 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:20:30,474 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:20:30,476 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:20:30,483 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:20:30,486 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:20:30,490 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:20:30,492 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:20:30,495 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:20:30,550 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:20:30,553 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:20:30,557 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:20:30,560 [8] INFO  - 步骤“迭代 8”已成功结束
+2015-08-07 15:20:30,564 [8] INFO  - 步骤“迭代 9”: 步骤“迭代 9”已启动
+2015-08-07 15:20:30,567 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:20:30,571 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:20:30,575 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:20:30,578 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:20:30,581 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:20:30,583 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:20:30,590 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:20:30,591 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:20:30,593 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:20:30,594 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:20:30,649 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:20:30,651 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:20:54,521 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:20:54,524 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:20:54,531 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:20:54,533 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:20:54,536 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:20:54,538 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:20:54,539 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'2eb7e5d415c73832171593d76a6f75b319abf06c'”
+2015-08-07 15:20:54,541 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“2eb7e5d415c73832171593d76a6f75b319abf06c”
+2015-08-07 15:20:54,547 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:20:54,548 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:20:54,551 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:20:59,208 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:20:59,210 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:20:59,212 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 130
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=!@#$%^&&token=2eb7e5d415c73832171593d76a6f75b319abf06c
+
+2015-08-07 15:20:59,215 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:20:59,218 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:18:19 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-08-07 15:20:59,225 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:20:59,227 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:20:59,232 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:20:59,235 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:20:59,298 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:20:59,307 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:20:59,352 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:20:59,354 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:20:59,357 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:20:59,358 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:20:59,362 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:20:59,364 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:20:59,366 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:20:59,367 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:20:59,369 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:20:59,409 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:20:59,411 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:20:59,413 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:20:59,415 [8] INFO  - 步骤“迭代 9”已成功结束
+2015-08-07 15:20:59,417 [8] INFO  - 步骤“迭代 10”: 步骤“迭代 10”已启动
+2015-08-07 15:20:59,419 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:20:59,423 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:20:59,426 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:20:59,431 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:20:59,433 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:20:59,435 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:20:59,437 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:20:59,438 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:20:59,440 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:20:59,442 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:20:59,486 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:20:59,498 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:21:23,365 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:21:23,368 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:21:23,372 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:21:23,374 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:21:23,377 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:21:23,378 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:21:23,379 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'c4f3a06a34b20ef69f9f78f74301dac35617e01d'”
+2015-08-07 15:21:23,381 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“c4f3a06a34b20ef69f9f78f74301dac35617e01d”
+2015-08-07 15:21:23,382 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:21:23,384 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:21:23,387 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:21:27,984 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:21:27,988 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:21:27,990 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 123
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=&token=c4f3a06a34b20ef69f9f78f74301dac35617e01d
+
+2015-08-07 15:21:27,992 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:21:27,994 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:18:47 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-08-07 15:21:28,001 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:21:28,004 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:21:28,009 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:21:28,012 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:21:28,110 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:21:28,112 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:21:28,168 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:21:28,171 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:21:28,178 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:21:28,180 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:21:28,187 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:21:28,189 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:21:28,193 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:21:28,195 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:21:28,198 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:21:28,245 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:21:28,250 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:21:28,254 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:21:28,260 [8] INFO  - 步骤“迭代 10”已成功结束
+2015-08-07 15:21:28,269 [8] INFO  - 步骤“迭代 11”: 步骤“迭代 11”已启动
+2015-08-07 15:21:28,272 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:21:28,277 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:21:28,280 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:21:28,281 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:21:28,283 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:21:28,284 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:21:28,285 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:21:28,287 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:21:28,288 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:21:28,290 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:21:28,323 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:21:28,325 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:21:52,921 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:21:52,923 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:21:52,927 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:21:52,928 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:21:52,931 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:21:52,932 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:21:52,933 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'0c79d37feab971569cda9e9caedc5a811aaaae46'”
+2015-08-07 15:21:52,933 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“0c79d37feab971569cda9e9caedc5a811aaaae46”
+2015-08-07 15:21:52,935 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:21:52,936 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:21:52,938 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:21:57,565 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:21:57,569 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:21:57,569 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 162
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com,77401170@365ime.com&token=0c79d37feab971569cda9e9caedc5a811aaaae46
+
+2015-08-07 15:21:57,571 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:21:57,578 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:19:17 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid xsid !","data":{},"errorCode":"1"}
+
+2015-08-07 15:21:57,585 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:21:57,586 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:21:57,592 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:21:57,594 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:21:57,659 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:21:57,660 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:21:57,751 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:21:57,752 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:21:57,756 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:21:57,757 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:21:57,760 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:21:57,761 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:21:57,763 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:21:57,764 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:21:57,784 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:21:57,836 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:21:57,838 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:21:57,839 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:21:57,842 [8] INFO  - 步骤“迭代 11”已成功结束
+2015-08-07 15:21:57,846 [8] INFO  - 步骤“迭代 12”: 步骤“迭代 12”已启动
+2015-08-07 15:21:57,847 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:21:57,850 [8] ERROR - Checkpoint 5: "Arguments[1]/ResultTable[1]/Row[1]/token[1]" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:21:57,853 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:21:57,855 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:21:57,857 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:21:57,858 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:21:57,859 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:21:57,860 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:21:57,862 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:21:57,862 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:21:57,901 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:21:57,902 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:23:25,339 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:23:25,341 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:23:25,345 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:23:25,347 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:23:25,349 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-07 15:23:25,351 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:23:25,352 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:23:25,353 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-07 15:23:25,354 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“”
+2015-08-07 15:23:25,356 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:23:25,357 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:23:25,360 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:23:30,012 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:23:30,015 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:23:30,017 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 102
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&token=
+
+2015-08-07 15:23:30,019 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:23:30,021 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:20:50 GMT
+Server: Apache-Coyote/1.1
+{"message":"Parameter is error !","data":{},"errorCode":"2"}
+
+2015-08-07 15:23:30,028 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:23:30,032 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:23:30,044 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:23:30,046 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:23:30,103 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:23:30,105 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:23:30,147 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:23:30,151 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:23:30,158 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:23:30,162 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:23:30,168 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:23:30,169 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:23:30,172 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:23:30,173 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:23:30,175 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:23:30,213 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:23:30,215 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:23:30,217 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:23:30,219 [8] INFO  - 步骤“迭代 12”已成功结束
+2015-08-07 15:23:30,221 [8] INFO  - 步骤“迭代 13”: 步骤“迭代 13”已启动
+2015-08-07 15:23:30,223 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:23:30,225 [8] ERROR - Checkpoint 5: "902ca048a73c5c8f2ad2e2ebe9ffebeb" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:23:30,228 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:23:30,229 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:23:30,232 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:23:30,233 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:23:30,234 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:23:30,235 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:23:30,236 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:23:30,237 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:23:30,279 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:23:30,288 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:24:44,228 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:24:44,229 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:24:44,235 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:24:44,236 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:24:44,239 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“902ca048a73c5c8f2ad2e2ebe9ffebeb”
+2015-08-07 15:24:44,240 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:24:44,241 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:24:44,242 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“902ca048a73c5c8f2ad2e2ebe9ffebeb”
+2015-08-07 15:24:44,244 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:24:44,245 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:24:44,247 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:24:48,838 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:24:48,840 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:24:48,842 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 134
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&token=902ca048a73c5c8f2ad2e2ebe9ffebeb
+
+2015-08-07 15:24:48,845 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:24:48,847 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:22:08 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token !","data":{},"errorCode":"1"}
+
+2015-08-07 15:24:48,853 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:24:48,857 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:24:48,861 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:24:48,863 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:24:48,922 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:24:48,924 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:24:48,978 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:24:48,980 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:24:48,984 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:24:48,986 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:24:48,991 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:24:48,993 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:24:48,997 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:24:48,999 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:24:49,001 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:24:49,043 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:24:49,045 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:24:49,047 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:24:49,048 [8] INFO  - 步骤“迭代 13”已成功结束
+2015-08-07 15:24:49,050 [8] INFO  - 步骤“迭代 14”: 步骤“迭代 14”已启动
+2015-08-07 15:24:49,052 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:24:49,055 [8] ERROR - Checkpoint 5: "77401169@365ime.com" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:24:49,057 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:24:49,059 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:24:49,060 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:24:49,061 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:24:49,062 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:24:49,064 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:24:49,066 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:24:49,067 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:24:49,109 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:24:49,111 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:25:12,725 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:25:12,727 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:25:12,730 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:25:12,730 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:25:12,732 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“77401169@365ime.com”
+2015-08-07 15:25:12,733 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:25:12,734 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:25:12,735 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“77401169@365ime.com”
+2015-08-07 15:25:12,737 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:25:12,738 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:25:12,740 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:25:17,348 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:25:17,351 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:25:17,353 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 121
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&token=77401169@365ime.com
+
+2015-08-07 15:25:17,356 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:25:17,362 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:22:37 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token !","data":{},"errorCode":"1"}
+
+2015-08-07 15:25:17,369 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:25:17,371 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:25:17,381 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:25:17,383 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:25:17,438 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:25:17,440 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:25:17,491 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:25:17,494 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:25:17,502 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:25:17,504 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:25:17,512 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:25:17,514 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:25:17,518 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:25:17,523 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:25:17,528 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:25:17,571 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:25:17,574 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:25:17,578 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:25:17,582 [8] INFO  - 步骤“迭代 14”已成功结束
+2015-08-07 15:25:17,589 [8] INFO  - 步骤“迭代 15”: 步骤“迭代 15”已启动
+2015-08-07 15:25:17,593 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:25:17,598 [8] ERROR - Checkpoint 5: "test" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:25:17,601 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:25:17,602 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:25:17,604 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:25:17,605 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:25:17,606 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:25:17,607 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:25:17,609 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:25:17,611 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:25:17,657 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:25:17,659 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:26:28,210 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:26:28,211 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:26:28,216 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:26:28,216 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:26:28,218 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“test”
+2015-08-07 15:26:28,218 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:26:28,219 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:26:28,219 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“test”
+2015-08-07 15:26:28,221 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:26:28,222 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:26:28,225 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:26:32,809 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:26:32,811 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:26:32,814 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 106
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&token=test
+
+2015-08-07 15:26:32,816 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:26:32,818 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:23:52 GMT
+Server: Apache-Coyote/1.1
+{"message":"invalid token !","data":{},"errorCode":"1"}
+
+2015-08-07 15:26:32,824 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:26:32,845 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:26:32,847 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:26:32,848 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:26:32,912 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:26:32,915 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:26:32,966 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:26:32,969 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:26:32,975 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:26:32,978 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:26:32,986 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:26:32,988 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:26:32,992 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:26:32,994 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:26:32,998 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:26:33,034 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:26:33,038 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:26:33,042 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:26:33,047 [8] INFO  - 步骤“迭代 15”已成功结束
+2015-08-07 15:26:33,054 [8] INFO  - 步骤“迭代 16”: 步骤“迭代 16”已启动
+2015-08-07 15:26:33,057 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”: 步骤“查询tb_getUroom_verification表中字段信息”已启动
+2015-08-07 15:26:33,063 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-07 15:26:33,068 [8] INFO  - 步骤“查询tb_getUroom_verification表中字段信息”已成功结束
+2015-08-07 15:26:33,071 [8] INFO  - 步骤“将本地表的xsid更新”: 步骤“将本地表的xsid更新”已启动
+2015-08-07 15:26:33,075 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-08-07 15:26:33,078 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-07 15:26:33,079 [8] INFO  - 步骤“将本地表的xsid更新”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
+2015-08-07 15:26:33,080 [8] INFO  - 步骤“将本地表的xsid更新”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
+2015-08-07 15:26:33,082 [8] INFO  - 步骤“将本地表的xsid更新”已成功结束
+2015-08-07 15:26:33,084 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-07 15:26:33,133 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-07 15:26:33,134 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:26:57,038 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:26:57,039 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-07 15:26:57,042 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-07 15:26:57,043 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-07 15:26:57,045 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
+2015-08-07 15:26:57,046 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
+2015-08-07 15:26:57,047 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51'”
+2015-08-07 15:26:57,048 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51”
+2015-08-07 15:26:57,049 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-07 15:26:57,050 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:26:57,052 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:27:02,182 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:27:02,185 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:27:02,195 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 142
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:27:02,197 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:27:02,200 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:24:22 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"roomArray":[{"permanent":1,"name":"铁头功吧","role":"employee","jid":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com"},{"permanent":1,"name":"班主任群","role":"employee","jid":"q622195-3@muc.365ime.com"},{"permanent":1,"name":"四年级101169 班家长群","role":"employee","jid":"q622195-13@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2671c63586b54331b0fc0de02cab40ec@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0892f87f4f654aa4ba63354e4b9c1d41@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"58c863417ad241a38d090558c5c22d57@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8882e1739ec2440380205ff4b94efafb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e5ec1a9399f43308446b2bc220eb06d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2333745ebde442b393fdae32cecbb8a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3f88f8cbc2f94c6fb852d29bc0d727ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b26ab4510f9947509e4546cd83739312@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"8e7e169165324c0e8ff8d187cf0458d4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"8089a0a420cc4e1a9afa2de4c2153ccb@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"169a21d0416e4f2c972115f192cae3bb@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"ba9c3ded691242aab35d5fef671a83be@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"7b9634f135f64b83b5ae7fa3632a2ce4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"261a0afc6de8408eab983bd9f5c926ce@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"49fd81ae8c4b43239825b6be24acf22e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"93b3a44acc7e4088b8ff68b811129564@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"22524d2759774fe7b767dc0e4eb9a68a@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"64caa30bc47046c7940b6ac6db84f34a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9f023804e7846c3ac00f5476b1d2d14@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"2693f43f73d24164a04d86e3b1809ee6@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"59d00dfbf6804d529bd739a690e33b83@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"c632cbc1e83a4d569527e325208c1796@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"30d408d23bc24672a5a6ae6def93bda1@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"bf098f77c79f4794bb8b57072a43b49e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"082b4bfff539485092bf158f62ad7502@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"3330e6f2de71400d8a0015126d1f3405@muc.365ime.com"},{"permanent":0,"name":"123.abc测试","role":"moderator","jid":"445848a839b741e985f5842ca3c4b5bf@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"e4ae02842e96479c8de4927408fae1ff@muc.365ime.com"},{"permanent":0,"name":" ","role":"moderator","jid":"d44dbcbefa5f4b5fafaaa6c33390e7e2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ba60942c3b284974bde46fba7042a7a3@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"a88f9c1624f24b319ffc9c2d7debe8b9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a01b1d0681d6495eb746b82eb865cd97@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5faea77254cf42579844cb632f4a65ff@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"03d922dfa537466ea2442408fc11fb63@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f2e489ee10a454d8feabe34d126ab67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"074cae34522f409a9765e0a3657bcb46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f9015e7085cf450c9e5d3e6d98b3d65d@muc.365ime.com"},{"permanent":0,"name":"更新测试群","role":"moderator","jid":"c8e37365c32242b9a37661c0a31454bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"afa77f788dd04187a95bdc09f942d30a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6cf57837b79d404ba0282b687bd3349f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"451e63a8d09f4bf18ae73399a386ad83@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d33e34dbd0b4f88bc628b15923148a2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3c28f0e8cfab408d9a24d2368db80dda@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d98c880dfb74079b8b00373a65eb72b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"625cbdc77d924e23aefe0d511c2f7b21@muc.365ime.com"},{"permanent":0,"name":"测试","role":"moderator","jid":"cc823824d93d4ad2adbd82ff101c57c5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ce7a66c4d33644d39af37aebbd85d27a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9d65cd643ebb47aa89e813f1ee2da989@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"838c9aa3fcf846bd84fae36d00d36561@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ec346d51986b447eb2c89c87ce0de12a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78dd890848ab4e9183c8819d43aa4675@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f345249098ef4ee3bddba93360278d29@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a4e6ac9dd8fe490081eee6809e22da1b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51bec1d857544981aab823dac8c9d5e6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"882457acf954473f8ff4aba7f4f2a295@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"80c803f9363a418784ad10977e107655@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2d5d1a8ab1764ed2912d34f6f7d82a81@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ffe34111cc544938baf039723ab0c4f4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"67de0df6afe24acea85f86c9bc4f5f14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ea99de9b88442b8a88062969b21040c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8335e593bc664eb49b8b3b79f1442029@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"748678ff16154d1db080434bc87b7d0e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b371b214cb143999db7c156e9788a50@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2424547b78084f6e9e5940940e2eac67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"368ff3cc9ec04f83af2633d9f536fec9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"54604f6319b9400e86790a11d34fa081@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaffcf558ec44797ac010e5da6d7a0e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc9bb6ec066b4f568cfc7211a80be874@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"794e1e97dbdd47fc86dfa972896ebbf3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165f69aa71294309935fcec449097ca6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3f10287f8fb40abb09c4eb44b546be2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1518c822b1a74ec8abc26eabc72a84f9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4b8a0cde757747ffae026c71e23b7f90@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"62646105af2d4bf18f7be64b0a8a4976@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c44a9332b3a3442cb94497b668cb9efd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fd378e91e37b4cbfb0d9332222c2c292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2de6bf7e9db44dacb992e2113ca7ccd4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ee2f88a141864cf7bb65de0c3cb18b16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0679b20f110748b88910c1b8767c26c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccca5cedfc044c569606bcd4e3ddeadd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"219bfed3ce5a4066a0d93786cf21ebdc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"825e1df744984705a061c415753e8a18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e699f3584f8342278947e8131165839c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fc0eb9eab5a24d9386e9b18cd11a8899@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7aacd57591484ffbb86f7793c2e6d711@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3d59d5e45466453db16934b638cdb119@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"90570f3905764550bd0f5950e496838e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"83eb18b2ca37433aa17268a23a152363@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e7bc0b17ab1c47a0871343c0d6894e61@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eee6d8f2712a43019d73c04463f65847@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d6c66cc31a840c68459a7df378f51ef@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"18e022fb62d846ee9a847263dfb19851@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"74f4523b580d4aa2aceb2dc9ebbb6eb0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81a3ba3a45344708a594f8bb7f1402e1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165ffaff45db44249ef8b7260835ba54@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7ead60445d44a8e8cb95aeba687f028@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"95ffeda3e76b4b1f83613bfaa25087be@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b809149925904bff92434a365173580a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1e6742afc5b1467594b86c2bb5e7b694@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e94121762e244454a6134c17268ff3bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dd61f09f8cd14a768b05685aa00dcf5d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2f82009de3424f1e92d9a2b00bb0c4d5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"861177a2994d4f6fa3eee62e4df207fd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"103dff91c7e74b32be07a38a4b373555@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d16ccd3f1b74715b892f4d0cdd517ea@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87b624d717b4c1a82942d507284ad46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255cb0a091364533bb55d63e7e5625e4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"48c8c4ce15d34be09ac1c53d9e9010a0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"828413849e0240cb92e6a6b6df5d934a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f14324c6513447f3896a30c73bba79dd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78adac3e198c4cd0b117fd3b949739ae@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9283b2d6cb8d4f21873f80c120bf3b0c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"021c237c106f436eaf22be61e085db53@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8a5e667574dc4536bf6b7c9c79b9a5bc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaf49fb439c7449f9bdbe84509841aba@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d2a0fdfe9674445a48d44dff7ab4fa6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44974808b9a64942b48118e5a0beee4c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f24b0b1ab0944966be24a68dfb93c0e3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5da0192e92dd4943b150a0c33b8e6966@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51711d42f30e4b0faa0f008626c7a37e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"399714a126f842c7b6af536180999448@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"df55b3b9ac7f4660b35dd5e0aff3addc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6432933ee97a4625ab3098e862b6bfd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d44924ecd0e48278f60e0f7beb9015c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d005687807a74c81a8192d56081e026b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5eb52f19580438c8f7e2f0fd570300b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"06e5481e2ac243cdb34df9386ae8f685@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8fc47d0f00724224897fec27fee5586f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5f5b4fa3775a4d8aac2eb799879da86b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8bf24c59621e4e72bd36a64aaef83bf4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"23a895d3075345599e7265c801cd424c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a1af5eb8b34469ebf63e07602bee1b7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"32d469fa1f9c43acaccedbf16d267e86@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"728ef3c86d754df9b22b0b88715821ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b8b3ab5f2fc40e69c753a5589d7338c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b8bd5121fe3e4359a24c7f37e845a863@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe26d2ad2df44e7fb7c99549a79beb3e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"004e8aa43a1945a9b9bce337ba5fbb15@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"72b223d3dde9488584a92f904acadd20@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe7ebd2ea17844bf96024203180ccba5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4bfe4f489a214b37bf36578b6c7fc469@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e8c172c6a2b411d907d2daa18f09c1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9ee284a20ead4f90a8c1627d99a11ef0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ceb4fe61da694047ae46f92e34b9a877@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6fd0fba9c22744a782c902827bf4ca1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e69d412b0b144f598112812c1674502@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9638e349359b464e8ee2114c1c9ef871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44c8f92e1e92419ab749e8f232cce6a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c03adc7fb0b3416eb2af91d87f3438c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781e67dbc2bf4175ae30ae722cad4c33@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c26078781274dcba5713cfe53cdab68@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ff8ecf7242ca43bb8f1b06c560f065b3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3ddf99faecfe42ebb1db4506229d9040@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1478102048b247b6b18aad55730fb077@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4babfa7403064cd5b8d8b28bc9bac403@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5b56f072f3c4bf9b80321497917e412@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f5297c0d863b400d97713ff7e6011de4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e8832df47612420096beb471de72152b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f3085e0cf204bdb8700824ecc2957a9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9ef2620f8bb475aa899eef3241999b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781bb406de904d86a4804343550d48eb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8e5ab877179f400f9c88f0a43eaeb9ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"49a4980280cf4d759733df45993739cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d214719f6ba94f20a787c43e5cac7e3b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7f6f1c3b0ce1464e96160aa502ccb7dc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e3372b904694d438678fa5054fe2d62@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e292633fde5a47ecbdbff5c56655fc07@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e179a61f4a04fd89c4008853ba5a51d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b475b61b979344ecb19f0fba5d8c3b9d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2139d1d2ceb34a3d97b037dc1b814d9c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81d4cc44d66e465a8ebaff2e023ff16d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d341233f94e3482a9a6adc79a3ba3c38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4c19af053c1a49e9aa0522d9bcd9c421@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"02ddd107f5a24a1cae906239b5a604a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"40b9b37c67824290a9a1662056647862@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"07bd2a56f47a4508aeea7ee968579cd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccddddfee07f4945b810607453b4c55b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7e0aab66d7344069549ebd1da9abf21@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8f6317d60b6c40f1959b45ee5c5017cb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c6417e9b9c4c4ebf9aaeb9ca037067e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"16fe62074f0741e69c7df4f5fbb56333@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b9d01d8b86d84510b07a368f4053bd18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eb2cae604b0437caac63a0bb4576281@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"107d9634a89c429597bd9aa9baeb39e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa039d7bb9a941eebac1d84a28f5a835@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255108de93344dfcbd23270f92d38d3d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"92778782c3824fab8140a02b7ade289f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7c3915d84ed144a1878f12eb1dfae47c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0082a9d9d7f644ec807701b044f8e425@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"617e5f25832c4b3ab504425e0467ece0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"644eff7588654f6aa27ffa5df98e5683@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"025e186f4e8045c78d79032cf11d57e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5ac9b8be87e14371875ac543e194aabf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eba01c66e5d4600b9eafedd26a81b89@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4272a610feef466e99c3d1639e26828a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b62d0c3ea3d044f585c24fe55cf04b6a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"411b8d4abe864929951e1a47cdf5121b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4983602af24a4643b7a9346620584d94@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"035f879b7af040a59e4ba1eed6fd2e93@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3cd404e79214d77b12c7432a80cbe38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e675723fc7bf4cc3a39b4b337581435c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bee7ee82e0b04a7c955d9b80dee81902@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"de247944caa54c18b5ba832aa1c0416a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb050e975b8640bd9853926406120919@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6a1da04195774176a1457bcd0b4146ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"37eed0c714c74c1d953dc792997d43af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"782e61be5b9a49929cfc08f139c90434@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cdcaa46bd679483786ab36591f5c0cee@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8716080490624153802141bb6e3a2a3c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8d972dcef57f41148f6b4e5c25f91864@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0d4dd3af2f04610b8528ce66faa2fb7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0af881acf804cf197f209cf39d2be16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"188486b764d94fa5b95de7dc92438609@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"77d1115876834e63a34ab555409b4359@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51a2975347754241b9342e21d004a292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8873f02c9def40b99e67f1dd56efdc5b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"76c8247eabdd452fb71a9823367e6f00@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e080e72d7a142119a00551588fb6484@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dbf237112b834e3c9e1bf9c6a0d961ad@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb1cffb8913c4f72bfe66772c53ce21a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44fb50e705e544b7a9d3dbaf00b0c039@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b0da54142c704ed9baa837a3a7a09ef7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5856343e4cea41d993e27c4ba0a0402d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"46ca36e7ae3d44789b10509088f573a4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7d63bf778285421f89f6d7423885359a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d2b73d51ddb4a3795641779cc261e02@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a103e0958c8941d2bb15d70ff7638135@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0316e784dd4e414c8ae6f7bed5bc14cc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fffd27efc243432a8fca5ebf63ac76e5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a71374058b847929687f6800212e186@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"34d4c844e6624e3dac99601ba7441c14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"deb3f09582c4400aa8beeb819017a536@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0e01112167e243c6812790d4f8c4b871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87f8ee2749c4680b70e06e17ae1b5d2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ca716a2492ce4bb9926de10865ad5be5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0b7f7bc37c5d4ed2b03141e4e7ec946a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e3f21498d2747bab66b0b4e173f3f45@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bea0ad150d074ec2b54d893102b9a6e7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ec291a8acf0473f9f6d205afce1f1d9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0323331580a8447f80d05b6d12edb6b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0db1ead166984a07add5ee7faf10a68c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c583deba5624904847357fd6bd38130@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"38d5b211d30d4e889307bb060c811e27@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"565a7565fa5b4dd8a6d89ac3039d2dd9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0ae677a91b3c4456ac8403efb2763c51@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f708be6914174488abaf25307572e314@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5fb51d2ed508401e8ca39f07a589580d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"341363e66c27431cbeb6083161d9462f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa76dfedb25b4a4987e78e1ce5a9c2af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e5587cf86ce4dd8a91c2c5a2f634544@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"718ee7734a3c4e3eb120b2aa20daf339@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a153464d66bf400e8e090401f42b12a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7837ea88e823439c9342e941cd317234@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1de817957efc415088e672553c9f6117@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc5160d9168844e19db5f40ca96cada2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"93b4d5949ae24e0b8ea001ef53c35d03@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1df289e260fb47708db1f8eed138e272@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4e4a5b6e075145958c9d41b2123dedab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"96c0ca9652d747ea9431e9802c092c71@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"260ebc5c65124c39a0407c68d1d54a06@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"0ef3bc20c1a04d41afae05e2fec9d692@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"111cec0516d74b5e8d705e118466ea69@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d40e9edc021f46a3b507138d1e1b135d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9993aeec7b9c4900968de64f744c96f7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"043ef254a52040d58a5ff4da4eae8dd2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a429421b0784599be7b844ad8dec1cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"756e4917843c450e8eeda63754feefce@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e1df287ead3248deaf43e57f5e31e396@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e2035749ef344fb9fa87d1103990988@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e33f840144e2460a8296e2977399eef1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a2be42c40d884fb182e3410b15c91430@muc.365ime.com"}],"Version":"3246677"},"errorCode":"0"}
+
+2015-08-07 15:27:02,209 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:27:02,215 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-07 15:27:02,240 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-07 15:27:02,240 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-07 15:27:02,314 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-07 15:27:02,316 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-07 15:27:02,369 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-07 15:27:02,371 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-07 15:27:02,378 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-07 15:27:02,381 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-07 15:27:02,388 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-07 15:27:02,390 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-07 15:27:02,395 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-07 15:27:02,397 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-07 15:27:02,401 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-07 15:27:02,445 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-07 15:27:02,449 [8] INFO  - 步骤“否”已成功结束
+2015-08-07 15:27:02,454 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-07 15:27:02,458 [8] INFO  - 步骤“迭代 16”已成功结束
+2015-08-07 15:27:02,461 [8] INFO  - 步骤“循环执行tb_getUroom_verification中的测试用例”已成功结束
+2015-08-07 15:27:02,464 [8] INFO  - 步骤“对/iq/getURoom.php接口token实行加密”: 步骤“对/iq/getURoom.php接口token实行加密”已启动
+2015-08-07 15:27:02,501 [8] INFO  - 步骤“对/iq/getURoom.php接口token实行加密”已成功结束
+2015-08-07 15:27:02,508 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-07 15:28:11,687 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-07 15:28:11,688 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-07 15:28:11,691 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-07 15:28:11,692 [8] INFO  - 步骤“调用/iq/getURoom.php”: 步骤“调用/iq/getURoom.php”已启动
+2015-08-07 15:28:11,696 [8] INFO  - 步骤“调用/iq/getURoom.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/getURoom.php'
+2015-08-07 15:28:11,858 [8] INFO  - 步骤“调用/iq/getURoom.php”: 服务器返回了状态代码: 200
+2015-08-07 15:28:11,859 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始请求:
+2015-08-07 15:28:11,860 [8] INFO  - 步骤“调用/iq/getURoom.php”: POST http://test-iq.365ime.com:8082/iq/getURoom.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 142
+Expect: 100-continue
+xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&myJid=77401169@365ime.com&token=ce251bfebc9cb1a174e0ac8c7e905cbdc16b5b51
+
+2015-08-07 15:28:11,861 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP 原始响应:
+2015-08-07 15:28:11,862 [8] INFO  - 步骤“调用/iq/getURoom.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 07 Aug 2015 07:25:32 GMT
+Server: Apache-Coyote/1.1
+{"message":"","data":{"roomArray":[{"permanent":1,"name":"铁头功吧","role":"employee","jid":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com"},{"permanent":1,"name":"班主任群","role":"employee","jid":"q622195-3@muc.365ime.com"},{"permanent":1,"name":"四年级101169 班家长群","role":"employee","jid":"q622195-13@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2671c63586b54331b0fc0de02cab40ec@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0892f87f4f654aa4ba63354e4b9c1d41@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"58c863417ad241a38d090558c5c22d57@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8882e1739ec2440380205ff4b94efafb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e5ec1a9399f43308446b2bc220eb06d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2333745ebde442b393fdae32cecbb8a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3f88f8cbc2f94c6fb852d29bc0d727ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b26ab4510f9947509e4546cd83739312@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"8e7e169165324c0e8ff8d187cf0458d4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"8089a0a420cc4e1a9afa2de4c2153ccb@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"169a21d0416e4f2c972115f192cae3bb@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"ba9c3ded691242aab35d5fef671a83be@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"7b9634f135f64b83b5ae7fa3632a2ce4@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"261a0afc6de8408eab983bd9f5c926ce@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"49fd81ae8c4b43239825b6be24acf22e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"93b3a44acc7e4088b8ff68b811129564@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"22524d2759774fe7b767dc0e4eb9a68a@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"64caa30bc47046c7940b6ac6db84f34a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9f023804e7846c3ac00f5476b1d2d14@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"2693f43f73d24164a04d86e3b1809ee6@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"59d00dfbf6804d529bd739a690e33b83@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"c632cbc1e83a4d569527e325208c1796@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"30d408d23bc24672a5a6ae6def93bda1@muc.365ime.com"},{"permanent":0,"name":"123","role":"moderator","jid":"bf098f77c79f4794bb8b57072a43b49e@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"082b4bfff539485092bf158f62ad7502@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"3330e6f2de71400d8a0015126d1f3405@muc.365ime.com"},{"permanent":0,"name":"123.abc测试","role":"moderator","jid":"445848a839b741e985f5842ca3c4b5bf@muc.365ime.com"},{"permanent":0,"name":"","role":"moderator","jid":"e4ae02842e96479c8de4927408fae1ff@muc.365ime.com"},{"permanent":0,"name":" ","role":"moderator","jid":"d44dbcbefa5f4b5fafaaa6c33390e7e2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ba60942c3b284974bde46fba7042a7a3@muc.365ime.com"},{"permanent":0,"name":"test","role":"moderator","jid":"a88f9c1624f24b319ffc9c2d7debe8b9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a01b1d0681d6495eb746b82eb865cd97@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5faea77254cf42579844cb632f4a65ff@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"03d922dfa537466ea2442408fc11fb63@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f2e489ee10a454d8feabe34d126ab67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"074cae34522f409a9765e0a3657bcb46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f9015e7085cf450c9e5d3e6d98b3d65d@muc.365ime.com"},{"permanent":0,"name":"更新测试群","role":"moderator","jid":"c8e37365c32242b9a37661c0a31454bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"afa77f788dd04187a95bdc09f942d30a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6cf57837b79d404ba0282b687bd3349f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"451e63a8d09f4bf18ae73399a386ad83@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d33e34dbd0b4f88bc628b15923148a2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3c28f0e8cfab408d9a24d2368db80dda@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d98c880dfb74079b8b00373a65eb72b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"625cbdc77d924e23aefe0d511c2f7b21@muc.365ime.com"},{"permanent":0,"name":"测试","role":"moderator","jid":"cc823824d93d4ad2adbd82ff101c57c5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ce7a66c4d33644d39af37aebbd85d27a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9d65cd643ebb47aa89e813f1ee2da989@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"838c9aa3fcf846bd84fae36d00d36561@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ec346d51986b447eb2c89c87ce0de12a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78dd890848ab4e9183c8819d43aa4675@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f345249098ef4ee3bddba93360278d29@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a4e6ac9dd8fe490081eee6809e22da1b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51bec1d857544981aab823dac8c9d5e6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"882457acf954473f8ff4aba7f4f2a295@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"80c803f9363a418784ad10977e107655@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2d5d1a8ab1764ed2912d34f6f7d82a81@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ffe34111cc544938baf039723ab0c4f4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"67de0df6afe24acea85f86c9bc4f5f14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ea99de9b88442b8a88062969b21040c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8335e593bc664eb49b8b3b79f1442029@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"748678ff16154d1db080434bc87b7d0e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b371b214cb143999db7c156e9788a50@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2424547b78084f6e9e5940940e2eac67@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"368ff3cc9ec04f83af2633d9f536fec9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"54604f6319b9400e86790a11d34fa081@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaffcf558ec44797ac010e5da6d7a0e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc9bb6ec066b4f568cfc7211a80be874@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"794e1e97dbdd47fc86dfa972896ebbf3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165f69aa71294309935fcec449097ca6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3f10287f8fb40abb09c4eb44b546be2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1518c822b1a74ec8abc26eabc72a84f9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4b8a0cde757747ffae026c71e23b7f90@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"62646105af2d4bf18f7be64b0a8a4976@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c44a9332b3a3442cb94497b668cb9efd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fd378e91e37b4cbfb0d9332222c2c292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2de6bf7e9db44dacb992e2113ca7ccd4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ee2f88a141864cf7bb65de0c3cb18b16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0679b20f110748b88910c1b8767c26c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccca5cedfc044c569606bcd4e3ddeadd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"219bfed3ce5a4066a0d93786cf21ebdc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"825e1df744984705a061c415753e8a18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e699f3584f8342278947e8131165839c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fc0eb9eab5a24d9386e9b18cd11a8899@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7aacd57591484ffbb86f7793c2e6d711@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3d59d5e45466453db16934b638cdb119@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"90570f3905764550bd0f5950e496838e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"83eb18b2ca37433aa17268a23a152363@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e7bc0b17ab1c47a0871343c0d6894e61@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eee6d8f2712a43019d73c04463f65847@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d6c66cc31a840c68459a7df378f51ef@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"18e022fb62d846ee9a847263dfb19851@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"74f4523b580d4aa2aceb2dc9ebbb6eb0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81a3ba3a45344708a594f8bb7f1402e1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"165ffaff45db44249ef8b7260835ba54@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7ead60445d44a8e8cb95aeba687f028@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"95ffeda3e76b4b1f83613bfaa25087be@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b809149925904bff92434a365173580a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1e6742afc5b1467594b86c2bb5e7b694@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e94121762e244454a6134c17268ff3bd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dd61f09f8cd14a768b05685aa00dcf5d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2f82009de3424f1e92d9a2b00bb0c4d5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"861177a2994d4f6fa3eee62e4df207fd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"103dff91c7e74b32be07a38a4b373555@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0d16ccd3f1b74715b892f4d0cdd517ea@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87b624d717b4c1a82942d507284ad46@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255cb0a091364533bb55d63e7e5625e4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"48c8c4ce15d34be09ac1c53d9e9010a0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"828413849e0240cb92e6a6b6df5d934a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f14324c6513447f3896a30c73bba79dd@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"78adac3e198c4cd0b117fd3b949739ae@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9283b2d6cb8d4f21873f80c120bf3b0c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"021c237c106f436eaf22be61e085db53@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8a5e667574dc4536bf6b7c9c79b9a5bc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aaf49fb439c7449f9bdbe84509841aba@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d2a0fdfe9674445a48d44dff7ab4fa6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44974808b9a64942b48118e5a0beee4c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f24b0b1ab0944966be24a68dfb93c0e3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5da0192e92dd4943b150a0c33b8e6966@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51711d42f30e4b0faa0f008626c7a37e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"399714a126f842c7b6af536180999448@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"df55b3b9ac7f4660b35dd5e0aff3addc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6432933ee97a4625ab3098e862b6bfd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4d44924ecd0e48278f60e0f7beb9015c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d005687807a74c81a8192d56081e026b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5eb52f19580438c8f7e2f0fd570300b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"06e5481e2ac243cdb34df9386ae8f685@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8fc47d0f00724224897fec27fee5586f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5f5b4fa3775a4d8aac2eb799879da86b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8bf24c59621e4e72bd36a64aaef83bf4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"23a895d3075345599e7265c801cd424c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a1af5eb8b34469ebf63e07602bee1b7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"32d469fa1f9c43acaccedbf16d267e86@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"728ef3c86d754df9b22b0b88715821ca@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5b8b3ab5f2fc40e69c753a5589d7338c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b8bd5121fe3e4359a24c7f37e845a863@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe26d2ad2df44e7fb7c99549a79beb3e@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"004e8aa43a1945a9b9bce337ba5fbb15@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"72b223d3dde9488584a92f904acadd20@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fe7ebd2ea17844bf96024203180ccba5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4bfe4f489a214b37bf36578b6c7fc469@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e8c172c6a2b411d907d2daa18f09c1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9ee284a20ead4f90a8c1627d99a11ef0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ceb4fe61da694047ae46f92e34b9a877@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6fd0fba9c22744a782c902827bf4ca1c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e69d412b0b144f598112812c1674502@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9638e349359b464e8ee2114c1c9ef871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44c8f92e1e92419ab749e8f232cce6a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c03adc7fb0b3416eb2af91d87f3438c1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781e67dbc2bf4175ae30ae722cad4c33@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c26078781274dcba5713cfe53cdab68@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ff8ecf7242ca43bb8f1b06c560f065b3@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"3ddf99faecfe42ebb1db4506229d9040@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1478102048b247b6b18aad55730fb077@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4babfa7403064cd5b8d8b28bc9bac403@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d5b56f072f3c4bf9b80321497917e412@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f5297c0d863b400d97713ff7e6011de4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e8832df47612420096beb471de72152b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0f3085e0cf204bdb8700824ecc2957a9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e9ef2620f8bb475aa899eef3241999b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"781bb406de904d86a4804343550d48eb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8e5ab877179f400f9c88f0a43eaeb9ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"49a4980280cf4d759733df45993739cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d214719f6ba94f20a787c43e5cac7e3b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7f6f1c3b0ce1464e96160aa502ccb7dc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e3372b904694d438678fa5054fe2d62@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e292633fde5a47ecbdbff5c56655fc07@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7e179a61f4a04fd89c4008853ba5a51d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b475b61b979344ecb19f0fba5d8c3b9d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2139d1d2ceb34a3d97b037dc1b814d9c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"81d4cc44d66e465a8ebaff2e023ff16d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d341233f94e3482a9a6adc79a3ba3c38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4c19af053c1a49e9aa0522d9bcd9c421@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"02ddd107f5a24a1cae906239b5a604a6@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"40b9b37c67824290a9a1662056647862@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"07bd2a56f47a4508aeea7ee968579cd1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ccddddfee07f4945b810607453b4c55b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b7e0aab66d7344069549ebd1da9abf21@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8f6317d60b6c40f1959b45ee5c5017cb@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c6417e9b9c4c4ebf9aaeb9ca037067e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"16fe62074f0741e69c7df4f5fbb56333@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b9d01d8b86d84510b07a368f4053bd18@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eb2cae604b0437caac63a0bb4576281@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"107d9634a89c429597bd9aa9baeb39e8@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa039d7bb9a941eebac1d84a28f5a835@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"255108de93344dfcbd23270f92d38d3d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"92778782c3824fab8140a02b7ade289f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7c3915d84ed144a1878f12eb1dfae47c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0082a9d9d7f644ec807701b044f8e425@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"617e5f25832c4b3ab504425e0467ece0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"644eff7588654f6aa27ffa5df98e5683@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"025e186f4e8045c78d79032cf11d57e0@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5ac9b8be87e14371875ac543e194aabf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8eba01c66e5d4600b9eafedd26a81b89@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4272a610feef466e99c3d1639e26828a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b62d0c3ea3d044f585c24fe55cf04b6a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"411b8d4abe864929951e1a47cdf5121b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4983602af24a4643b7a9346620584d94@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"035f879b7af040a59e4ba1eed6fd2e93@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f3cd404e79214d77b12c7432a80cbe38@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e675723fc7bf4cc3a39b4b337581435c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bee7ee82e0b04a7c955d9b80dee81902@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"de247944caa54c18b5ba832aa1c0416a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb050e975b8640bd9853926406120919@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6a1da04195774176a1457bcd0b4146ab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"37eed0c714c74c1d953dc792997d43af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"782e61be5b9a49929cfc08f139c90434@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cdcaa46bd679483786ab36591f5c0cee@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8716080490624153802141bb6e3a2a3c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8d972dcef57f41148f6b4e5c25f91864@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0d4dd3af2f04610b8528ce66faa2fb7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"c0af881acf804cf197f209cf39d2be16@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"188486b764d94fa5b95de7dc92438609@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"77d1115876834e63a34ab555409b4359@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"51a2975347754241b9342e21d004a292@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"8873f02c9def40b99e67f1dd56efdc5b@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"76c8247eabdd452fb71a9823367e6f00@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e080e72d7a142119a00551588fb6484@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"dbf237112b834e3c9e1bf9c6a0d961ad@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"eb1cffb8913c4f72bfe66772c53ce21a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"44fb50e705e544b7a9d3dbaf00b0c039@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"b0da54142c704ed9baa837a3a7a09ef7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5856343e4cea41d993e27c4ba0a0402d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"46ca36e7ae3d44789b10509088f573a4@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7d63bf778285421f89f6d7423885359a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5d2b73d51ddb4a3795641779cc261e02@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a103e0958c8941d2bb15d70ff7638135@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0316e784dd4e414c8ae6f7bed5bc14cc@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"fffd27efc243432a8fca5ebf63ac76e5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a71374058b847929687f6800212e186@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"34d4c844e6624e3dac99601ba7441c14@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"deb3f09582c4400aa8beeb819017a536@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0e01112167e243c6812790d4f8c4b871@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f87f8ee2749c4680b70e06e17ae1b5d2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"ca716a2492ce4bb9926de10865ad5be5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0b7f7bc37c5d4ed2b03141e4e7ec946a@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6e3f21498d2747bab66b0b4e173f3f45@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"bea0ad150d074ec2b54d893102b9a6e7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1ec291a8acf0473f9f6d205afce1f1d9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0323331580a8447f80d05b6d12edb6b5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0db1ead166984a07add5ee7faf10a68c@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"6c583deba5624904847357fd6bd38130@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"38d5b211d30d4e889307bb060c811e27@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"565a7565fa5b4dd8a6d89ac3039d2dd9@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"0ae677a91b3c4456ac8403efb2763c51@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"f708be6914174488abaf25307572e314@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5fb51d2ed508401e8ca39f07a589580d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"341363e66c27431cbeb6083161d9462f@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"aa76dfedb25b4a4987e78e1ce5a9c2af@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"5e5587cf86ce4dd8a91c2c5a2f634544@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"718ee7734a3c4e3eb120b2aa20daf339@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a153464d66bf400e8e090401f42b12a5@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"7837ea88e823439c9342e941cd317234@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1de817957efc415088e672553c9f6117@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"cc5160d9168844e19db5f40ca96cada2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"93b4d5949ae24e0b8ea001ef53c35d03@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"1df289e260fb47708db1f8eed138e272@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4e4a5b6e075145958c9d41b2123dedab@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"96c0ca9652d747ea9431e9802c092c71@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"260ebc5c65124c39a0407c68d1d54a06@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"0ef3bc20c1a04d41afae05e2fec9d692@muc.365ime.com"},{"permanent":1,"name":"吃的多","role":"moderator","jid":"111cec0516d74b5e8d705e118466ea69@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"d40e9edc021f46a3b507138d1e1b135d@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"9993aeec7b9c4900968de64f744c96f7@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"043ef254a52040d58a5ff4da4eae8dd2@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"4a429421b0784599be7b844ad8dec1cf@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"756e4917843c450e8eeda63754feefce@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e1df287ead3248deaf43e57f5e31e396@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"2e2035749ef344fb9fa87d1103990988@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"e33f840144e2460a8296e2977399eef1@muc.365ime.com"},{"permanent":0,"name":"测试群","role":"moderator","jid":"a2be42c40d884fb182e3410b15c91430@muc.365ime.com"}],"Version":"3246677"},"errorCode":"0"}
+
+2015-08-07 15:28:11,867 [8] INFO  - 步骤“调用/iq/getURoom.php”已成功结束
+2015-08-07 15:28:11,868 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-07 15:28:11,875 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-07 15:28:11,877 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-07 15:28:11,878 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-07 15:28:12,051 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-07 15:28:12,065 [8] INFO  - 步骤“结束”已成功结束

@@ -1,0 +1,22 @@
+2015-08-21 16:27:35,654 [8] ERROR - Checkpoint 2: "27" = "37" Ê§°Ü
+2015-08-21 16:27:35,659 [8] ERROR - Failed to log checkpoint status:
+2015-08-21 16:27:35,659 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-08-21 16:27:35,661 [8] ERROR - Failed to log checkpoint status:
+2015-08-21 16:27:35,661 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-08-21 16:27:35,690 [8] ERROR - Checkpoint 5: "b7bf9dd48970c484fbf991dad673a4efec488698" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-08-21 16:27:35,693 [8] ERROR - Failed to log checkpoint status:
+2015-08-21 16:27:35,693 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-08-21 16:27:35,693 [8] ERROR - Failed to log checkpoint status:
+2015-08-21 16:27:35,694 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)

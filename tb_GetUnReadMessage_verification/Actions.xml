@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions>
+  <Action internalName="MainAction" userDefinedName="获取会话列表_获取当前未读消息条数以及最后一条数据的值tb_GetUnReadMessage_verification" description="" />
+</Actions>

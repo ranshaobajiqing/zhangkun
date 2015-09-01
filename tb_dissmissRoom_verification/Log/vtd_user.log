@@ -1,0 +1,172 @@
+2015-08-21 16:32:42,941 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-21 16:32:42,953 [8] INFO  - 步骤“开始”已成功结束
+2015-08-21 16:32:42,954 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-21 16:32:42,992 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-21 16:32:42,993 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-21 16:32:42,995 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-21 16:32:42,999 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-21 16:32:43,000 [8] INFO  - 步骤“获取到tb_dissmissRoom_verification表有效行数”: 步骤“获取到tb_dissmissRoom_verification表有效行数”已启动
+2015-08-21 16:32:43,006 [8] INFO  - 步骤“获取到tb_dissmissRoom_verification表有效行数”已成功结束
+2015-08-21 16:32:43,006 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
+2015-08-21 16:32:43,008 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
+2015-08-21 16:32:43,009 [8] INFO  - 步骤“对/xmp/createGroup.php接口进行加密操作”: 步骤“对/xmp/createGroup.php接口进行加密操作”已启动
+2015-08-21 16:32:43,188 [8] INFO  - 步骤“对/xmp/createGroup.php接口进行加密操作”已成功结束
+2015-08-21 16:32:43,191 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-21 16:32:51,076 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-21 16:32:51,078 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-21 16:32:51,083 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-21 16:32:51,104 [8] INFO  - 步骤“循环执行tb_dissmissRoom_verification中的测试用例”: 步骤“循环执行tb_dissmissRoom_verification中的测试用例”已启动
+2015-08-21 16:32:51,107 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-21 16:32:51,108 [8] INFO  - 步骤“查询tb_dissmissRoom_verification表中字段信息”: 步骤“查询tb_dissmissRoom_verification表中字段信息”已启动
+2015-08-21 16:32:51,143 [8] INFO  - 步骤“查询tb_dissmissRoom_verification表中字段信息”已成功结束
+2015-08-21 16:32:51,144 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-08-21 16:32:51,148 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-08-21 16:32:51,149 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-08-21 16:32:51,150 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_091a4bt43ei6b9565fn46edb0d97hfufddsfr8adieu70b030061u0t8j8c1h6'”
+2015-08-21 16:32:51,150 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-08-21 16:32:51,151 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“”
+2015-08-21 16:32:51,152 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-08-21 16:32:51,156 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: 步骤“调用/xmp/createGroup.php接口获取新的groupJid”已启动
+2015-08-21 16:32:51,164 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/xmp/createGroup.php'
+2015-08-21 16:32:51,589 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: 服务器返回了状态代码: 200
+2015-08-21 16:32:51,592 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: HTTP 原始请求:
+2015-08-21 16:32:51,594 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: POST http://test-iq.365ime.com:8082/xmp/createGroup.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 212
+Expect: 100-continue
+Connection: Keep-Alive
+xsid=x_091a4bt43ei6b9565fn46edb0d97hfufddsfr8adieu70b030061u0t8j8c1h6&Jid=77401169@365ime.com&groupName=测试群&groupDesc=hello，大家好！欢迎加入测试群&token=0c280973b965809db1554b0225cecbf8ba4a44c2
+
+2015-08-21 16:32:51,597 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: HTTP 原始响应:
+2015-08-21 16:32:51,599 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 21 Aug 2015 08:32:35 GMT
+Server: Apache-Coyote/1.1
+{"groupJid":"ada678d3c3c047688e16edaf4994de25@muc.365ime.com","message":"","errorCode":"0"}
+
+2015-08-21 16:32:51,612 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”已成功结束
+2015-08-21 16:32:51,614 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-21 16:32:51,625 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-21 16:32:51,627 [8] INFO  - 步骤“更新groupJid”: 步骤“更新groupJid”已启动
+2015-08-21 16:32:51,630 [8] INFO  - 步骤“更新groupJid”: 输入参数“源字符串”，值:“b84ff35507754b1db1631c26abdc61f0@muc.365ime.com”
+2015-08-21 16:32:51,632 [8] INFO  - 步骤“更新groupJid”: 输入参数“搜索字符串 1”，值:“'b84ff35507754b1db1631c26abdc61f0@muc.365ime.com'”
+2015-08-21 16:32:51,633 [8] INFO  - 步骤“更新groupJid”: 输入参数“替换字符串 1”，值:“'ada678d3c3c047688e16edaf4994de25@muc.365ime.com'”
+2015-08-21 16:32:51,634 [8] INFO  - 步骤“更新groupJid”: 输出参数“结果”，值:“ada678d3c3c047688e16edaf4994de25@muc.365ime.com”
+2015-08-21 16:32:51,636 [8] INFO  - 步骤“更新groupJid”已成功结束
+2015-08-21 16:32:51,637 [8] INFO  - 步骤“对/xmp/diss.php接口token进行加密”: 步骤“对/xmp/diss.php接口token进行加密”已启动
+2015-08-21 16:32:51,669 [8] INFO  - 步骤“对/xmp/diss.php接口token进行加密”已成功结束
+2015-08-21 16:32:51,671 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-21 16:32:58,644 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-21 16:32:58,647 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-21 16:32:58,649 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-21 16:32:58,650 [8] INFO  - 步骤“替换token”: 步骤“替换token”已启动
+2015-08-21 16:32:58,652 [8] INFO  - 步骤“替换token”: 输入参数“源字符串”，值:“72738f03c2eb66d693992576857807ee7718b2fc”
+2015-08-21 16:32:58,653 [8] INFO  - 步骤“替换token”: 输入参数“搜索字符串 1”，值:“'72738f03c2eb66d693992576857807ee7718b2fc'”
+2015-08-21 16:32:58,653 [8] INFO  - 步骤“替换token”: 输入参数“替换字符串 1”，值:“'2bc6a7aa30d8d5ab2070a229bd8845aa68393934'”
+2015-08-21 16:32:58,654 [8] INFO  - 步骤“替换token”: 输出参数“结果”，值:“2bc6a7aa30d8d5ab2070a229bd8845aa68393934”
+2015-08-21 16:32:58,656 [8] INFO  - 步骤“替换token”已成功结束
+2015-08-21 16:32:58,657 [8] INFO  - 步骤“调用/xmp/diss.php”: 步骤“调用/xmp/diss.php”已启动
+2015-08-21 16:32:58,660 [8] INFO  - 步骤“调用/xmp/diss.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/xmp/diss.php'
+2015-08-21 16:32:58,706 [8] INFO  - 步骤“调用/xmp/diss.php”: 服务器返回了状态代码: 200
+2015-08-21 16:32:58,707 [8] INFO  - 步骤“调用/xmp/diss.php”: HTTP 原始请求:
+2015-08-21 16:32:58,721 [8] INFO  - 步骤“调用/xmp/diss.php”: POST http://test-iq.365ime.com:8082/xmp/diss.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 132
+Expect: 100-continue
+xsid=&Jid=77401169@365ime.com&roomJid=ada678d3c3c047688e16edaf4994de25@muc.365ime.com&token=2bc6a7aa30d8d5ab2070a229bd8845aa68393934
+
+2015-08-21 16:32:58,723 [8] INFO  - 步骤“调用/xmp/diss.php”: HTTP 原始响应:
+2015-08-21 16:32:58,723 [8] INFO  - 步骤“调用/xmp/diss.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 21 Aug 2015 08:32:42 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"Parameter is error !","errorCode":"1"}
+
+2015-08-21 16:32:58,725 [8] INFO  - 步骤“调用/xmp/diss.php”已成功结束
+2015-08-21 16:32:58,725 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-21 16:32:58,727 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-21 16:32:58,728 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-21 16:32:58,779 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-21 16:32:58,780 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-21 16:32:58,828 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-21 16:32:58,829 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-21 16:32:58,831 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-21 16:32:58,832 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-21 16:32:58,834 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-21 16:32:58,835 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-21 16:32:58,837 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-21 16:32:58,838 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-21 16:32:58,839 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-21 16:32:58,869 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-21 16:32:58,870 [8] INFO  - 步骤“否”已成功结束
+2015-08-21 16:32:58,872 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-21 16:32:58,873 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-21 16:32:58,874 [8] INFO  - 步骤“循环执行tb_dissmissRoom_verification中的测试用例”已成功结束
+2015-08-21 16:32:58,875 [8] INFO  - 步骤“对/xmp/createGroup.php接口进行加密操作”: 步骤“对/xmp/createGroup.php接口进行加密操作”已启动
+2015-08-21 16:32:58,902 [8] INFO  - 步骤“对/xmp/createGroup.php接口进行加密操作”已成功结束
+2015-08-21 16:32:58,903 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-21 16:33:09,174 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-21 16:33:09,176 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-21 16:33:09,184 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-21 16:33:09,185 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: 步骤“调用/xmp/createGroup.php接口获取新的groupJid”已启动
+2015-08-21 16:33:09,188 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/xmp/createGroup.php'
+2015-08-21 16:33:09,249 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: 服务器返回了状态代码: 200
+2015-08-21 16:33:09,249 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: HTTP 原始请求:
+2015-08-21 16:33:09,250 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: POST http://test-iq.365ime.com:8082/xmp/createGroup.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 212
+Expect: 100-continue
+xsid=x_091a4bt43ei6b9565fn46edb0d97hfufddsfr8adieu70b030061u0t8j8c1h6&Jid=77401169@365ime.com&groupName=测试群&groupDesc=hello，大家好！欢迎加入测试群&token=0c280973b965809db1554b0225cecbf8ba4a44c2
+
+2015-08-21 16:33:09,250 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: HTTP 原始响应:
+2015-08-21 16:33:09,251 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 21 Aug 2015 08:32:52 GMT
+Server: Apache-Coyote/1.1
+{"groupJid":"41d529c372254f0c8ccea294860ceb82@muc.365ime.com","message":"","errorCode":"0"}
+
+2015-08-21 16:33:09,252 [8] INFO  - 步骤“调用/xmp/createGroup.php接口获取新的groupJid”已成功结束
+2015-08-21 16:33:09,252 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-21 16:33:09,254 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-21 16:33:09,254 [8] INFO  - 步骤“对/xmp/diss.php接口进行加密操作”: 步骤“对/xmp/diss.php接口进行加密操作”已启动
+2015-08-21 16:33:09,295 [8] INFO  - 步骤“对/xmp/diss.php接口进行加密操作”已成功结束
+2015-08-21 16:33:09,298 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-21 16:33:19,746 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-21 16:33:19,751 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-21 16:33:19,755 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-21 16:33:19,757 [8] INFO  - 步骤“调用/xmp/diss.php”: 步骤“调用/xmp/diss.php”已启动
+2015-08-21 16:33:19,760 [8] INFO  - 步骤“调用/xmp/diss.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/xmp/diss.php'
+2015-08-21 16:33:20,309 [8] INFO  - 步骤“调用/xmp/diss.php”: 服务器返回了状态代码: 200
+2015-08-21 16:33:20,318 [8] INFO  - 步骤“调用/xmp/diss.php”: HTTP 原始请求:
+2015-08-21 16:33:20,320 [8] INFO  - 步骤“调用/xmp/diss.php”: POST http://test-iq.365ime.com:8082/xmp/diss.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 196
+Expect: 100-continue
+xsid=x_091a4bt43ei6b9565fn46edb0d97hfufddsfr8adieu70b030061u0t8j8c1h6&Jid=77401169@365ime.com&roomJid=41d529c372254f0c8ccea294860ceb82@muc.365ime.com&token=21e8620445bf10a10720c8625b82e23cf26de30e
+
+2015-08-21 16:33:20,322 [8] INFO  - 步骤“调用/xmp/diss.php”: HTTP 原始响应:
+2015-08-21 16:33:20,324 [8] INFO  - 步骤“调用/xmp/diss.php”: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 21 Aug 2015 08:33:03 GMT
+Server: Apache-Coyote/1.1
+{"errorMessage":"success","errorCode":"0"}
+
+2015-08-21 16:33:20,332 [8] INFO  - 步骤“调用/xmp/diss.php”已成功结束
+2015-08-21 16:33:20,334 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-21 16:33:20,360 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-21 16:33:20,363 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-21 16:33:20,365 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-21 16:33:20,563 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-21 16:33:20,578 [8] INFO  - 步骤“结束”已成功结束

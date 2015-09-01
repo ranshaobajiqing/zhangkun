@@ -1,0 +1,1 @@
+{"groupJid":"ada678d3c3c047688e16edaf4994de25@muc.365ime.com","message":"","errorCode":"0"}

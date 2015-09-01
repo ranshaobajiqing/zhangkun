@@ -1,0 +1,2 @@
+2015-09-01 10:38:55,879 [8] ERROR - DataCursorActivity263£¬GetDataFromInDirections() Ê§°Ü: ERROR [HY000] [MySQL][ODBC 5.3(w) Driver]Can't connect to MySQL server on 'localhost' (10061)
+ERROR [HY000] [MySQL][ODBC 5.3(w) Driver]Can't connect to MySQL server on 'localhost' (10061)

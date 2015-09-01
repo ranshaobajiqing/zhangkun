@@ -1,0 +1,101 @@
+2015-08-11 17:34:29,113 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-08-11 17:34:29,130 [8] INFO  - 步骤“开始”已成功结束
+2015-08-11 17:34:29,132 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-08-11 17:34:29,184 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-11 17:34:29,185 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-08-11 17:34:29,188 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
+2015-08-11 17:34:29,194 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-08-11 17:34:29,195 [8] INFO  - 步骤“获取tb_GetUnReadMsgs_verification表有效行数”: 步骤“获取tb_GetUnReadMsgs_verification表有效行数”已启动
+2015-08-11 17:34:29,212 [8] ERROR - Checkpoint 2: "17" = "37" 失败
+2015-08-11 17:34:29,216 [8] INFO  - 步骤“获取tb_GetUnReadMsgs_verification表有效行数”已成功结束
+2015-08-11 17:34:29,217 [8] INFO  - 步骤“获取全局表中xmid值”: 步骤“获取全局表中xmid值”已启动
+2015-08-11 17:34:29,221 [8] INFO  - 步骤“获取全局表中xmid值”已成功结束
+2015-08-11 17:34:29,222 [8] INFO  - 步骤“循环执行tb_GetUnReadMsgs_verification中的测试用例”: 步骤“循环执行tb_GetUnReadMsgs_verification中的测试用例”已启动
+2015-08-11 17:34:29,225 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-08-11 17:34:29,226 [8] INFO  - 步骤“查询tb_GetUnReadMsgs_verification表中字段信息”: 步骤“查询tb_GetUnReadMsgs_verification表中字段信息”已启动
+2015-08-11 17:34:29,229 [8] ERROR - Checkpoint 5: "e604be10fa933b76a0cf13072e3f552f8d81fb38" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-08-11 17:34:29,232 [8] INFO  - 步骤“查询tb_GetUnReadMsgs_verification表中字段信息”已成功结束
+2015-08-11 17:34:29,233 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”: 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已启动
+2015-08-11 17:34:29,304 [8] INFO  - 步骤“将需要加密的数据赋值到全局表EncryptionStr字段中”已成功结束
+2015-08-11 17:34:29,306 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-11 17:34:36,233 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-11 17:34:36,234 [8] INFO  - 步骤“查询出加密后的token信息”: 步骤“查询出加密后的token信息”已启动
+2015-08-11 17:34:36,237 [8] INFO  - 步骤“查询出加密后的token信息”已成功结束
+2015-08-11 17:34:36,238 [8] INFO  - 步骤“将token更新至最新值”: 步骤“将token更新至最新值”已启动
+2015-08-11 17:34:36,246 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“源字符串”，值:“e604be10fa933b76a0cf13072e3f552f8d81fb38”
+2015-08-11 17:34:36,249 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“搜索字符串 1”，值:“'e604be10fa933b76a0cf13072e3f552f8d81fb38'”
+2015-08-11 17:34:36,250 [8] INFO  - 步骤“将token更新至最新值”: 输入参数“替换字符串 1”，值:“'5f3a1b5fbbad1daab4566ffcc8f1c8376aa43a92'”
+2015-08-11 17:34:36,251 [8] INFO  - 步骤“将token更新至最新值”: 输出参数“结果”，值:“5f3a1b5fbbad1daab4566ffcc8f1c8376aa43a92”
+2015-08-11 17:34:36,253 [8] INFO  - 步骤“将token更新至最新值”已成功结束
+2015-08-11 17:34:36,254 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: 步骤“调用/iq/GetUnReadMsgs.php”已启动
+2015-08-11 17:34:36,266 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/GetUnReadMsgs.php'
+2015-08-11 17:34:36,426 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: 服务器返回了状态代码: 404
+2015-08-11 17:34:36,427 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: HTTP 原始请求:
+2015-08-11 17:34:36,428 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: POST http://test-iq.365ime.com:8082/iq/GetUnReadMsgs.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 83
+Expect: 100-continue
+Connection: Keep-Alive
+jid=77401170@365ime.com&xmid=6103081&token=5f3a1b5fbbad1daab4566ffcc8f1c8376aa43a92
+
+2015-08-11 17:34:36,429 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: HTTP 原始响应:
+2015-08-11 17:34:36,430 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: HTTP/1.1 404 Not Found
+Content-Language: en
+Content-Length: 1020
+Content-Type: text/html;charset=utf-8
+Date: Tue, 11 Aug 2015 09:31:41 GMT
+Server: Apache-Coyote/1.1
+<!DOCTYPE html><html><head><title>Apache Tomcat - Error report</title><style type="text/css">H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}</style> </head><body><h1>HTTP Status 404 - /iq/GetUnReadMsgs.php</h1><div class="line"></div><p><b>type</b> Status report</p><p><b>message</b> <u>/iq/GetUnReadMsgs.php</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><hr class="line"><h3>Apache Tomcat</h3></body></html>
+2015-08-11 17:34:36,435 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”已成功结束
+2015-08-11 17:34:36,436 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-08-11 17:34:36,443 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-08-11 17:34:36,444 [8] INFO  - 步骤“将获取到的JSON插入到sql中”: 步骤“将获取到的JSON插入到sql中”已启动
+2015-08-11 17:34:36,776 [8] INFO  - 步骤“将获取到的JSON插入到sql中”已成功结束
+2015-08-11 17:34:36,778 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-08-11 17:34:37,030 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-08-11 17:34:37,033 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-08-11 17:34:37,039 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-08-11 17:34:37,041 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-08-11 17:34:37,048 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-08-11 17:34:37,050 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-08-11 17:34:37,056 [8] INFO  - 步骤“IfElse64”: 计算方式: 使用条件
+2015-08-11 17:34:37,058 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-08-11 17:34:37,062 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-08-11 17:34:37,173 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-08-11 17:34:37,175 [8] INFO  - 步骤“否”已成功结束
+2015-08-11 17:34:37,176 [8] INFO  - 步骤“填写Result”已成功结束
+2015-08-11 17:34:37,178 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-11 17:34:37,179 [8] INFO  - 步骤“循环执行tb_GetUnReadMsgs_verification中的测试用例”已成功结束
+2015-08-11 17:34:37,180 [8] INFO  - 步骤“对/iq/GetUnReadMsgs.php接口token实行加密”: 步骤“对/iq/GetUnReadMsgs.php接口token实行加密”已启动
+2015-08-11 17:34:37,317 [8] INFO  - 步骤“对/iq/GetUnReadMsgs.php接口token实行加密”已成功结束
+2015-08-11 17:34:37,320 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
+2015-08-11 17:34:43,952 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
+2015-08-11 17:34:43,954 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
+2015-08-11 17:34:43,956 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
+2015-08-11 17:34:43,957 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: 步骤“调用/iq/GetUnReadMsgs.php”已启动
+2015-08-11 17:34:43,958 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8082/iq/GetUnReadMsgs.php'
+2015-08-11 17:34:44,048 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: 服务器返回了状态代码: 404
+2015-08-11 17:34:44,051 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: HTTP 原始请求:
+2015-08-11 17:34:44,053 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: POST http://test-iq.365ime.com:8082/iq/GetUnReadMsgs.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: test-iq.365ime.com:8082
+Content-Length: 83
+Expect: 100-continue
+jid=77401169@365ime.com&xmid=6103081&token=e604be10fa933b76a0cf13072e3f552f8d81fb38
+
+2015-08-11 17:34:44,055 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: HTTP 原始响应:
+2015-08-11 17:34:44,057 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”: HTTP/1.1 404 Not Found
+Content-Language: en
+Content-Length: 1020
+Content-Type: text/html;charset=utf-8
+Date: Tue, 11 Aug 2015 09:31:49 GMT
+Server: Apache-Coyote/1.1
+<!DOCTYPE html><html><head><title>Apache Tomcat - Error report</title><style type="text/css">H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}</style> </head><body><h1>HTTP Status 404 - /iq/GetUnReadMsgs.php</h1><div class="line"></div><p><b>type</b> Status report</p><p><b>message</b> <u>/iq/GetUnReadMsgs.php</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><hr class="line"><h3>Apache Tomcat</h3></body></html>
+2015-08-11 17:34:44,062 [8] INFO  - 步骤“调用/iq/GetUnReadMsgs.php”已成功结束
+2015-08-11 17:34:44,065 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-08-11 17:34:44,149 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-08-11 17:34:44,172 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-08-11 17:34:44,176 [8] INFO  - 步骤“测试流”已成功结束
+2015-08-11 17:34:44,756 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-08-11 17:34:44,770 [8] INFO  - 步骤“结束”已成功结束

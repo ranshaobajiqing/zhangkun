@@ -1,0 +1,1 @@
+<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><xsid>x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00</xsid><groupName>测试群</groupName><groupDesc>hello，大家好！欢迎加入本群</groupDesc><token>6cab2b2dc53b7d86ed29b6977cd8ce10c41459d9</token></Row></ResultTable></tns:Arguments>

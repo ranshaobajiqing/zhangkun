@@ -1,0 +1,7 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest19.ScriptPath}</Key><Path>E:\test_automation_interface\tb_getVCards_verification</Path><Value>..\tb_getVCards_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest18.ScriptPath}</Key><Path>E:\test_automation_interface\tb_getclassmembers_verification</Path><Value>..\tb_getclassmembers_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest17.ScriptPath}</Key><Path>E:\test_automation_interface\tb_getclassinfo_verification</Path><Value>..\tb_getclassinfo_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest16.ScriptPath}</Key><Path>E:\test_automation_interface\tb_getSchoolInfo_verification</Path><Value>..\tb_getSchoolInfo_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest15.ScriptPath}</Key><Path>E:\test_automation_interface\tb_sso_authorize_verification</Path><Value>..\tb_sso_authorize_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>
