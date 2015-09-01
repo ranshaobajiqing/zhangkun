@@ -1,1 +1,0 @@
-<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><EncryptionResult>e653f43185603e45d70b0dd5614dbd9500460ec0</EncryptionResult></Row></ResultTable></tns:Arguments>

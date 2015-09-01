@@ -1,7 +1,0 @@
-<Object jsonType="Object" isAnonymous="true"><errorMessage jsonType="String">invalid xsid !
-### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'small_avatar' at row 1
-### The error may involve com.ime.imeapi.service.GroupInfoService.modifyImage-Inline
-### The error occurred while setting parameters
-### SQL: UPDATE party_basic    set small_avatar = ?,       big_avatar = ?      where jid = ?
-### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'small_avatar' at row 1
-; SQL []; Data truncation: Data too long for column 'small_avatar' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'small_avatar' at row 1</errorMessage><errorCode jsonType="String">1</errorCode></Object>

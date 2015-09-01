@@ -1,1 +1,0 @@
-<Object jsonType="Object" isAnonymous="true"><groupJid jsonType="String">24e871fcc70e400da9d1e7f9643d3ec4@muc.365ime.com</groupJid><message jsonType="String"></message><errorCode jsonType="String">0</errorCode></Object>

@@ -1,1 +1,0 @@
-{"message":"","errorCode":"0","data":[{"orgName":"刘丽","type":"org","orgID":622195}]}

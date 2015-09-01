@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<AddinVersions>
-  <AddinVersion AddinId="HP.ST.STFRAMEWORKUPGRADERSADDIN" Version="12.0.448.0" />
-  <AddinVersion AddinId="HP.ST.VTDBASICACTIVITY" Version="12.0.448.0" />
-  <AddinVersion AddinId="HP.ST.VTDDATABASEACTIVITY" Version="12.0.448.0" />
-  <AddinVersion AddinId="HP.ST.UFTADDIN" Version="12.0.448.0" />
-  <AddinVersion AddinId="HP.ST.VTDHTTPACTIVITY" Version="12.0.448.0" />
-  <AddinVersion AddinId="HP.ST.TRANSFORMJSONADDIN" Version="12.0.448.0" />
-</AddinVersions>

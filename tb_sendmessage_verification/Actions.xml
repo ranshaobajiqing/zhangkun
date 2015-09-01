@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Actions>
-  <Action internalName="MainAction" userDefinedName="向消息列表中推送一条作业或通知消息tb_sendmessage_verification" description="" />
-</Actions>
