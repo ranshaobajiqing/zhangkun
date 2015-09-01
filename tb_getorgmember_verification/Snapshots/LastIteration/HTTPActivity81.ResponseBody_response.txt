@@ -1,0 +1,1 @@
+{"errorMessage":"success","data":[{"gradeName":"四年级","classJid":"q622195-13@muc.365ime.com","className":"101169 班","schoolCode":"2177000014"}],"errorCode":"0"}

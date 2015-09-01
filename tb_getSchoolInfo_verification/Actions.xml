@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions>
+  <Action internalName="MainAction" userDefinedName="根据用户JID获取学校码tb_getSchoolInfo_verification" description="" />
+</Actions>

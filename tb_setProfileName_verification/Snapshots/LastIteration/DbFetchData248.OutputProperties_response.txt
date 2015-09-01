@@ -1,0 +1,1 @@
+<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><groupJid>c8e37365c32242b9a37661c0a31454bd@muc.365ime.com</groupJid></Row></ResultTable></tns:Arguments>

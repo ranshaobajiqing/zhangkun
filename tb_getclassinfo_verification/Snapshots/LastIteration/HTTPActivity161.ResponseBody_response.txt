@@ -1,0 +1,1 @@
+{"errorMessage":"success","data":{"userArray":[{"nick_name":"","username":"张坤老师","category":0,"big_avatar":"http://download.ac-bj-oss.365ime.com/storage/2015-08-03/c05dfb5505a9e142874eba2cebeeb41b41cd4009","userRole":"s2","jid":"77401169@365ime.com"}]},"errorCode":"0"}

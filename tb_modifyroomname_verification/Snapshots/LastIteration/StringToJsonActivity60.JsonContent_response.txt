@@ -1,0 +1,1 @@
+<Object jsonType="Object" isAnonymous="true"><message jsonType="String">modifyRoomName is failed!</message><errorCode jsonType="String">1</errorCode></Object>
