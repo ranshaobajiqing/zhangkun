@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Actions>
-  <Action internalName="MainAction" userDefinedName="获取未读取的信息tb_GetUnReadMsgs_verification" description="" />
+  <Action internalName="MainAction" userDefinedName="tb_GetUnReadMsgs_verification" description="" />
 </Actions>

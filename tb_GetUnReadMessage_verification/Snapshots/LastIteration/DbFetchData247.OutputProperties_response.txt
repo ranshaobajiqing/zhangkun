@@ -1,1 +1,1 @@
-<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><ResponseXsid>x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib</ResponseXsid></Row></ResultTable></tns:Arguments>
+<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><StudentsXsid>x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000</StudentsXsid></Row></ResultTable></tns:Arguments>

@@ -4,4 +4,6 @@
 <RuntimeResource><Key>{Step.GeneralProperties.CallSTTest17.ScriptPath}</Key><Path>E:\test_automation_interface\tb_getclassinfo_verification</Path><Value>..\tb_getclassinfo_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 <RuntimeResource><Key>{Step.GeneralProperties.CallSTTest16.ScriptPath}</Key><Path>E:\test_automation_interface\tb_getSchoolInfo_verification</Path><Value>..\tb_getSchoolInfo_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 <RuntimeResource><Key>{Step.GeneralProperties.CallSTTest15.ScriptPath}</Key><Path>E:\test_automation_interface\tb_sso_authorize_verification</Path><Value>..\tb_sso_authorize_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest20.ScriptPath}</Key><Path>E:\git\tb_sendhttpmessage_verification</Path><Value>..\tb_sendhttpmessage_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest21.ScriptPath}</Key><Path>E:\git\tb_GetUnReadMessage_verification</Path><Value>..\tb_GetUnReadMessage_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 </RuntimeResourceManager>

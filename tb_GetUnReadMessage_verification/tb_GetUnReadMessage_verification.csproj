@@ -87,9 +87,6 @@ $(ST_INSTALL_PATH)\AddIns\ServiceTest\UFT;</ReferencePath>
     <Reference Include="HP.ST.Ext.TransformJsonActivity">
       <Private>False</Private>
     </Reference>
-    <Reference Include="HP.ST.Ext.UFTActivity">
-      <Private>False</Private>
-    </Reference>
     <Reference Include="HP.ST.Ext.WebServicesTechnologyRT">
       <Private>False</Private>
     </Reference>

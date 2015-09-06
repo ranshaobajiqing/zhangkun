@@ -1,112 +1,946 @@
-2015-08-09 14:56:52,018 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
-2015-08-09 14:56:52,049 [8] INFO  - 步骤“开始”已成功结束
-2015-08-09 14:56:52,052 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
-2015-08-09 14:56:52,151 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
-2015-08-09 14:56:52,157 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
-2015-08-09 14:56:52,163 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=localhost;Uid=root;Pwd={PWD};
-2015-08-09 14:56:52,191 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
-2015-08-09 14:56:52,192 [8] INFO  - 步骤“获取到tb_GetUnReadMessage_verification表有效行数”: 步骤“获取到tb_GetUnReadMessage_verification表有效行数”已启动
-2015-08-09 14:56:52,205 [8] INFO  - 步骤“获取到tb_GetUnReadMessage_verification表有效行数”已成功结束
-2015-08-09 14:56:52,206 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”: 步骤“查询tb_global_table表中ResponseXsid值”已启动
-2015-08-09 14:56:52,210 [8] INFO  - 步骤“查询tb_global_table表中ResponseXsid值”已成功结束
-2015-08-09 14:56:52,211 [8] INFO  - 步骤“循环执行tb_GetUnReadMessage_verification中的测试用例”: 步骤“循环执行tb_GetUnReadMessage_verification中的测试用例”已启动
-2015-08-09 14:56:52,213 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
-2015-08-09 14:56:52,215 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
-2015-08-09 14:56:52,235 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
-2015-08-09 14:56:52,239 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
-2015-08-09 14:56:52,241 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
-2015-08-09 14:56:52,247 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
-2015-08-09 14:56:52,251 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
-2015-08-09 14:56:52,252 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib'”
-2015-08-09 14:56:52,253 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib”
-2015-08-09 14:56:52,256 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
-2015-08-09 14:56:52,257 [8] INFO  - 步骤“对本地表的token进行加密字符串拼接”: 步骤“对本地表的token进行加密字符串拼接”已启动
-2015-08-09 14:56:52,313 [8] INFO  - 步骤“对本地表的token进行加密字符串拼接”已成功结束
-2015-08-09 14:56:52,315 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
-2015-08-09 14:58:03,849 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
-2015-08-09 14:58:03,852 [8] INFO  - 步骤“获取加密后的token”: 步骤“获取加密后的token”已启动
-2015-08-09 14:58:03,856 [8] INFO  - 步骤“获取加密后的token”已成功结束
-2015-08-09 14:58:03,858 [8] INFO  - 步骤“将token更新至最新”: 步骤“将token更新至最新”已启动
-2015-08-09 14:58:03,860 [8] INFO  - 步骤“将token更新至最新”: 输入参数“源字符串”，值:“305bbc2b43542b3d0203daffe9073c3cba5b47d9”
-2015-08-09 14:58:03,862 [8] INFO  - 步骤“将token更新至最新”: 输入参数“搜索字符串 1”，值:“'305bbc2b43542b3d0203daffe9073c3cba5b47d9'”
-2015-08-09 14:58:03,864 [8] INFO  - 步骤“将token更新至最新”: 输入参数“替换字符串 1”，值:“'7a4853f0aca0eaf1709c961cb6c7f9b430c14d36'”
-2015-08-09 14:58:03,865 [8] INFO  - 步骤“将token更新至最新”: 输出参数“结果”，值:“7a4853f0aca0eaf1709c961cb6c7f9b430c14d36”
-2015-08-09 14:58:03,867 [8] INFO  - 步骤“将token更新至最新”已成功结束
-2015-08-09 14:58:03,870 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
-2015-08-09 14:58:03,890 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8081/iq/GetUnReadMessage.php'
-2015-08-09 14:58:04,131 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
-2015-08-09 14:58:04,133 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
-2015-08-09 14:58:04,134 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://test-iq.365ime.com:8081/iq/GetUnReadMessage.php 1.1
+2015-09-06 18:06:51,931 [8] INFO  - 步骤“开始”: 步骤“开始”已启动
+2015-09-06 18:06:51,949 [8] INFO  - 步骤“开始”已成功结束
+2015-09-06 18:06:51,951 [8] INFO  - 步骤“测试流”: 步骤“测试流”已启动
+2015-09-06 18:06:51,997 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-09-06 18:06:51,998 [8] INFO  - 步骤“连接到mysql数据库”: 步骤“连接到mysql数据库”已启动
+2015-09-06 18:06:52,000 [8] INFO  - 步骤“连接到mysql数据库”: Connection string: DSN=192.168.50.11;Uid=ime;Pwd=www.365ime.com!;
+2015-09-06 18:06:52,016 [8] INFO  - 步骤“连接到mysql数据库”已成功结束
+2015-09-06 18:06:52,017 [8] INFO  - 步骤“获取到tb_GetUnReadMessage_verification表有效行数”: 步骤“获取到tb_GetUnReadMessage_verification表有效行数”已启动
+2015-09-06 18:06:52,023 [8] INFO  - 步骤“获取到tb_GetUnReadMessage_verification表有效行数”已成功结束
+2015-09-06 18:06:52,024 [8] INFO  - 步骤“查询tb_global_table表中StudentsXsid值”: 步骤“查询tb_global_table表中StudentsXsid值”已启动
+2015-09-06 18:06:52,027 [8] INFO  - 步骤“查询tb_global_table表中StudentsXsid值”已成功结束
+2015-09-06 18:06:52,028 [8] INFO  - 步骤“查询tb_global_table表中LoginStudentUsername值”: 步骤“查询tb_global_table表中LoginStudentUsername值”已启动
+2015-09-06 18:06:52,030 [8] INFO  - 步骤“查询tb_global_table表中LoginStudentUsername值”已成功结束
+2015-09-06 18:06:52,031 [8] INFO  - 步骤“循环执行tb_GetUnReadMessage_verification中的测试用例”: 步骤“循环执行tb_GetUnReadMessage_verification中的测试用例”已启动
+2015-09-06 18:06:52,033 [8] INFO  - 步骤“迭代 1”: 步骤“迭代 1”已启动
+2015-09-06 18:06:52,034 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:52,046 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:52,049 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:52,060 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:52,063 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-09-06 18:06:52,065 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:52,066 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:52,067 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-09-06 18:06:52,067 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“”
+2015-09-06 18:06:52,069 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:52,069 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:52,071 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:52,073 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:52,073 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:52,074 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:52,075 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:52,076 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:52,087 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:52,210 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:52,213 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:52,218 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
 Content-Type: application/x-www-form-urlencoded
-Host: test-iq.365ime.com:8081
-Content-Length: 140
+Host: yace-msg.365ime.com
+Content-Length: 29
 Expect: 100-continue
 Connection: Keep-Alive
-xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&jid=77401169@365ime.com&token=7a4853f0aca0eaf1709c961cb6c7f9b430c14d36
+xsid=&jid=77401170@365ime.com
 
-2015-08-09 14:58:04,135 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
-2015-08-09 14:58:04,136 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
+2015-09-06 18:06:52,222 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:52,225 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
 Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
 Content-Type: text/html;charset=UTF-8
-Date: Sun, 09 Aug 2015 06:55:17 GMT
-Server: Apache-Coyote/1.1
-{"errorMessage":"","data":[{"chatID":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com","lastMessage":{"content":"6103077","to":"77401169@365ime.com","time":"1438876200","messageID":"87069d92-4132-43c1-8423-de0da5e26083","status":"0","cqid":"","xmid":"6103081","from":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com/382663942@365ime.com","messageType":"text/markup","type":"groupchat"},"unReadCount":"2"}],"errorCode":"0"}
-
-2015-08-09 14:58:04,144 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
-2015-08-09 14:58:04,146 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
-2015-08-09 14:58:04,156 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
-2015-08-09 14:58:04,158 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
-2015-08-09 14:58:04,334 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
-2015-08-09 14:58:04,336 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
-2015-08-09 14:58:04,390 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
-2015-08-09 14:58:04,391 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
-2015-08-09 14:58:04,395 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
-2015-08-09 14:58:04,397 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
-2015-08-09 14:58:04,410 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
-2015-08-09 14:58:04,412 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
-2015-08-09 14:58:04,415 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
-2015-08-09 14:58:04,416 [8] INFO  - 步骤“否”: 步骤“否”已启动
-2015-08-09 14:58:04,418 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
-2015-08-09 14:58:04,459 [8] INFO  - 步骤“在Result字段插入False”已成功结束
-2015-08-09 14:58:04,473 [8] INFO  - 步骤“否”已成功结束
-2015-08-09 14:58:04,476 [8] INFO  - 步骤“填写Result”已成功结束
-2015-08-09 14:58:04,479 [8] INFO  - 步骤“迭代 1”已成功结束
-2015-08-09 14:58:04,481 [8] INFO  - 步骤“循环执行tb_GetUnReadMessage_verification中的测试用例”已成功结束
-2015-08-09 14:58:04,484 [8] INFO  - 步骤“对/iq/GetUnReadMessage.php接口token实行加密”: 步骤“对/iq/GetUnReadMessage.php接口token实行加密”已启动
-2015-08-09 14:58:04,543 [8] INFO  - 步骤“对/iq/GetUnReadMessage.php接口token实行加密”已成功结束
-2015-08-09 14:58:04,545 [8] INFO  - 步骤“Encryption.SHA1”: 步骤“Encryption.SHA1”已启动
-2015-08-09 14:59:20,633 [8] INFO  - 步骤“Encryption.SHA1”已成功结束
-2015-08-09 14:59:20,634 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”: 步骤“查询出加密后EncryptionResult字段的值”已启动
-2015-08-09 14:59:20,636 [8] INFO  - 步骤“查询出加密后EncryptionResult字段的值”已成功结束
-2015-08-09 14:59:20,637 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
-2015-08-09 14:59:20,639 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://test-iq.365ime.com:8081/iq/GetUnReadMessage.php'
-2015-08-09 14:59:20,731 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
-2015-08-09 14:59:20,732 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
-2015-08-09 14:59:20,733 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://test-iq.365ime.com:8081/iq/GetUnReadMessage.php 1.1
+Date: Sun, 06 Sep 2015 10:06:52 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534011|1441534011;Path=/
+{"errorMessage":"没有权限","errorCode":"1"}
+2015-09-06 18:06:52,237 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:52,238 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:52,244 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:52,246 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:52,250 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:52,251 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:52,255 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:52,256 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:52,263 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:52,264 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:52,267 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:52,268 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:52,270 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:52,271 [8] INFO  - 步骤“否”: 步骤“否”已启动
+2015-09-06 18:06:52,272 [8] INFO  - 步骤“在Result字段插入False”: 步骤“在Result字段插入False”已启动
+2015-09-06 18:06:52,275 [8] INFO  - 步骤“在Result字段插入False”已成功结束
+2015-09-06 18:06:52,277 [8] INFO  - 步骤“否”已成功结束
+2015-09-06 18:06:52,278 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:52,280 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-09-06 18:06:52,283 [8] INFO  - 步骤“迭代 2”: 步骤“迭代 2”已启动
+2015-09-06 18:06:52,284 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:52,287 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:52,289 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:52,290 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:52,291 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“123”
+2015-09-06 18:06:52,292 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:52,293 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:52,294 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“123”
+2015-09-06 18:06:52,295 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:52,296 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:52,298 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:52,299 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:52,299 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:52,300 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:52,301 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:52,302 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:52,304 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:52,356 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:52,359 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:52,362 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
 Content-Type: application/x-www-form-urlencoded
-Host: test-iq.365ime.com:8081
-Content-Length: 140
+Host: yace-msg.365ime.com
+Content-Length: 32
 Expect: 100-continue
-xsid=x_0e1a5657n865d20b8aifxeafq394a1idub0a0b096du0t6j08ac112hb64t3ib&jid=77401169@365ime.com&token=7a4853f0aca0eaf1709c961cb6c7f9b430c14d36
+xsid=123&jid=77401170@365ime.com
 
-2015-08-09 14:59:20,734 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
-2015-08-09 14:59:20,735 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
+2015-09-06 18:06:52,364 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:52,367 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
 Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
 Content-Type: text/html;charset=UTF-8
-Date: Sun, 09 Aug 2015 06:56:33 GMT
-Server: Apache-Coyote/1.1
-{"errorMessage":"","data":[{"chatID":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com","lastMessage":{"content":"6103077","to":"77401169@365ime.com","time":"1438876200","messageID":"87069d92-4132-43c1-8423-de0da5e26083","status":"0","cqid":"","xmid":"6103081","from":"736393c7-ab29-4dba-a154-f99cc53e744f@muc.365ime.com/382663942@365ime.com","messageType":"text/markup","type":"groupchat"},"unReadCount":"2"}],"errorCode":"0"}
+Date: Sun, 06 Sep 2015 10:06:52 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534012|1441534012;Path=/
+{"errorMessage":"没有权限","errorCode":"1"}
+2015-09-06 18:06:52,372 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:52,374 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:52,380 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:52,382 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:52,390 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:52,393 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:52,402 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:52,404 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:52,411 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:52,413 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:52,419 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:52,420 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:52,423 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:52,424 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:52,426 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:52,431 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:52,433 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:52,436 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:52,438 [8] INFO  - 步骤“迭代 2”已成功结束
+2015-09-06 18:06:52,441 [8] INFO  - 步骤“迭代 3”: 步骤“迭代 3”已启动
+2015-09-06 18:06:52,443 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:52,446 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:52,448 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:52,449 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:52,451 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“abc”
+2015-09-06 18:06:52,452 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:52,453 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:52,453 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“abc”
+2015-09-06 18:06:52,454 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:52,455 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:52,461 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:52,462 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:52,463 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:52,464 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:52,465 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:52,465 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:52,467 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:52,518 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:52,519 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:52,519 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 32
+Expect: 100-continue
+xsid=abc&jid=77401170@365ime.com
 
-2015-08-09 14:59:20,749 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
-2015-08-09 14:59:20,749 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
-2015-08-09 14:59:20,764 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
-2015-08-09 14:59:20,765 [8] INFO  - 步骤“将获取到的xmid赋值到全局表中”: 步骤“将获取到的xmid赋值到全局表中”已启动
-2015-08-09 14:59:20,817 [8] INFO  - 步骤“将获取到的xmid赋值到全局表中”已成功结束
-2015-08-09 14:59:20,818 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
-2015-08-09 14:59:20,860 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
-2015-08-09 14:59:20,862 [8] INFO  - 步骤“迭代 1”已成功结束
-2015-08-09 14:59:20,863 [8] INFO  - 步骤“测试流”已成功结束
-2015-08-09 14:59:21,121 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
-2015-08-09 14:59:21,127 [8] INFO  - 步骤“结束”已成功结束
+2015-09-06 18:06:52,520 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:52,520 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:52 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534012|1441534012;Path=/
+{"errorMessage":"没有权限","errorCode":"1"}
+2015-09-06 18:06:52,522 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:52,523 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:52,525 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:52,526 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:52,530 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:52,530 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:52,534 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:52,535 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:52,537 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:52,538 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:52,541 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:52,542 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:52,543 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:52,544 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:52,544 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:52,549 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:52,551 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:52,554 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:52,556 [8] INFO  - 步骤“迭代 3”已成功结束
+2015-09-06 18:06:52,557 [8] INFO  - 步骤“迭代 4”: 步骤“迭代 4”已启动
+2015-09-06 18:06:52,558 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:52,560 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:52,562 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:52,563 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:52,564 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“!@#$%^&”
+2015-09-06 18:06:52,565 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:52,565 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:52,566 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“!@#$%^&”
+2015-09-06 18:06:52,567 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:52,568 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:52,569 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:52,571 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:52,572 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:52,577 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:52,580 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:52,581 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:52,584 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:52,634 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:52,637 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:52,669 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 36
+Expect: 100-continue
+xsid=!@#$%^&&jid=77401170@365ime.com
+
+2015-09-06 18:06:52,671 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:52,673 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:52 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534012|1441534012;Path=/
+{"errorMessage":null,"errorCode":"1"}
+2015-09-06 18:06:52,675 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:52,676 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:52,680 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:52,683 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:52,687 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:52,688 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:52,692 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:52,693 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:52,696 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:52,697 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:52,700 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:52,701 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:52,703 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:52,703 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:52,704 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:52,707 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:52,708 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:52,710 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:52,711 [8] INFO  - 步骤“迭代 4”已成功结束
+2015-09-06 18:06:52,712 [8] INFO  - 步骤“迭代 5”: 步骤“迭代 5”已启动
+2015-09-06 18:06:52,713 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:52,716 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:52,718 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:52,719 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:52,720 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“123.abc”
+2015-09-06 18:06:52,722 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:52,723 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:52,724 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“123.abc”
+2015-09-06 18:06:52,726 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:52,726 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:52,730 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:52,730 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:52,731 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:52,732 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:52,733 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:52,733 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:52,735 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:52,785 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:52,786 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:52,787 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 36
+Expect: 100-continue
+xsid=123.abc&jid=77401170@365ime.com
+
+2015-09-06 18:06:52,787 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:52,788 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:52 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534012|1441534012;Path=/
+{"errorMessage":"没有权限","errorCode":"1"}
+2015-09-06 18:06:52,789 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:52,790 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:52,791 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:52,792 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:52,796 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:52,797 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:52,801 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:52,802 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:52,805 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:52,806 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:52,809 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:52,810 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:52,811 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:52,812 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:52,813 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:52,816 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:52,817 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:52,819 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:52,821 [8] INFO  - 步骤“迭代 5”已成功结束
+2015-09-06 18:06:52,822 [8] INFO  - 步骤“迭代 6”: 步骤“迭代 6”已启动
+2015-09-06 18:06:52,823 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:52,826 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:52,828 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:52,829 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:52,830 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:52,831 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:52,832 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:52,833 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:52,834 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:52,835 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:52,837 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401169@365ime.com”
+2015-09-06 18:06:52,838 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:52,838 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:52,839 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“77401169@365ime.com”
+2015-09-06 18:06:52,840 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:52,841 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:52,842 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:53,703 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:53,726 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:53,729 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 93
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401169@365ime.com
+
+2015-09-06 18:06:53,731 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:53,734 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:53 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534012|1441534012;Path=/
+{"errorMessage":"","data":[{"toBareId":" ","chatType":"chat","xmid":5,"lstContent":"测试信息14","lJid":"77401169@365ime.com","cts":"1439347130","newCount":0,"maxId":5},{"toBareId":"41d529c372254f0c8ccea294860ceb82@muc.365ime.com","chatType":"groupchat","xmid":1,"lstContent":"张坤老师已解散该群","lJid":"77401169@365ime.com","cts":"1440145997","newCount":0,"maxId":1},{"toBareId":"","chatType":"chat","xmid":5,"lstContent":"测试信息13","lJid":"77401169@365ime.com","cts":"1439347127","newCount":0,"maxId":5},{"toBareId":"77401171","chatType":"chat","xmid":5,"lstContent":"测试信息17","lJid":"77401169@365ime.com","cts":"1439347140","newCount":0,"maxId":5},{"toBareId":"756e4917843c450e8eeda63754feefce@muc.365ime.com","chatType":"chat","xmid":14,"lstContent":"测试群信息3","lJid":"77401169@365ime.com","cts":"1439364524","newCount":0,"maxId":9},{"toBareId":"77401170@365ime.com","chatType":"chat","xmid":430767,"lstContent":"test","lJid":"77401169@365ime.com","cts":"1440050205","newCount":564,"maxId":431331},{"toBareId":"77401180@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息16","lJid":"77401169@365ime.com","cts":"1439347137","newCount":0,"maxId":5},{"toBareId":"123.abc测试@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息19","lJid":"77401169@365ime.com","cts":"1439347146","newCount":0,"maxId":5},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":173,"lstContent":"测试信息50","lJid":"77401169@365ime.com","cts":"1439348296","newCount":0,"maxId":173},{"toBareId":"测试","chatType":"chat","xmid":5,"lstContent":"测试信息18","lJid":"77401169@365ime.com","cts":"1439347143","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:53,739 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:53,742 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:53,772 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:53,773 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:53,779 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:53,781 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:53,785 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:53,787 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:53,792 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:53,793 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:53,796 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:53,797 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:53,799 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:53,799 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:53,800 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:53,803 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:53,805 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:53,806 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:53,808 [8] INFO  - 步骤“迭代 6”已成功结束
+2015-09-06 18:06:53,810 [8] INFO  - 步骤“迭代 7”: 步骤“迭代 7”已启动
+2015-09-06 18:06:53,811 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:53,813 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:53,815 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:53,816 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:53,819 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:53,819 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:53,820 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:53,821 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:53,822 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:53,822 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:53,824 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401169”
+2015-09-06 18:06:53,825 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:53,825 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:53,826 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“77401169”
+2015-09-06 18:06:53,827 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:53,828 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:53,831 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:54,043 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:54,046 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:54,048 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 82
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401169
+
+2015-09-06 18:06:54,051 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:54,053 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:53 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534013|1441534013;Path=/
+{"errorMessage":"","data":null,"errorCode":"0"}
+2015-09-06 18:06:54,060 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:54,063 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:54,068 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:54,072 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:54,080 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:54,082 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:54,101 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:54,102 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:54,106 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:54,108 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:54,112 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:54,113 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:54,115 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:54,117 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:54,118 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:54,122 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:54,124 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:54,126 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:54,127 [8] INFO  - 步骤“迭代 7”已成功结束
+2015-09-06 18:06:54,129 [8] INFO  - 步骤“迭代 8”: 步骤“迭代 8”已启动
+2015-09-06 18:06:54,130 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:54,133 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:54,134 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:54,135 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:54,137 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:54,138 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:54,139 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:54,139 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:54,141 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:54,143 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:54,145 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“@365ime.com”
+2015-09-06 18:06:54,145 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:54,146 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:54,147 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“@365ime.com”
+2015-09-06 18:06:54,148 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:54,148 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:54,150 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:54,366 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:54,369 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:54,371 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 85
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=@365ime.com
+
+2015-09-06 18:06:54,374 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:54,383 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:54 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534013|1441534013;Path=/
+{"errorMessage":"","data":null,"errorCode":"0"}
+2015-09-06 18:06:54,390 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:54,393 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:54,396 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:54,398 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:54,404 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:54,405 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:54,409 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:54,411 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:54,414 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:54,415 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:54,419 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:54,420 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:54,421 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:54,423 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:54,424 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:54,428 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:54,429 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:54,431 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:54,432 [8] INFO  - 步骤“迭代 8”已成功结束
+2015-09-06 18:06:54,433 [8] INFO  - 步骤“迭代 9”: 步骤“迭代 9”已启动
+2015-09-06 18:06:54,434 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:54,437 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:54,439 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:54,440 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:54,441 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:54,442 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:54,443 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:54,443 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:54,444 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:54,445 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:54,446 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“!@#$%^&”
+2015-09-06 18:06:54,448 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:54,448 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:54,449 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“!@#$%^&”
+2015-09-06 18:06:54,450 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:54,451 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:54,453 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:54,667 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:54,670 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:54,672 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 81
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=!@#$%^&
+
+2015-09-06 18:06:54,675 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:54,677 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:54 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534014|1441534014;Path=/
+{"errorMessage":null,"errorCode":"1"}
+2015-09-06 18:06:54,682 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:54,685 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:54,692 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:54,703 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:54,709 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:54,711 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:54,717 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:54,718 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:54,723 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:54,724 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:54,729 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:54,730 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:54,731 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:54,732 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:54,733 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:54,736 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:54,737 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:54,739 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:54,741 [8] INFO  - 步骤“迭代 9”已成功结束
+2015-09-06 18:06:54,743 [8] INFO  - 步骤“迭代 10”: 步骤“迭代 10”已启动
+2015-09-06 18:06:54,744 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:54,746 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:54,748 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:54,749 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:54,751 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:54,752 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:54,753 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:54,754 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:54,755 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:54,756 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:54,758 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“”
+2015-09-06 18:06:54,759 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:54,759 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:54,760 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“区分大小写”，值:“True”
+2015-09-06 18:06:54,760 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“”
+2015-09-06 18:06:54,761 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:54,762 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:54,765 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:57,297 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:57,300 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:57,302 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 74
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=
+
+2015-09-06 18:06:57,305 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:57,307 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:57 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534014|1441534014;Path=/
+{"errorMessage":"","data":[{"toBareId":"77405374@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405374@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77401674@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401674@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77405412@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405412@365ime.com","cts":"1440234986","newCount":2,"maxId":2},{"toBareId":"77403354@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403354@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77402115@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402115@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401482@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401482@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77401169@365ime.com","chatType":"chat","xmid":0,"lstContent":"测试信息13","lJid":"77401169@365ime.com","cts":"1439347127","newCount":5,"maxId":5},{"toBareId":"77403436@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403436@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77401452@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401452@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77402935@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402935@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77403956@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403956@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"51007029@365ime.com","chatType":"chat","xmid":0,"lstContent":"[图片]","lJid":"51007029@365ime.com","cts":"1439631252","newCount":1,"maxId":1},{"toBareId":"44604014@365ime.com","chatType":"chat","xmid":0,"lstContent":"测试信息13","lJid":"44604014@365ime.com","cts":"1441531730","newCount":2,"maxId":2},{"toBareId":"77405273@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405273@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77403040@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403040@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401397@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401397@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77403979@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403979@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77405114@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405114@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77405451@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405451@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77402680@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402680@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401971@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401971@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77403875@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403875@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77401483@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401483@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401962@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401962@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77405369@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405369@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77402281@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402281@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77403216@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403216@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"44745065@365ime.com","chatType":"chat","xmid":0,"lstContent":"[图片]","lJid":"44745065@365ime.com","cts":"1439631899","newCount":0,"maxId":0},{"toBareId":"77403009@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403009@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77403803@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403803@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77402129@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402129@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77403761@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403761@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77404854@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77404854@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77403292@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77403292@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77401595@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401595@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77405231@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77405231@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401999@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401999@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77401599@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401599@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息26_1439347165_","lJid":"1439347165","cts":"测试信息26","newCount":0,"maxId":5},{"toBareId":"77404879@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77404879@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77402479@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402479@365ime.com","cts":"1440234986","newCount":1,"maxId":1},{"toBareId":"77402516@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77402516@365ime.com","cts":"1440234987","newCount":1,"maxId":1},{"toBareId":"77401344@365ime.com","chatType":"chat","xmid":0,"lstContent":"test","lJid":"77401344@365ime.com","cts":"1440234987","newCount":1,"maxId":1}],"errorCode":"0"}
+2015-09-06 18:06:57,318 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:57,321 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:57,336 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:57,338 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:57,345 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:57,347 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:57,354 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:57,355 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:57,359 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:57,361 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:57,366 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:57,367 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:57,369 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:57,369 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:57,370 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:57,374 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:57,375 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:57,376 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:57,378 [8] INFO  - 步骤“迭代 10”已成功结束
+2015-09-06 18:06:57,379 [8] INFO  - 步骤“迭代 11”: 步骤“迭代 11”已启动
+2015-09-06 18:06:57,380 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:57,382 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:57,385 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:57,387 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:57,389 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:57,390 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:57,391 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:57,392 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:57,393 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:57,393 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:57,395 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401169@365ime.com,77401170@365ime.com”
+2015-09-06 18:06:57,396 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:57,397 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:57,397 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“77401169@365ime.com,98832227718@365ime.com”
+2015-09-06 18:06:57,398 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:57,399 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:57,401 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:57,666 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:57,669 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:57,672 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 113
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401169@365ime.com,77401170@365ime.com
+
+2015-09-06 18:06:57,675 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:57,694 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:57 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534017|1441534017;Path=/
+{"errorMessage":"","data":[{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息32","lJid":"77401169@365ime.com,77401170@365ime.com","cts":"1439347184","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:57,699 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:57,701 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:57,705 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:57,708 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:57,714 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:57,715 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:57,722 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:57,724 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:57,728 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:57,729 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:57,732 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:57,733 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:57,734 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:57,735 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:57,736 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:57,739 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:57,742 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:57,744 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:57,745 [8] INFO  - 步骤“迭代 11”已成功结束
+2015-09-06 18:06:57,747 [8] INFO  - 步骤“迭代 12”: 步骤“迭代 12”已启动
+2015-09-06 18:06:57,749 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:57,752 [8] ERROR - Checkpoint 2: "Arguments[1]/ResultTable[1]/Row[1]/token[1]" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:57,754 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:57,755 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:57,756 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:57,757 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:57,757 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:57,763 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:57,765 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:57,767 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:57,769 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:57,771 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:57,771 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:57,772 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:57,773 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:57,774 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:57,775 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:58,095 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:58,098 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:58,100 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 93
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401170@365ime.com
+
+2015-09-06 18:06:58,102 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:58,104 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:57 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534017|1441534017;Path=/
+{"errorMessage":"","data":[{"toBareId":"77401169@365ime.com","chatType":"chat","xmid":430767,"lstContent":"test","lJid":"77401169@365ime.com","cts":"1440050205","newCount":564,"maxId":431331},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息31","lJid":"77401170@365ime.com","cts":"1439347181","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:58,109 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:58,116 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:58,125 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:58,126 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:58,132 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:58,133 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:58,138 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:58,139 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:58,143 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:58,145 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:58,148 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:58,149 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:58,150 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:58,151 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:58,152 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:58,155 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:58,157 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:58,158 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:58,159 [8] INFO  - 步骤“迭代 12”已成功结束
+2015-09-06 18:06:58,161 [8] INFO  - 步骤“迭代 13”: 步骤“迭代 13”已启动
+2015-09-06 18:06:58,163 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:58,165 [8] ERROR - Checkpoint 2: "902ca048a73c5c8f2ad2e2ebe9ffebeb" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:58,167 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:58,168 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:58,170 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:58,170 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:58,171 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:58,172 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:58,173 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:58,174 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:58,176 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:58,176 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:58,177 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:58,178 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:58,179 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:58,179 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:58,181 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:58,500 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:58,503 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:58,505 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 93
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401170@365ime.com
+
+2015-09-06 18:06:58,507 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:58,510 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:58 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534018|1441534018;Path=/
+{"errorMessage":"","data":[{"toBareId":"77401169@365ime.com","chatType":"chat","xmid":430767,"lstContent":"test","lJid":"77401169@365ime.com","cts":"1440050205","newCount":564,"maxId":431331},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息31","lJid":"77401170@365ime.com","cts":"1439347181","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:58,514 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:58,517 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:58,522 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:58,525 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:58,532 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:58,545 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:58,555 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:58,557 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:58,564 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:58,565 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:58,568 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:58,569 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:58,571 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:58,572 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:58,573 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:58,576 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:58,578 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:58,580 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:58,581 [8] INFO  - 步骤“迭代 13”已成功结束
+2015-09-06 18:06:58,584 [8] INFO  - 步骤“迭代 14”: 步骤“迭代 14”已启动
+2015-09-06 18:06:58,585 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:58,587 [8] ERROR - Checkpoint 2: "77401169@365ime.com" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:58,589 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:58,590 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:58,592 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:58,593 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:58,594 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:58,595 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:58,596 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:58,597 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:58,598 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:58,599 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:58,600 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:58,601 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:58,602 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:58,603 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:58,605 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:58,925 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:58,927 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:58,928 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 93
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401170@365ime.com
+
+2015-09-06 18:06:58,929 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:58,930 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:58 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534018|1441534018;Path=/
+{"errorMessage":"","data":[{"toBareId":"77401169@365ime.com","chatType":"chat","xmid":430767,"lstContent":"test","lJid":"77401169@365ime.com","cts":"1440050205","newCount":564,"maxId":431331},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息31","lJid":"77401170@365ime.com","cts":"1439347181","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:58,934 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:58,935 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:58,948 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:58,949 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:58,959 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:58,960 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:58,963 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:58,964 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:58,967 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:58,968 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:58,973 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:58,974 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:58,975 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:58,976 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:58,977 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:58,980 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:58,982 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:58,984 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:58,985 [8] INFO  - 步骤“迭代 14”已成功结束
+2015-09-06 18:06:58,987 [8] INFO  - 步骤“迭代 15”: 步骤“迭代 15”已启动
+2015-09-06 18:06:58,988 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:58,991 [8] ERROR - Checkpoint 2: "test" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:58,992 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:58,993 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:58,995 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:58,996 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:58,997 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:58,998 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:58,999 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:59,000 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:59,001 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:59,002 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:59,002 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:59,003 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:59,004 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:59,005 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:59,006 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:59,322 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:59,325 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:59,327 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 93
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401170@365ime.com
+
+2015-09-06 18:06:59,329 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:59,332 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:59 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534018|1441534018;Path=/
+{"errorMessage":"","data":[{"toBareId":"77401169@365ime.com","chatType":"chat","xmid":430767,"lstContent":"test","lJid":"77401169@365ime.com","cts":"1440050205","newCount":564,"maxId":431331},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息31","lJid":"77401170@365ime.com","cts":"1439347181","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:59,338 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:59,341 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:59,346 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:59,347 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:59,355 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:59,356 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:59,362 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:59,363 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:59,367 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:59,368 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:59,371 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:59,372 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:59,374 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:59,375 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:59,375 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:59,379 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:59,379 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:59,381 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:59,383 [8] INFO  - 步骤“迭代 15”已成功结束
+2015-09-06 18:06:59,385 [8] INFO  - 步骤“迭代 16”: 步骤“迭代 16”已启动
+2015-09-06 18:06:59,386 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”: 步骤“查询tb_GetUnReadMessage_verification表中数据”已启动
+2015-09-06 18:06:59,389 [8] ERROR - Checkpoint 2: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" 失败
+2015-09-06 18:06:59,391 [8] INFO  - 步骤“查询tb_GetUnReadMessage_verification表中数据”已成功结束
+2015-09-06 18:06:59,392 [8] INFO  - 步骤“将xsid更新至最新值”: 步骤“将xsid更新至最新值”已启动
+2015-09-06 18:06:59,394 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“源字符串”，值:“x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00”
+2015-09-06 18:06:59,395 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“搜索字符串 1”，值:“'x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00'”
+2015-09-06 18:06:59,396 [8] INFO  - 步骤“将xsid更新至最新值”: 输入参数“替换字符串 1”，值:“'x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000'”
+2015-09-06 18:06:59,396 [8] INFO  - 步骤“将xsid更新至最新值”: 输出参数“结果”，值:“x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000”
+2015-09-06 18:06:59,398 [8] INFO  - 步骤“将xsid更新至最新值”已成功结束
+2015-09-06 18:06:59,398 [8] INFO  - 步骤“将jid更新至最新值”: 步骤“将jid更新至最新值”已启动
+2015-09-06 18:06:59,400 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“源字符串”，值:“77401170@365ime.com”
+2015-09-06 18:06:59,401 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“搜索字符串 1”，值:“'77401170'”
+2015-09-06 18:06:59,401 [8] INFO  - 步骤“将jid更新至最新值”: 输入参数“替换字符串 1”，值:“'98832227718'”
+2015-09-06 18:06:59,402 [8] INFO  - 步骤“将jid更新至最新值”: 输出参数“结果”，值:“98832227718@365ime.com”
+2015-09-06 18:06:59,403 [8] INFO  - 步骤“将jid更新至最新值”已成功结束
+2015-09-06 18:06:59,404 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:59,406 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:06:59,722 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:06:59,724 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:06:59,730 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 93
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=77401170@365ime.com
+
+2015-09-06 18:06:59,732 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:06:59,735 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:59 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534019|1441534019;Path=/
+{"errorMessage":"","data":[{"toBareId":"77401169@365ime.com","chatType":"chat","xmid":430767,"lstContent":"test","lJid":"77401169@365ime.com","cts":"1440050205","newCount":564,"maxId":431331},{"toBareId":"77401171@365ime.com","chatType":"chat","xmid":5,"lstContent":"测试信息31","lJid":"77401170@365ime.com","cts":"1439347181","newCount":0,"maxId":5}],"errorCode":"0"}
+2015-09-06 18:06:59,737 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:06:59,738 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:06:59,741 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:06:59,746 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”: 步骤“将Response插入到InterfaceResponse字段中”已启动
+2015-09-06 18:06:59,757 [8] INFO  - 步骤“将Response插入到InterfaceResponse字段中”已成功结束
+2015-09-06 18:06:59,758 [8] INFO  - 步骤“将errorcode更新到sql中”: 步骤“将errorcode更新到sql中”已启动
+2015-09-06 18:06:59,764 [8] INFO  - 步骤“将errorcode更新到sql中”已成功结束
+2015-09-06 18:06:59,765 [8] INFO  - 步骤“获取当前Case的实际值”: 步骤“获取当前Case的实际值”已启动
+2015-09-06 18:06:59,768 [8] INFO  - 步骤“获取当前Case的实际值”已成功结束
+2015-09-06 18:06:59,769 [8] INFO  - 步骤“获取当前Case的期待值”: 步骤“获取当前Case的期待值”已启动
+2015-09-06 18:06:59,772 [8] INFO  - 步骤“获取当前Case的期待值”已成功结束
+2015-09-06 18:06:59,773 [8] INFO  - 步骤“填写Result”: 步骤“填写Result”已启动
+2015-09-06 18:06:59,775 [8] INFO  - 步骤“IfElse148”: 计算方式: 使用条件
+2015-09-06 18:06:59,776 [8] INFO  - 步骤“是”: 步骤“是”已启动
+2015-09-06 18:06:59,778 [8] INFO  - 步骤“在Result字段插入True”: 步骤“在Result字段插入True”已启动
+2015-09-06 18:06:59,781 [8] INFO  - 步骤“在Result字段插入True”已成功结束
+2015-09-06 18:06:59,782 [8] INFO  - 步骤“是”已成功结束
+2015-09-06 18:06:59,783 [8] INFO  - 步骤“填写Result”已成功结束
+2015-09-06 18:06:59,784 [8] INFO  - 步骤“迭代 16”已成功结束
+2015-09-06 18:06:59,786 [8] INFO  - 步骤“循环执行tb_GetUnReadMessage_verification中的测试用例”已成功结束
+2015-09-06 18:06:59,787 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 步骤“调用/iq/GetUnReadMessage.php”已启动
+2015-09-06 18:06:59,788 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 提取 HTTP URL: 'http://yace-msg.365ime.com/iq/GetUnReadMessage.php'
+2015-09-06 18:07:00,110 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: 服务器返回了状态代码: 200
+2015-09-06 18:07:00,111 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始请求:
+2015-09-06 18:07:00,113 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: POST http://yace-msg.365ime.com/iq/GetUnReadMessage.php 1.1
+Content-Type: application/x-www-form-urlencoded
+Host: yace-msg.365ime.com
+Content-Length: 96
+Expect: 100-continue
+xsid=x_26120b0f7e47u53bgecer9i4668frb33ebdcrfha70nfd0ut0iycjssm5q0000&jid=98832227718@365ime.com
+
+2015-09-06 18:07:00,114 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP 原始响应:
+2015-09-06 18:07:00,116 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”: HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 06 Sep 2015 10:06:59 GMT
+Set-Cookie: SERVERID=6b6a95bb211e23be2802dd65454b32b5|1441534019|1441534019;Path=/
+{"errorMessage":"","data":[{"toBareId":"q372259-17@muc.365ime.com","chatType":"groupchat","xmid":1,"lstContent":"大海的H","lJid":"98832227718@365ime.com","cts":"1441530416","newCount":0,"maxId":1},{"toBareId":"44604014@365ime.com","chatType":"chat","xmid":0,"lstContent":"测试","lJid":"44604014@365ime.com","cts":"1441531928","newCount":57,"maxId":57}],"errorCode":"0"}
+2015-09-06 18:07:00,119 [8] INFO  - 步骤“调用/iq/GetUnReadMessage.php”已成功结束
+2015-09-06 18:07:00,120 [8] INFO  - 步骤“获取返回值转换为JSON”: 步骤“获取返回值转换为JSON”已启动
+2015-09-06 18:07:00,127 [8] INFO  - 步骤“获取返回值转换为JSON”已成功结束
+2015-09-06 18:07:00,130 [8] INFO  - 步骤“将获取到的xmid赋值到全局表中”: 步骤“将获取到的xmid赋值到全局表中”已启动
+2015-09-06 18:07:00,135 [8] INFO  - 步骤“将获取到的xmid赋值到全局表中”已成功结束
+2015-09-06 18:07:00,136 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”: 步骤“将接口返回的Json更新至tb_result_table”已启动
+2015-09-06 18:07:00,140 [8] INFO  - 步骤“将接口返回的Json更新至tb_result_table”已成功结束
+2015-09-06 18:07:00,141 [8] INFO  - 步骤“迭代 1”已成功结束
+2015-09-06 18:07:00,144 [8] INFO  - 步骤“测试流”已成功结束
+2015-09-06 18:07:00,345 [8] INFO  - 步骤“结束”: 步骤“结束”已启动
+2015-09-06 18:07:00,348 [8] INFO  - 步骤“结束”已成功结束

@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>E:\git\tb_GetUnReadMessage_verification</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>tb_GetUnReadMessage_verification</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>2015/9/1 16:27:31</SystemProfile>
+    <SystemProfile>2015/9/6 18:06:22</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
