@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Actions>
-  <Action internalName="MainAction" userDefinedName="根据班级jid获得班级群成员tb_getclassmembers_verification" description="" />
+  <Action internalName="MainAction" userDefinedName="tb_getclassmembers_verification" description="" />
 </Actions>

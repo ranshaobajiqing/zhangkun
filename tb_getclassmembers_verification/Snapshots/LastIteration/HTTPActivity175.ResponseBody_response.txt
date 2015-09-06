@@ -1,1 +1,1 @@
-{"errorMessage":"no data","data":{},"errorCode":"1"}
+{"errorMessage":"success","data":{"userArray":[{"nick_name":"OK莫","id":77300726,"username":"自动化测试家长","category":0,"big_avatar":"http://download.ac-qd-oss.365ime.com/static/ic_256.png","role":"s1","userRole":"s1","jid":"98832227718@365ime.com"}]},"errorCode":"0"}
