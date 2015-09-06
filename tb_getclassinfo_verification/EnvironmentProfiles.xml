@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>E:\git\tb_getclassinfo_verification</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>tb_getclassinfo_verification</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>2015/9/1 16:26:16</SystemProfile>
+    <SystemProfile>2015/9/6 13:53:34</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>

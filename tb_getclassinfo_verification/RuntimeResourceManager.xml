@@ -1,3 +1,4 @@
 <RuntimeResourceManager>
-<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest112.ScriptPath}</Key><Path>E:\TTIMEInterface\Encryption</Path><Value>..\Encryption</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest112.ScriptPath}</Key><Path>E:\git\Encryption</Path><Value>..\Encryption</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest256.ScriptPath}</Key><Path>E:\git\Encryption</Path><Value>..\Encryption</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 </RuntimeResourceManager>
