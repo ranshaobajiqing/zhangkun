@@ -30,15 +30,15 @@ namespace Script
     public partial class WorkFlowScript
     {
         
-        private void set_DbFetchData57_checkpoints(STActivityBase activity)
+        private void set_DbFetchData58_checkpoints(STActivityBase activity)
         {
             // Checkpoint 1
-            IVTDGetter actualValueGetter1 = new VTDXPathGetter(new VTDPropertyInfoBase("OutputProperties", "/*[local-name(.)='Arguments'][1]/*[local-name(.)='ResultTable'][1]/*[local-name(.)='Row'][1]/*[local-name(.)='token'][1]"), XmlTypeCode.String, false);
-            IVTDSetter actualValueSetter1 = new VTDCheckpointSetter(XmlTypeCode.String);
-            BindDirection actualBindDirection1 = new BindDirection(_flow.DbFetchData57, actualValueGetter1, actualValueSetter1);
-            CpValObj valueActualObject1 = new CpValObj(actualBindDirection1, XmlTypeCode.String, false);
-            CpValObj valueExpectedObject1 = new CpValObj("61f048fc016c13ea5cdfa6416c6e6ef9532716b8", XmlTypeCode.String);
-            ValueCPRule cpRule1 = new ValueCPRule(valueActualObject1, valueExpectedObject1, StringCP.EqualTo, "=", false);
+            IVTDGetter actualValueGetter1 = new VTDXPathGetter(new VTDPropertyInfoBase("OutputProperties", "/*[local-name(.)='Arguments'][1]/*[local-name(.)='ResultTable'][1]/*[local-name(.)='Row'][1]/*[local-name(.)='Row'][1]"), XmlTypeCode.Long, false);
+            IVTDSetter actualValueSetter1 = new VTDCheckpointSetter(XmlTypeCode.Long);
+            BindDirection actualBindDirection1 = new BindDirection(_flow.DbFetchData58, actualValueGetter1, actualValueSetter1);
+            CpValObj valueActualObject1 = new CpValObj(actualBindDirection1, XmlTypeCode.Long, false);
+            CpValObj valueExpectedObject1 = new CpValObj("37", XmlTypeCode.Long);
+            ValueCPRule cpRule1 = new ValueCPRule(valueActualObject1, valueExpectedObject1, PrimitiveTypeCP.EqualTo, "=", false);
 
             ArrayElementCPRule arrayElementCPRule1 = new ArrayElementCPRule();
             ArrayBaseCPRule arrayFixedCpRule1 = new ArrayFixedCPRule("/*[local-name(.)='Arguments'][1]/*[local-name(.)='ResultTable'][1]/*[local-name(.)='Row']", HandlerType.XML);
