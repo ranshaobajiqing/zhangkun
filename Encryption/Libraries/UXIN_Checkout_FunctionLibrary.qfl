@@ -1,0 +1,57 @@
+Class UXIN_Checkout_FunctionLibrary
+	
+'******************************************************************************'
+'名称：RandomChooseRadio(Obj)
+'说明：随机选择当前单选框
+'输入：OBJ 注释：单选对象
+'返回：无，随机选择单选框
+'示例：Call RandomChooseRadio(Obj)
+'******************************************************************************'
+Public Function RandomChooseRadio(Obj)
+	ItemsCountNumber=Obj.GetROProperty("items count")
+	Randomize(Num)
+	Num=RandomNumber(0,ItemsCountNumber-1)
+	Obj.Select "#"&Num
+End Function
+
+
+'******************************************************************************'
+'名称：RandomChooseMenu(Obj)
+'说明：随机选择当前单选框
+'输入：OBJ 注释：单选对象
+'返回：无，随机选择单选框
+'示例：Call RandomChooseRadio(Obj)
+'******************************************************************************'
+Public Function RandomChooseMenu(Obj)
+	ItemsCountNumber=Obj.GetROProperty("items count")
+	Randomize(Num)
+	Num=RandomNumber(1,ItemsCountNumber-1)
+	Obj.Select "#"&Num
+End Function
+
+
+
+'******************************************************************************'
+'名称：Comparison_Check(actual_value,expectation_value,status)
+'说明：判断传入的实际值与期待值是否一致
+'输入：actual_value,expectation_value,status
+'actual_value:实际值
+'expectation_value:期待值
+'status:状态，当为0时将实际值与期待值输入到LocalSheet的实际值与期待值中，当不为0时，则不输入
+'返回：success or fail
+'示例：Call Comparison_Check(ReservationPrice,expectation_ReservationPrice,status)
+'******************************************************************************'
+Public function Comparison_Check(actual_value,expectation_value,status)
+	If Cstr(actual_value)=Cstr(expectation_value) Then
+		Call UpdateExcelData(GlobalData("FilePath"),GlobalData("LocalSheetName"),GlobalData("Results"),GlobalData("Success"),GlobalData("CaseID"),GlobalData("LocalRow"))
+	else
+		Call UpdateExcelData(GlobalData("FilePath"),GlobalData("LocalSheetName"),GlobalData("Results"),GlobalData("Fail"),GlobalData("CaseID"),GlobalData("LocalRow"))
+	End If
+	If status=0 Then
+		Call UpdateExcelData(GlobalData("FilePath"),GlobalData("LocalSheetName"),GlobalData("Output_value"),actual_value,GlobalData("CaseID"),GlobalData("LocalRow"))
+		Call UpdateExcelData(GlobalData("FilePath"),GlobalData("LocalSheetName"),GlobalData("expectation_value"),expectation_value,GlobalData("CaseID"),GlobalData("LocalRow"))
+	End If
+	GlobalData("LocalRow")=GlobalData("LocalRow")+1
+End Function
+
+End Class

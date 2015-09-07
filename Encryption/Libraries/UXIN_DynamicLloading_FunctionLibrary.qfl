@@ -1,0 +1,13 @@
+Class DynamicLloading
+	Public Sub LoadingFunctionLibrary()
+		ExecuteFile Environment.Value("TestDir")&"\Libraries\UXIN_ChargeRule_FunctionLibrary.qfl"
+		ExecuteFile Environment.Value("TestDir")&"\Libraries\UXIN_Checkout_FunctionLibrary.qfl"
+		ExecuteFile Environment.Value("TestDir")&"\Libraries\UXIN_Excel_FunctionLibrary.qfl"
+		ExecuteFile Environment.Value("TestDir")&"\Libraries\UXIN_SQL_FunctionLibrary.qfl"
+		print("成功调用LoadingFunctionLibrary")
+	End Sub
+	Public Sub LoadingObjectRepositories
+		RepositoriesCollection.Add Environment.Value("TestDir")&"\ObjectRepositories\UXIN_公共对象库.tsr"
+		print("成功调用LoadingObjectRepositories")
+	End Sub
+End Class

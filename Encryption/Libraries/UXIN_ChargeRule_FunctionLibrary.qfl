@@ -1,0 +1,97 @@
+Class UXIN_ChargeRule_FunctionLibrary
+'******************************************************************************'
+'名称：PromotionFee
+'说明：促销费用设置
+'输入：无
+'返回：无
+'示例：Call PromotionFee
+'******************************************************************************'
+Public Sub PromotionFee
+Call ExcelGlobalData()
+Call ReadExcelData(GlobalData("FilePath"),GlobalData("GlobalSheetName"))
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销有效期开始时间(日)").Click
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").Frame("UXIN_单店促销_Frame").WebButton("UXIN_今天").Click
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销有效期结束时间(日)").Click
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").Frame("UXIN_单店促销_Frame").WebButton("UXIN_今天").Click
+	StartTime = Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebList("UXIN_促销有效期开始时间(小时)").GetROProperty("items count")-2
+	EndTime = Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebList("UXIN_促销有效期结束时间(小时)").GetROProperty("items count")-1
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebList("UXIN_促销有效期开始时间(小时)").Select "#"&StartTime
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebList("UXIN_促销有效期结束时间(小时)").Select "#"&EndTime
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebRadioGroup("UXIN_促销端").Select "#0"
+	'判断，如果促销值减文本框不为0时，则执行选择web减数据，如果不为0，则不执行
+	If Cint(arrData(GlobalData("GlobalRow"))(GlobalData("PromotionFeeMinus")))<>0 Then
+			Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebCheckBox("UXIN_促销端_Web减").Set "ON"
+			Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销端_Web减").Set arrData(GlobalData("GlobalRow"))(GlobalData("PromotionFeeMinus"))
+	else
+			Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebCheckBox("UXIN_促销端_Web减").Set "OFF"
+	End If
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebCheckBox("UXIN_促销范围").Set "ON"
+	PromotionMode=arrData(GlobalData("GlobalRow"))(GlobalData("PromotionFeeType"))
+	Call ReadExcelData(GlobalData("FilePath"),GlobalData("LocalSheetName"))
+	If arrData(GlobalData("LocalRow"))(GlobalData("Interval_the_highest"))="999" Then
+		If PromotionMode="买家最高价" Then
+			Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("GlobalRow"))(GlobalData("The_interval_minimum"))
+			Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").SetTOProperty "index","1"
+			Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("GlobalRow"))(GlobalData("PromotionFee"))
+			ElseIf PromotionMode="车辆年份" Then
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").SetTOProperty "index","2"		
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("GlobalRow"))(GlobalData("The_interval_minimum"))
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").SetTOProperty "index","3"
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("GlobalRow"))(GlobalData("PromotionFee"))
+		End If
+		else
+			If PromotionMode="买家最高价" Then
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebButton("UXIN_买家最高价重置").Click
+			ElseIf PromotionMode="车辆年份" Then
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebButton("UXIN_车辆年份重置").Click
+			End If
+			For i = 1 To GetExcelRow(GlobalData("FilePath"),GlobalData("LocalSheetName"))-2
+				If PromotionMode="买家最高价" Then
+					Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebRadioGroup("UXIN_促销值").Select "#0"
+					Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebButton("UXIN_买家最高价新增").Click
+					ElseIf PromotionMode="车辆年份" Then
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebRadioGroup("UXIN_促销值").Select "#1"
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebButton("UXIN_车辆年份新增").Click
+				End If
+			Next
+			For Iterator = 0 To (GetExcelRow(GlobalData("FilePath"),GlobalData("LocalSheetName"))-2)*3-1
+				Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段二)").SetTOProperty "index",Iterator
+				Call ReadExcelData(GlobalData("FilePath"),GlobalData("LocalSheetName"))
+				Select Case Cint(Iterator+1) mod 3
+					Case 0
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段二)").Set arrData(GlobalData("LocalRow"))(GlobalData("PromotionFee"))
+						GlobalData("LocalRow")=GlobalData("LocalRow")+1
+					Case 1
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段二)").Set arrData(GlobalData("LocalRow"))(GlobalData("The_interval_minimum"))
+					Case 2
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段二)").Set arrData(GlobalData("LocalRow"))(GlobalData("Interval_the_highest"))
+				End Select			
+			Next
+			If PromotionMode="买家最高价" Then
+				For Iterators = 0 To 1
+					Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").SetTOProperty "index",Iterators
+					If Iterators=0 Then
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("LocalRow"))(GlobalData("The_interval_minimum"))
+						ElseIf Iterators=1 Then
+							Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("LocalRow"))(GlobalData("PromotionFee"))
+					End If
+				Next
+				ElseIf PromotionMode="车辆年份" Then
+					For Iterators = 2 To 3
+						Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").SetTOProperty "index",Iterators
+						If Iterators=2 Then
+							Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("LocalRow"))(GlobalData("The_interval_minimum"))
+							ElseIf Iterators=3 Then
+								Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_促销值(阶段一)").Set arrData(GlobalData("LocalRow"))(GlobalData("PromotionFee"))
+						End If
+					Next
+			End If
+	End If
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebEdit("UXIN_备注").Set "备注"
+	Browser("UXIN_Admin").Page("UXIN_Admin_单店促销").WebButton("UXIN_提交申请").Click
+	Browser("UXIN_Admin").Sync
+	Browser("UXIN_Admin").Dialog("UXIN_提示框").WinButton("UXIN_确定").Click
+	Browser("UXIN_Admin").Sync
+	Browser("UXIN_Admin").Dialog("UXIN_提示框").WinButton("UXIN_确定").Click
+End Sub
+End Class
