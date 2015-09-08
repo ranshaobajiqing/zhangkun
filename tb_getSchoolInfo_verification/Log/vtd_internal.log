@@ -1,0 +1,6 @@
+2015-09-07 16:10:50,108 [8] ERROR - ActivityStopTest
+System.SystemException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at QTObjectModelLib._Application.get_Test()
+   at HP.ST.Ext.UFTActivity.QtpTestActivity.ExecuteStep()
+   at HP.ST.Fwk.RunTimeFWK.STActivityBase.Execute()

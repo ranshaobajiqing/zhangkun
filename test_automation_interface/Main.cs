@@ -63,8 +63,7 @@
             : base(VuserClass.CommandLineArguments, new STRunTimeContext(), "test")
         {	
         	UpdateContextWithActionFolder(String.Empty);
-        	throw new Exception("Workflow contains alert errors");
-
+        	
         }
         
         public WorkFlowScript(ISTRunTimeContext ctx)
@@ -102,7 +101,6 @@
             _flow.CallSTTest20 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest20",false);
             _flow.CallSTTest21 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest21",false);
             _flow.CallSTTest22 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest22",false);
-            _flow.CallSTTest23 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest23",false);
             _flow.StartActivity1.Comment = @"";
             _flow.StartActivity1.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.StartActivity1.Name = @"开始";
@@ -129,7 +127,6 @@
             _flow.Sequence24.Activities.Add (_flow.CallSTTest20);
             _flow.Sequence24.Activities.Add (_flow.CallSTTest21);
             _flow.Sequence24.Activities.Add (_flow.CallSTTest22);
-            _flow.Sequence24.Activities.Add (_flow.CallSTTest23);
             _flow.CallSTTest15.Comment = @"";
             _flow.CallSTTest15.IconPath = @"AddIns\ServiceTest\STRunner\ictb_api_test_16x16.png";
             _flow.CallSTTest15.Name = @"tb_sso_authorize_verification";
@@ -178,12 +175,6 @@
             _flow.CallSTTest22.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest22.ScriptPath}")) ? @"..\tb_GetUnReadMsgs_verification" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest22.ScriptPath}");
             _flow.CallSTTest22.ActionName = @"";
             _flow.CallSTTest22.ResultLocation = @"RunStReport\";
-            _flow.CallSTTest23.Comment = @"";
-            _flow.CallSTTest23.IconPath = @"AddIns\ServiceTest\STRunner\ictb_api_test_16x16.png";
-            _flow.CallSTTest23.Name = @"调用 API 操作或测试";
-            _flow.CallSTTest23.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest23.ScriptPath}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest23.ScriptPath}");
-            _flow.CallSTTest23.ActionName = @"";
-            _flow.CallSTTest23.ResultLocation = @"RunStReport\";
             
         }
         

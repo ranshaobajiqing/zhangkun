@@ -1,1 +1,1 @@
-<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><ExpectationValue>errorCode=0</ExpectationValue></Row></ResultTable></tns:Arguments>
+<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><ExpectationValue>errorCode=1</ExpectationValue></Row></ResultTable></tns:Arguments>

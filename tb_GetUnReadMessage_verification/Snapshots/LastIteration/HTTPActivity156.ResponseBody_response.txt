@@ -1,1 +1,1 @@
-{"errorMessage":"","data":[{"toBareId":"q372259-17@muc.365ime.com","chatType":"groupchat","xmid":1,"lstContent":"大海的H","lJid":"98832227718@365ime.com","cts":"1441530416","newCount":0,"maxId":1},{"toBareId":"44604014@365ime.com","chatType":"chat","xmid":0,"lstContent":"测试","lJid":"44604014@365ime.com","cts":"1441594277","newCount":83,"maxId":83}],"errorCode":"0"}
+{"errorMessage":"","data":[{"toBareId":"77406241@365ime.com","chatType":"chat","xmid":0,"lstContent":"测试","lJid":"77406241@365ime.com","cts":"1441613889","newCount":26,"maxId":26}],"errorCode":"0"}

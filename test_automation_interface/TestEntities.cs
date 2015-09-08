@@ -30,7 +30,6 @@ using System;
     public HP.ST.Ext.STRunnerActivity.RunSTActivity CallSTTest20 = null;
     public HP.ST.Ext.STRunnerActivity.RunSTActivity CallSTTest21 = null;
     public HP.ST.Ext.STRunnerActivity.RunSTActivity CallSTTest22 = null;
-    public HP.ST.Ext.STRunnerActivity.RunSTActivity CallSTTest23 = null;
     
     }
     
