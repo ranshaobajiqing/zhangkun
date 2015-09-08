@@ -15,7 +15,10 @@
         $(ST_INSTALL_PATH)\AddIns\ServiceTest\BasicActivities\;
         $(ST_INSTALL_PATH)\AddIns\ServiceTest\BaseDataProviders\;
       
-$(ST_INSTALL_PATH)\AddIns\ServiceTest\Database;</ReferencePath>
+$(ST_INSTALL_PATH)\AddIns\ServiceTest\Database;
+$(ST_INSTALL_PATH)\AddIns\ServiceTest\HTTPActivity;
+$(ST_INSTALL_PATH)\AddIns\ServiceTest\WSImportTechnology;
+$(ST_INSTALL_PATH)\AddIns\ServiceTest\TransformJson;</ReferencePath>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <OutputPath>bin</OutputPath>
     <RegisterForComInterop>False</RegisterForComInterop>
@@ -60,11 +63,23 @@ $(ST_INSTALL_PATH)\AddIns\ServiceTest\Database;</ReferencePath>
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
+    <Reference Include="HP.ST.Ext.CommunicationChannels">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="HP.ST.Ext.CustomDataProviders.dll">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.ST.Ext.DatabaseRunTime">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.HTTPActivity">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.TransformJsonActivity">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.WebServicesTechnologyRT">
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.ST.Fwk.JVMLoader.dll">
