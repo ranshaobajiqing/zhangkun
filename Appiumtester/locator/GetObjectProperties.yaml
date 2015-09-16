@@ -1,0 +1,12 @@
+yd_ljks:
+  type: id
+  value: com.ime.xmpp:id/btn_ok
+login_username:
+  type: id
+  value: com.ime.xmpp:id/login_username_et
+login_password:
+  type: id
+  value:com.ime.xmpp:id/login_pwd_et
+login_login:
+  type: id
+  value:com.ime.xmpp:id/login_but
