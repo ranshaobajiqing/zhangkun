@@ -1,0 +1,3 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest16.ScriptPath}</Key><Path>D:\testapi\Encryption</Path><Value>..\Encryption</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>

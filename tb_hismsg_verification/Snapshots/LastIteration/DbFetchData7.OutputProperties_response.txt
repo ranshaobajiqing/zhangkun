@@ -1,0 +1,1 @@
+<tns:Arguments xmlns:tns="hp.dbFetchActivity"><Count>1</Count><Result>true</Result><ResultMessage>成功</ResultMessage><ResultTable><Row><Jid>77401170@365ime.com</Jid><fromJid>77401169@365ime.com</fromJid><xsid>x_1f1a0e62u0t5j480c916h26642tc3didb95f5an861da049516m0y7pd5aiu00</xsid><limitstr>10</limitstr><token>Z5VD3jAEJS</token></Row></ResultTable></tns:Arguments>

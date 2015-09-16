@@ -8,4 +8,6 @@
 <RuntimeResource><Key>{Step.GeneralProperties.CallSTTest21.ScriptPath}</Key><Path>E:\git\tb_GetUnReadMessage_verification</Path><Value>..\tb_GetUnReadMessage_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 <RuntimeResource><Key>{Step.GeneralProperties.CallSTTest22.ScriptPath}</Key><Path>E:\git\tb_GetUnReadMsgs_verification</Path><Value>..\tb_GetUnReadMsgs_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 <RuntimeResource><Key>{Step.GeneralProperties.CallSTTest24.ScriptPath}</Key><Path>E:\git\tb_setmessagestatus_verification</Path><Value>..\tb_setmessagestatus_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest25.ScriptPath}</Key><Path>E:\git\tb_getCard_verification</Path><Value>..\tb_getCard_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallSTTest26.ScriptPath}</Key><Path>E:\git\tb_hismsg_verification</Path><Value>..\tb_hismsg_verification</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 </RuntimeResourceManager>

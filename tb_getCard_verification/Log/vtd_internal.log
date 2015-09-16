@@ -1,61 +1,187 @@
-2015-08-07 13:01:04,151 [8] ERROR - Checkpoint 2: "16" = "37" Ê§°Ü
-2015-08-07 13:01:04,153 [8] ERROR - Failed to log checkpoint status:
-2015-08-07 13:01:04,153 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2015-09-08 14:42:38,761 [7] ERROR - Checkpoint 2: "16" = "37" Ê§°Ü
+2015-09-08 14:42:38,763 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:38,763 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
-2015-08-07 13:01:04,154 [8] ERROR - Failed to log checkpoint status:
-2015-08-07 13:01:04,154 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2015-09-08 14:42:38,764 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:38,764 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
-2015-08-07 13:01:04,167 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
-2015-08-07 13:01:04,168 [8] ERROR - Failed to log checkpoint status:
-2015-08-07 13:01:04,168 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2015-09-08 14:42:38,777 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:42:38,778 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:38,778 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
-2015-08-07 13:01:04,168 [8] ERROR - Failed to log checkpoint status:
-2015-08-07 13:01:04,168 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2015-09-08 14:42:38,778 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:38,778 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
-2015-08-07 13:01:34,560 [8] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
-2015-08-07 13:01:34,562 [8] ERROR - Failed to log checkpoint status:
-2015-08-07 13:01:34,562 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2015-09-08 14:42:42,268 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:42:42,269 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:42,269 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
-2015-08-07 13:01:34,562 [8] ERROR - Failed to log checkpoint status:
-2015-08-07 13:01:34,562 [8] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2015-09-08 14:42:42,269 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:42,269 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
-2015-08-07 13:02:00,206 [8] ERROR - Exception in OnLog
-System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
-
-Server stack trace: 
-   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
-   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
-   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
-   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
-
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at HP.ST.Fwk.SOAReplayAPI.IReplayService.OnLog(LoggingEvent msg)
-   at HP.ST.Fwk.SOAReplayAPI.ReplayServiceClient.OnLog(LoggingEvent msg)
-2015-08-07 13:02:00,309 [1] ERROR - Exception in OnExecutionCompleted
-System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
-
-Server stack trace: 
-   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
-   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
-   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
-   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
-
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at HP.ST.Fwk.SOAReplayAPI.IReplayService.OnExecutionCompleted(ExecutionUnitOutput executionResult)
-   at HP.ST.Fwk.SOAReplayAPI.ReplayServiceClient.OnExecutionCompleted(ExecutionUnitOutput executionResult)
+2015-09-08 14:42:46,651 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:42:46,652 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:46,652 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:46,652 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:46,652 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:50,626 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:42:50,627 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:50,627 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:50,627 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:50,627 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:54,614 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:42:54,615 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:54,615 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:54,615 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:54,615 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:58,516 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:42:58,516 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:58,516 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:42:58,517 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:42:58,517 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:02,461 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:02,462 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:02,462 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:02,462 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:02,462 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:06,414 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:06,415 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:06,415 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:06,415 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:06,415 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:10,289 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:10,290 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:10,290 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:10,290 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:10,290 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:14,179 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:14,181 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:14,181 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:14,181 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:14,181 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:18,416 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:18,417 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:18,417 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:18,417 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:18,417 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:22,378 [7] ERROR - Checkpoint 5: "Arguments[1]/ResultTable[1]/Row[1]/token[1]" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:22,379 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:22,379 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:22,379 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:22,379 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:26,184 [7] ERROR - Checkpoint 5: "902ca048a73c5c8f2ad2e2ebe9ffebeb" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:26,185 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:26,185 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:26,185 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:26,185 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:29,855 [7] ERROR - Checkpoint 5: "77401169@365ime.com" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:29,856 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:29,856 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:29,857 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:29,857 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:33,648 [7] ERROR - Checkpoint 5: "test" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:33,649 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:33,649 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:33,649 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:33,649 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:37,495 [7] ERROR - Checkpoint 5: "305bbc2b43542b3d0203daffe9073c3cba5b47d9" = "61f048fc016c13ea5cdfa6416c6e6ef9532716b8" Ê§°Ü
+2015-09-08 14:43:37,496 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:37,496 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2015-09-08 14:43:37,496 [7] ERROR - Failed to log checkpoint status:
+2015-09-08 14:43:37,496 [7] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)

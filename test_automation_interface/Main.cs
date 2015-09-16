@@ -92,7 +92,7 @@
         	_flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
             _flow.Loop2 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input>(_context,"Loop2",LoopType.For);
             _flow.EndActivity3 = new HP.ST.Ext.BasicActivities.EndActivity(_context,"EndActivity3");
-            _flow.Sequence25 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence25");
+            _flow.Sequence27 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence27");
             _flow.CallSTTest15 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest15",false);
             _flow.CallSTTest16 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest16",false);
             _flow.CallSTTest17 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest17",false);
@@ -102,6 +102,8 @@
             _flow.CallSTTest21 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest21",false);
             _flow.CallSTTest22 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest22",false);
             _flow.CallSTTest24 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest24",false);
+            _flow.CallSTTest26 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest26",false);
+            _flow.CallSTTest25 = new HP.ST.Ext.STRunnerActivity.RunSTActivity(_context,"CallSTTest25",false);
             _flow.StartActivity1.Comment = @"";
             _flow.StartActivity1.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.StartActivity1.Name = @"开始";
@@ -111,24 +113,26 @@
             _flow.Loop2.Comment = @"";
             _flow.Loop2.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_loop.png";
             _flow.Loop2.Name = @"测试流";
-            _flow.Loop2.Activities.Add (_flow.Sequence25);
+            _flow.Loop2.Activities.Add (_flow.Sequence27);
             this.Activities.Add (_flow.Loop2);
             _flow.EndActivity3.Comment = @"";
             _flow.EndActivity3.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.EndActivity3.Name = @"结束";
             this.Activities.Add (_flow.EndActivity3);
-            _flow.Sequence25.Comment = @"";
-            _flow.Sequence25.IconPath = @"";
-            _flow.Sequence25.Name = @"序列25";
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest15);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest16);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest17);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest18);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest19);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest20);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest21);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest22);
-            _flow.Sequence25.Activities.Add (_flow.CallSTTest24);
+            _flow.Sequence27.Comment = @"";
+            _flow.Sequence27.IconPath = @"";
+            _flow.Sequence27.Name = @"序列27";
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest15);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest16);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest17);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest18);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest19);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest20);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest21);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest22);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest24);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest26);
+            _flow.Sequence27.Activities.Add (_flow.CallSTTest25);
             _flow.CallSTTest15.Comment = @"";
             _flow.CallSTTest15.IconPath = @"AddIns\ServiceTest\STRunner\ictb_api_test_16x16.png";
             _flow.CallSTTest15.Name = @"tb_sso_authorize_verification";
@@ -183,6 +187,18 @@
             _flow.CallSTTest24.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest24.ScriptPath}")) ? @"..\tb_setmessagestatus_verification" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest24.ScriptPath}");
             _flow.CallSTTest24.ActionName = @"";
             _flow.CallSTTest24.ResultLocation = @"RunStReport\";
+            _flow.CallSTTest26.Comment = @"";
+            _flow.CallSTTest26.IconPath = @"AddIns\ServiceTest\STRunner\ictb_api_test_16x16.png";
+            _flow.CallSTTest26.Name = @"tb_hismsg_verification";
+            _flow.CallSTTest26.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest26.ScriptPath}")) ? @"..\tb_hismsg_verification" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest26.ScriptPath}");
+            _flow.CallSTTest26.ActionName = @"";
+            _flow.CallSTTest26.ResultLocation = @"RunStReport\";
+            _flow.CallSTTest25.Comment = @"";
+            _flow.CallSTTest25.IconPath = @"AddIns\ServiceTest\STRunner\ictb_api_test_16x16.png";
+            _flow.CallSTTest25.Name = @"tb_getCard_verification";
+            _flow.CallSTTest25.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest25.ScriptPath}")) ? @"..\tb_getCard_verification" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallSTTest25.ScriptPath}");
+            _flow.CallSTTest25.ActionName = @"";
+            _flow.CallSTTest25.ResultLocation = @"RunStReport\";
             
         }
         
